@@ -4,6 +4,18 @@
   </head>
   
   <body>
-
+    <header> 
+    
+    </header>
+    
+    <nav>
+      <button type = "button">Home</button>
+    </nav>
+    
+    <footer>
+    
+    </footer>
+    
+  </body>
 
 </html>

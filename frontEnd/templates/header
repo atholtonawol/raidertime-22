@@ -31,9 +31,9 @@
 </head>
 <body>
 
-<button class="button button1">Green</button>
-<button class="button button2">Green</button>
-<button class="button button3">Green</button>
+<button class="button button1">Student</button>
+<button class="button button2">Teacher</button>
+<button class="button button3">Administrator</button>
 </body>
   
 </html>

@@ -61,6 +61,6 @@ Never gonna say goodbye
 Never gonna tell a lie and hurt you</p>
 
 </body>
-<img src = "image.jfif" >
+<img src = "image.png" >
 </html>
 

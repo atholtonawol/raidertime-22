@@ -1,9 +1,11 @@
-<html> 
- 
-  <button type = "button">Home</button>
-  <button type = "button">FAQ</button>
-  <button type = "button">Announcements</button>
-  <button type = "button">Setings</button>
-  <button type = "button">Need Help?</button>
-  
+<html>
+
+ <nav>
+  <button type = "button", name = "homeButton">Home</button>
+  <button type = "button", name = "faqButton">FAQ</button>
+  <button type = "button", name = "announcementButton">Announcements</button>
+  <button type = "button", name = "settingsButton">Setings</button>
+  <button type = "button", name = "helpButton">Need Help?</button>
+ </nav>
+
  </html>

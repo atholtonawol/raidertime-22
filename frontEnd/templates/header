@@ -11,8 +11,9 @@
     <p>Welcome Raiders
     I am a:
     </p>
-    <input type = “radio” name = “user” value = “Student” />
-    <input type = “radio” name = “user1” value = “Teacher” />
-    <input type = “radio” name = “user2” value = “Administrator” />
+    <button type="button">Student</button>
+    <button type="button">Teacher</button>
+    <button type="button">Administrator</button>
+    
   
 </html>

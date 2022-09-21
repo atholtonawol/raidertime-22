@@ -10,12 +10,12 @@
 </head>
 <body>
   <rect width = “300”, height = “100”, x = “20”, y = “20”, fill = “green”/> 
-  <section>
+  <span> style="background-color: lightgreen;">
     <p>Welcome Raiders
     <br>
     I am a:
     </p>
-  </section>
+  </span>
 <svg width="400" height="110">
   <rect width="300" height="100" style="fill:"green";stroke-width:3; />
 </svg>

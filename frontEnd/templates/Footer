@@ -1,6 +1,7 @@
 <html>
+  <footer>
     <h1>AWOL Team 2022, </h1>
-  
-  <a href="https://en.wikipedia.org/wiki/Brown_bear" target="_blank">ABOUT US</a>
-  <a href="https://www.wikipedia.org/" target="_blank">CONTACT US</a>
+    <a href="https://en.wikipedia.org/wiki/Brown_bear" target="_blank">ABOUT US</a>
+    <a href="https://www.wikipedia.org/" target="_blank">CONTACT US</a>
+  </footer>
 </html>

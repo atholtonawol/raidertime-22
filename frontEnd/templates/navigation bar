@@ -1,11 +1,11 @@
 <html>
 
  <nav>
-  <button type = "button", name = "homeButton">Home</button>
-  <button type = "button", name = "faqButton">FAQ</button>
-  <button type = "button", name = "announcementButton">Announcements</button>
-  <button type = "button", name = "settingsButton">Setings</button>
-  <button type = "button", name = "helpButton">Need Help?</button>
+  <button type = "button", name = "homeButton", width = "50px">Home</button>
+  <button type = "button", name = "faqButton", width = "50px">FAQ</button>
+  <button type = "button", name = "announcementButton", width = "50px">Announcements</button>
+  <button type = "button", name = "settingsButton", width = "50px">Setings</button>
+  <button type = "button", name = "helpButton", widh = "50px">Need Help?</button>
  </nav>
 
  </html>

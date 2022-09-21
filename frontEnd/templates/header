@@ -23,15 +23,15 @@
       font-size: 16px;
       margin: 4px 2px;
       cursor: pointer;
-}
-
-.button1 {background-color: #4CAF50;} /* Green */
-.button2 {background-color: #4CAF50;} 
-.button3 {background-color: #4CAF50;}
+    }
 </style>
 </head>
 <body>
 
+.button1 {background-color: #4CAF50;} /* Green */
+.button2 {background-color: #4CAF50;} 
+.button3 {background-color: #4CAF50;}
+<button type="button">Student</button>
 <button class="button button1">Student</button>
 <button class="button button2">Teacher</button>
 <button class="button button3">Administrator</button>

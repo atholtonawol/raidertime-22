@@ -16,9 +16,6 @@
 </head>
 <body>
 
-.button1 {background-color: #4CAF50;} /* Green */
-.button2 {background-color: #4CAF50;} 
-.button3 {background-color: #4CAF50;}
 <button type="button">Student</button>
 <button class="button button1">Student</button>
 <br>

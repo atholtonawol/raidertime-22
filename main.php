@@ -61,6 +61,6 @@ Never gonna say goodbye
 Never gonna tell a lie and hurt you</p>
 
 </body>
-<img src = "image.png" >
+<img src = "repositories/raidertime-22/image.png" >
 </html>
 

@@ -10,15 +10,14 @@
   align = "right">
 
   <rect width = “300”, height = “100”, x = “20”, y = “20”, fill = “green”/> 
-  <span style="background-color: lightgreen;">
-    <p>Welcome Raiders
+    <p style = "background-color: green;">Welcome Raiders
     <br>
     I am a:
-    </p>
+    
     <button type="button">Student</button>
     <button type="button">Teacher</button>
     <button type="button">Administrator</button>
-  </span>
+  </p>
 </body>
   
 </html>

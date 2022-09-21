@@ -61,5 +61,6 @@ Never gonna say goodbye
 Never gonna tell a lie and hurt you</p>
 
 </body>
-<img src = "assets/image/image.jfif" >
+<img src = "public_html/repositories/raidertime-22/assets/image/image.jfif" >
 </html>
+

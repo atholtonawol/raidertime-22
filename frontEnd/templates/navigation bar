@@ -10,10 +10,11 @@
  
  .topnav{
   background-color: #16542e;
+  color: white;
  }
  
  .topnav a{
-  float: left;
+  float: right;
   color: #eeeeee;
   text-align: center;
   padding: 14px 16px;
@@ -21,12 +22,12 @@
  }
  
  .topnav a:hover{
-  background-color: #eeeeee;
+  background-color: white;
   color: #16542e;
  }
  
  .topnav a.active{
-  background-color: #eeeeee;
+  background-color: #white;
   color: #16542e;
  }
 

@@ -1,11 +1,33 @@
 <html>
 
- <nav>
-  <button type = "button", name = "homeButton", width = "50px">Home</button>
-  <button type = "button", name = "faqButton", width = "50px">FAQ</button>
-  <button type = "button", name = "announcementButton", width = "50px">Announcements</button>
-  <button type = "button", name = "settingsButton", width = "50px">Setings</button>
-  <button type = "button", name = "helpButton", widh = "50px">Need Help?</button>
- </nav>
+ <div class = "topnav">
+  <a class="active" href="#home">Home</a>
+  <a href="#faq">FAQ</a>
+  <a href="#announcements">Announcements</a>
+  <a href="#settings">Settings</a>
+  <a href="#help">Need Help?</a>
+ </div>
+ 
+ .topnav{
+  background-color: #16542e;
+ }
+ 
+ .topnav a{
+  float: left;
+  color: #eeeeee;
+  text-align: center;
+  padding: 14px 16px;
+  font-size: 17px;
+ }
+ 
+ .topnav a:hover{
+  background-color: #eeeeee;
+  color: #16542e;
+ }
+ 
+ .topnav a.active{
+  background-color: #eeeeee;
+  color: #16542e;
+ }
 
  </html>

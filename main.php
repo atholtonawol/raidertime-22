@@ -61,5 +61,5 @@ Never gonna say goodbye
 Never gonna tell a lie and hurt you</p>
 
 </body>
-<img src = "image.jfif" alt = "Rick Roll">
+<img src = "assets/image/image.jfif" >
 </html>

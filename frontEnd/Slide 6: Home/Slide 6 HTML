@@ -1,4 +1,21 @@
-<!DOCTYPE html>
-  <html>
-<!-- Insert code here -->
-  </html>
+<html>
+  <head>
+    <title>Raider Time Home</title>
+  </head>
+  
+  <body>
+    <header> 
+    
+    </header>
+    
+    <nav>
+      <button type = "button">Home</button>
+    </nav>
+    
+    <footer>
+    
+    </footer>
+    
+  </body>
+
+</html>

@@ -1,6 +1,12 @@
 <html>
   <head>
     <title>Raider Time Home</title>
+    <link href='https://fonts.googleapis.com/css?family=Graduate' rel='stylesheet'>
+<style>
+body {
+    font-family: 'Graduate';font-size: 22px;
+}
+</style>
   </head>
   
   <body>
@@ -11,6 +17,13 @@
     <nav>
       <button type = "button">Home</button>
     </nav>
+    
+    <h3>Welcome, [User Name]</h3>
+  
+  <div class = "pass">
+    <p class = "title">Radier Time Pass</p>
+    <p class = "name">Name: [First][Last]</p>
+  </div>
     
     <footer>
     

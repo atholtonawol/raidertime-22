@@ -1,6 +1,12 @@
 <html>
 <head>
 <title>Hello World</title>
+<style>
+body {
+  background-image: url("repositories/raidertime-22/portalCherryBlossom.png");
+  background-repeat: no-repeat;
+}
+</style>
 </head>
 <body>
 

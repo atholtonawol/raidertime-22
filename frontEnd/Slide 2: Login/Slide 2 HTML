@@ -1,0 +1,16 @@
+<DOCTYPE html>
+<html>
+  <head>
+    <title>Home Page
+    </title>
+  </head> 
+<rect width = “300”, height = “100”, x = “20”, y = “20”, fill = “green”/> 
+    <p style = "background-color: green;">Welcome Raiders
+    <br>
+    I am a:
+    
+    <button type="button">Student</button>
+    <button type="button">Teacher</button>
+    <button type="button">Administrator</button>
+  </p>
+</html>

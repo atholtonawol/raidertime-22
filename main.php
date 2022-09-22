@@ -1,5 +1,5 @@
 <?php
-  exec ('repositories/raidertime-22/calc.php');
+  include('repositories/raidertime-22/calc.php');
 ?>
 <html>
 <head>

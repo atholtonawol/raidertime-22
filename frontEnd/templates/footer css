@@ -1,0 +1,33 @@
+.foot{
+     background-color: #003000;
+     position: sticky;
+  } 
+  
+
+
+  h1{
+    color: #eeeeee;
+    font-size: 17px;
+    padding: 12px 10px 12px 10px;
+    text-align: left;
+  }
+ 
+  .foot a{
+    color: #eeeeee;
+    font-size: 17px;
+    padding: 8px 4px;  
+  }
+  
+
+
+  .foot a:hover{
+    background-color: #eeeeee;
+    color: #16542e;
+  }
+
+  
+
+  .active{
+    background-color: #eeeeee;
+    color: #16542e;
+  }

@@ -1,44 +1,12 @@
-<!DOCTYPE html>
+
 <html>
   <div class = "foot">
     <h1> © AWOL Team 2022,
     <a href="https://en.wikipedia.org/wiki/Brown_bear" target="_blank">ABOUT US</a>
- 
-    <a class="bot" href="https://www.wikipedia.org/" target="_blank">CONTACT US</a></h1>
-
+      <a href="https://www.wikipedia.org/" target="_blank">CONTACT US</a>
+ </h1>
+    
+      
   </div>
       
 </html>
-
-  .foot{
-     background-color: #003000;
-  }
-
-  h1{
-    color: #eeeeee;
-    font-size: 17px;
-    padding: 12px 10px 12px 10px;
-  }
- 
-  .foot a{
-    color: #eeeeee;
-    font-size: 17px;
-    padding: 8px 6px;
-    text-align: left;    
-  }
-  
-  .bot a{
-    text-align: right;
-  }
-
-  .foot a:hover{
-    background-color: #eeeeee;
-    color: #16542e;
-  }
-
-  
-
-  .active{
-    background-color: #eeeeee;
-    color: #16542e;
-  }

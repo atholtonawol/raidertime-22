@@ -5,6 +5,7 @@
 <style>
 body {
     font-family: 'Graduate';font-size: 22px;
+    background-color: #eeeeee;
 }
 </style>
   </head>
@@ -23,6 +24,11 @@ body {
   <div class = "pass">
     <p class = "title">Radier Time Pass</p>
     <p class = "name">Name: [First][Last]</p>
+    <p class = "teacher">Raider Time Teacher: [Last],[First]</p>
+    <p class = "location">Location: [Classroom No.]</p>
+    <p class = "date">Date: MM/DD/YYYY</p>
+    <img src = "https://ahs.hcpss.org/sites/default/files/atholtonhs.png"/>
+    <button type = "button">Change Sign-Up</button>
   </div>
     
     <footer>

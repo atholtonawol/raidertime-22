@@ -1,1 +1,22 @@
+<DOCTYPE html>
+    <html>
 
+    <head>
+        <title>Home Page
+        </title>
+    </head>
+      <style>
+#content {
+        position: relative;
+    }
+    #content img {
+        position: absolute;
+        top: 0px;
+        right: 0px;
+      </style>
+      <div id="content">
+        <a href="https://ahs.hcpss.org/" target="_blank">
+          <img     src="https://raw.githubusercontent.com/atholtonawol/raidertime-22/main/assets/image/atholtonA.png" alt="Atholton Logo" style="width:50px;height:60px;">
+        </a>
+  </div>
+    </html>

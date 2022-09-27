@@ -1,1 +1,26 @@
-<!--fsdlkfjsdl-->
+.lw { font-size: 60px; }
+.welcomebox{
+  background: #16542e;
+  padding:  10px; 
+  width: 260px;
+  text-align: center;
+  text-decoration-color: white;
+  margin:  auto;
+}
+
+.welcomebox p{
+  color: white;
+  text-align: center;
+}
+
+.users{
+  display:block;
+  background-color:  #8ea484ff;
+  border: 1px solid white;
+  padding:  10px;
+  width:  200px;
+  margin-bottom:  20px;
+  text-align:  center;
+  margin-left:  auto;
+  margin-right:  auto;
+}

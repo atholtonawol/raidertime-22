@@ -1,6 +1,8 @@
 <?php
-  include('repositories/raidertime-22/calc.php');
+  //include('repositories/raidertime-22/calc.php');
+  require('repositories/raidertime-22/frontEnd/Slide 1 Choose User/Atholton Logo In Corner');
 ?>
+<!--
 <html>
 <head>
 <title>Hello World</title>
@@ -21,4 +23,5 @@ body {
 </body>
 <img src = "repositories/raidertime-22/image.png" >
 </html>
+-->
 

@@ -1,6 +1,6 @@
 <?php
   //include('repositories/raidertime-22/calc.php');
-  require'repositories/raidertime-22/frontEnd/Slide: 1 Choose User/Atholton Logo In Corner';
+  include('repositories/raidertime-22/frontEnd/Slide: 1 Choose User/Atholton Logo In Corner');
 ?>
 
 

@@ -1,0 +1,33 @@
+.lw { font-size: 60px; }
+.forgotpassword{
+  background: #16542e; 
+  text-align: center;
+  text-decoration-color: white;
+  margin:  auto;
+  padding:  10px;
+  width: 650px;
+}
+
+.forgotpassword p{
+  color: white;
+    font-size: 35px;
+  text-align: center;
+}
+
+.forgotpassword2 p{
+  color: white;
+   font-size:  14px;
+  text-align: center;
+ 
+}
+.users{
+  background-color:  #8ea484ff;
+  border: 1px solid white;
+  display:block;
+  margin-bottom:  20px;
+  margin-left:  auto;
+  margin-right:  auto;
+  padding:  10px;
+  text-align:  center;
+  width:  200px;
+}

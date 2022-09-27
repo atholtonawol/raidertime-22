@@ -62,7 +62,7 @@ img{
   margin-top: 20px;
   background-color: #8ea484;
   color: black;
-  border: 3px solid #16542e;
+  border: 2px solid #16542e;
   padding: 5px;
   font: 20px Graduate;
   text-decoration: none;
@@ -72,5 +72,5 @@ img{
 .changepass a:hover{
   background-color: #16542e;
   color: white;
-  border: 3px solid white;
+  border: 2px solid white;
 }

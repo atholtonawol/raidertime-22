@@ -28,7 +28,10 @@ body {
     <p class = "location">Location: [Classroom No.]</p>
     <p class = "date">Date: MM/DD/YYYY</p>
     <img src = "https://ahs.hcpss.org/sites/default/files/atholtonhs.png"/>
-    <button type = "button">Change Sign-Up</button>
+  </div>
+  
+  <div class = "changepass">
+    <a href = "#changepass">Change Sign-Up</a>
   </div>
     
     <footer>

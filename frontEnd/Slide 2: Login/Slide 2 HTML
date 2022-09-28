@@ -22,14 +22,17 @@ body {
         <p>Welcome Raiders
          </p>
       
-   
-      <button class="users" type="button">username</button>
+   <form class="login">
+  <input type="text" id="username" name="username" placeholder="username" required><br>
 
-      <button class="users"
-   type="button">password</button>
-   
-      <button class="login" type="button">Login</button>
-    <p id="forgotpassword">Forgot password?</p>
+     <input type="password"id="password" name="lname" placeholder="password" required>
+     <input type="submit" id="login"value="Login"/>
+     </form>
+ 
+      <p id="forgotpass">Forgot password?</p>
+      </div>
+      <div class="createaccount">
+        Don't have an account? <u>Sign up</u>
       </div>
   </body>
 

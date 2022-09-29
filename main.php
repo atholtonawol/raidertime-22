@@ -1,16 +1,19 @@
-<?php
-  //include('repositories/raidertime-22/calc.php');
-//test
-  require('repositories/raidertime-22/frontEnd/slide_1_choose_user');
-?>
-
 <html>
+  <header>
+    <title>RT main.php</title>
+  </header>
   <body>
+    <?php
+      //include('repositories/raidertime-22/calc.php');
+      //test
+      require('repositories/raidertime-22/frontEnd/slide_1_choose_user');
+    ?>
+    
     <br><br><br>
     <h3>Create new html/php files for testing, and you can link them here:</h3>
     &lt;br&gt; creates a newline, header tags like &lt;h1&gt; automatically create newlines
     
-    <a href="repositories/raidertime-22/VOGUE2.php"><h1>VOGUE2</h1></a>
+    <a href="repositories/raidertime-22/VOGUE2.php"><h2>VOGUE2</h2></a>
     <a href="repositories/raidertime-22/test.html">test</a>
   </body>
 <html>

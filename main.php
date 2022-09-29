@@ -4,9 +4,12 @@
   //require('repositories/raidertime-22/frontEnd/slide_1_choose_user');
 ?>
 
+<html>
+  <body>
 <br><a href="test.html"><h1>test</h1></a>
 <a href="VOGUE2.php"><h1>VOGUE</h1></a>
-
+  </body>
+  <html>
 
 <!--
 <html>

@@ -4,10 +4,10 @@ The 2022 Atholton Raider Time website.
 
 Brought to you by Ms. Rhee's 3rd period class.
 
-Check out the project wiki for lots of notes on how to do things and how the site was built: https://github.com/atholtonawol/raidertime-22/wiki
+**Check out the project wiki for lots of notes on how to do things and how the site was built: https://github.com/atholtonawol/raidertime-22/wiki**
 
 &nbsp;  
-**To clone Github to Bluehost server:**
+**To sync Github to Bluehost server:**
 
 If you are copy/pasting the commands, be careful not to copy an extra space before/after the command.
 

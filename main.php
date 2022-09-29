@@ -8,10 +8,10 @@
   <body>
     <br><br><br>
     <h3>Create new html/php files for testing, and you can link them here:</h3>
-    &ltbr&rt creates a newline
+    &lt;br&gt; creates a newline, header tags like &lt;h1&gt; automatically create newlines
     
-    <a href="repositories/raidertime-22/test.html">test</a>
     <a href="repositories/raidertime-22/VOGUE2.php"><h1>VOGUE2</h1></a>
+    <a href="repositories/raidertime-22/test.html">test</a>
   </body>
 <html>
 

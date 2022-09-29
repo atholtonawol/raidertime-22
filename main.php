@@ -1,6 +1,6 @@
 <html>
   <header>
-    <title>RT main.php</title>
+    <title>Atholton Raider Time main.php</title>
   </header>
   <body>
     <?php

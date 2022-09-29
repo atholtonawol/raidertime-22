@@ -4,7 +4,11 @@
   require('repositories/raidertime-22/frontEnd/slide_1_choose_user');
 ?>
 
-
+<html>
+  <body>
+    <a href="calc.php">link to calc</a>
+  </body>
+</html>
 test
 
 <!--

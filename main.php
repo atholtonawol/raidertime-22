@@ -6,10 +6,12 @@
 
 <html>
   <body>
-<br><a href="repositories/raidertime-22/test.html"><h1>test</h1></a>
-<a href="repositories/raidertime-22/VOGUE2.php"><h1>VOGUE2</h1></a>
+    <h2>Create new html/php files for testing, and you can link them here:</h2>
+    &ltbr&lt creates a newline
+    <br><a href="repositories/raidertime-22/test.html">test<</a>
+    <a href="repositories/raidertime-22/VOGUE2.php"><h1>VOGUE2</h1></a>
   </body>
-  <html>
+<html>
 
 <!--
 <html>

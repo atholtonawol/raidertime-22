@@ -1,5 +1,6 @@
 { pkgs }: {
 	deps = [
-		pkgs.php74
+		pkgs.openssh_with_kerberos
+  pkgs.php74
 	];
 }

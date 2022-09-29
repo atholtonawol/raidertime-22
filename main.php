@@ -7,7 +7,7 @@
 <html>
   <body>
 <br><a href="repositories/raidertime-22/test.html"><h1>test</h1></a>
-<a href="repositories/raidertime-22/VOGUE2.php"><h1>VOGUE</h1></a>
+<a href="repositories/raidertime-22/VOGUE2.php"><h1>VOGUE2</h1></a>
   </body>
   <html>
 

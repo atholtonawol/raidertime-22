@@ -6,7 +6,7 @@
     <?php
       //include('repositories/raidertime-22/calc.php');
       //test
-      require('repositories/raidertime-22/frontEnd/slide_6_home/slide6.html');
+      require('frontEnd/slide_6_home/slide6.html');
     ?>
     
     <br><br><br>

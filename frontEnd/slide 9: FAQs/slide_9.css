@@ -1,0 +1,133 @@
+.faq{
+ border: 5px solid #16542e; 
+ width: 600px;
+ margin: auto;
+ height: 435px;
+}
+
+h3{
+  text-align: center;
+  color: #16542e;
+}
+
+.dropbtn1{
+  background-color: #8ea484;
+  color: black;
+  font: 16px Calibri;
+  border: none;
+  cursor: pointer;
+  width: 98%;
+  text-align: left;
+  margin-top: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 15px;
+}
+
+.dropbtn2{
+  background-color: #8ea484;
+  color: black;
+  font: 16px Calibri;
+  border: none;
+  cursor: pointer;
+  width: 98%;
+  text-align: left;
+  margin-top: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 15px;
+}
+
+.dropbtn3{
+  background-color: #8ea484;
+  color: black;
+  font: 16px Calibri;
+  border: none;
+  cursor: pointer;
+  width: 98%;
+  text-align: left;
+  margin-top: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 15px;
+}
+
+.dropbtn4{
+  background-color: #8ea484;
+  color: black;
+  font: 16px Calibri;
+  border: none;
+  cursor: pointer;
+  width: 98%;
+  text-align: left;
+  margin-top: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 15px;
+}
+
+.dropdown-content1{
+  display: none;
+  position: static;
+  background-color: #8ea484;
+  font: 15px Calibri;
+  width: auto;
+  padding: 5px;
+  margin: 4px;
+  font-style: italic;
+}
+
+.dropdown-content2{
+  display: none;
+  position: static;
+  background-color: #8ea484;
+  font: 15px Calibri;
+  width: auto;
+  padding: 5px;
+  margin: 4px;
+  font-style: italic;
+}
+
+.dropdown-content3{
+  display: none;
+  position: static;
+  background-color: #8ea484;
+  font: 15px Calibri;
+  width: auto;
+  padding: 5px;
+  margin: 4px;
+  font-style: italic;
+}
+
+.dropdown-content4{
+  display: none;
+  position: static;
+  background-color: #8ea484;
+  font: 15px Calibri;
+  width: auto;
+  padding: 5px;
+  margin: 4px;
+  font-style: italic;
+}
+
+.dropbtn1:hover, .dropbtn1:focus{
+  background-color: #16542e;
+  color: #eeeeee;
+}
+
+.dropbtn2:hover, .dropbtn2:focus{
+  background-color: #16542e;
+  color: #eeeeee;
+}
+
+.dropbtn3:hover, .dropbtn3:focus{
+  background-color: #16542e;
+  color: #eeeeee;
+}
+
+.dropbtn4:hover{
+  background-color: #16542e;
+  color: #eeeeee;
+}
+
+.show {display:block;}

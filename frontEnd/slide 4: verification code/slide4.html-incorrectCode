@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Home Page
+    </title>
+    <link href='https://fonts.googleapis.com/css?family=Graduate' rel='stylesheet'>
+<style>
+body {
+    font-family: 'Graduate';font-size: 22px;
+    background-image: url('https://github.com/atholtonawol/raidertime-22/blob/main/assets/image/bw%20atholton%20building%20img.jpg?raw=true');
+    background-size: cover;
+}
+</style>
+  </head> 
+    <body>
+    <div class="verification">
+     <p>Enter Verification Code</p>
+      <div class="verification2">
+        <p>We sent a verification code to the email you entered, please enter it here.</p>
+      </div>
+      
+      <div id="wrong_code">
+      
+      </div>
+      
+       <form action="" method="get">
+          <input type="text" placeholder="VERIFICATION CODE" style="text-align: center"/>
+         <div id="redsquare">
+           <p style="font-size: 10px;">Incorrect</p>
+         </div>
+        </form>
+      <button class="users" type="button"><b>SUBMIT</b></button>
+     </div>
+
+     
+  </body>
+
+</html>

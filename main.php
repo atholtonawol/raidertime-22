@@ -4,7 +4,7 @@
   </header>
   <body>
     <?php
-      //include('repositories/raidertime-22/calc.php');
+      //include('calc.php');
       //test
       require('frontEnd/slide_6_home/slide6.html');
     ?>
@@ -13,8 +13,8 @@
     <h3>Create new html/php files for testing, and you can link them here until you are ready to integrate them into the site:</h3>
     &lt;br&gt; creates a newline, header tags like &lt;h1&gt; automatically create newlines
     
-    <a href="repositories/raidertime-22/VOGUE2.php"><h2>VOGUE2</h2></a>
-    <a href="repositories/raidertime-22/test.html">test</a>
+    <a href="VOGUE2.php"><h2>VOGUE2</h2></a>
+    <a href="test.html">test</a>
   </body>
 <html>
 

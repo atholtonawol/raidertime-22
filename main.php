@@ -1,7 +1,7 @@
 <html>
   <header>
     <title>Atholton Raider Time main.php</title>
-    <base href="repositories/raidertime-22/" target="_blank">
+    <!--<base href="repositories/raidertime-22/" target="_blank">-->
   </header>
   <body>
     <?php

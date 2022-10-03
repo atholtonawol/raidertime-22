@@ -1,6 +1,6 @@
 <?php>
  require '/home4/ahsraid1/public_html/database/connect.php';
- require 'slide_2.html';
+ require 'slide_2.hmtl';
  
  
  

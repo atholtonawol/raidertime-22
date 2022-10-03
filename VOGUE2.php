@@ -10,7 +10,7 @@
  echo "Connected successfully";  
  
  
-header('Location: https://www.google.com/');
+header("Location: https://www.google.com/");
  
  
   $sql = 'SELECT firstName FROM emails';
@@ -40,48 +40,52 @@ echo $var[0]['firstName'];
 // echo $row;
 // ?>
 
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Home Page
-    </title>
-    <link href='https://fonts.googleapis.com/css?family=Graduate' rel='stylesheet'>
-    <link href='slide_2.css' rel='stylesheet'>
-<style>
-body {
-    font-family: 'Graduate';font-size: 22px;
-    background-image: url('https://github.com/atholtonawol/raidertime-22/blob/main/assets/image/bw%20atholton%20building%20img.jpg?raw=true');
-    background-size: cover;
-}
-</style>
-  </head> 
-    <body>
-      <img src="https://github.com/atholtonawol/raidertime-22/blob/main/assets/image/atholtonA.png?raw=true", align = "right", width="120">
-  <h1>Atholton High School</h1>
-  <h2>Raider Time Signup</h2>
+<!--<!DOCTYPE html>-->
+<!--<html>-->
+<!--  <head>-->
+<!--    <title>Home Page-->
+<!--    </title>-->
+<!--    <link href='https://fonts.googleapis.com/css?family=Graduate' rel='stylesheet'>-->
+<!--    <link href='Slide_2.css' rel='stylesheet'>-->
+<!--<style>-->
+<!--body {-->
+<!--    font-family: 'Graduate';font-size: 22px;-->
+<!--    background-image: url('https://github.com/atholtonawol/raidertime-22/blob/main/assets/image/bw%20atholton%20building%20img.jpg?raw=true');-->
+<!--    background-size: cover;-->
+<!--}-->
+<!--</style>-->
+<!--  </head> -->
+<!--    <body>-->
+<!--      <img src="https://github.com/atholtonawol/raidertime-22/blob/main/assets/image/atholtonA.png?raw=true", align = "right", width="120">-->
+<!--  <h1>Atholton High School</h1>-->
+<!--  <h2>Raider Time Signup</h2>-->
   
 
-    <div class="welcomebox">
-        <p>Welcome Raiders
-         </p>
+<!--    <div class="welcomebox">-->
+<!--        <p>Welcome Raiders-->
+<!--         </p>-->
       
-   <form class="login" method = "POST">
-  <input type="text" id="username" name="username" placeholder="username" required><br>
+<!--   <form class="login" method = "POST">-->
+<!--  <input type="text" id="username" name="username" placeholder="username" required><br>-->
 
-     <input type="password"id="password" name="lname" placeholder="password" required>
-     <input type="submit" id="login"value="Login"/>
-     </form>
+<!--     <input type="password"id="password" name="lname" placeholder="password" required>-->
+<!--     <input type="submit" id="login"value="Login"/>-->
+<!--     </form>-->
  
-      <p id="forgotpass">Forgot password?</p>
-      </div>
-      <div class="createaccount">
-        Don't have an account? <u>Sign up</u>
-      </div>
+<!--      <p id="forgotpass">Forgot password?</p>-->
+<!--      </div>-->
+<!--      <div class="createaccount">-->
+<!--        Don't have an account? <u>Sign up</u>-->
+<!--      </div>-->
       
       
-      <?php echo $_POST['username'];?>
+<!--      -->
       
+<!--       -->
+      
+<!--      header('Location: '. "https://www.google.com/"); ?>-->
+<!--  </body>-->
 
-  </body>
-      <?php header('Location: '. 'https://stackoverflow.com/questions/4871942/how-to-redirect-to-another-page-using-php'); ?>
-</html>
+<!--</html>-->
+
+<?php header('Location: '. "https://www.google.com/"); ?>

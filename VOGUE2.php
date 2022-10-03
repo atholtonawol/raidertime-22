@@ -1,5 +1,6 @@
 <?php echo "<script type='text/javascript'>window.top.location='https://www.google.com//';
  </script>"; exit; ?>
+ 
 <?php>
  require '/home4/ahsraid1/public_html/database/connect.php';
  require 'slide_2.hmtl';
@@ -42,5 +43,3 @@ echo $var[0]['firstName'];
 // $row = mysqli_fetch_assoc($result);
 // echo $row;
 // ?>
-
-

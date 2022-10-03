@@ -9,8 +9,9 @@
  }
  echo "Connected successfully";  
  
- 
-header("Location: https://www.google.com/");
+ echo "<script type='text/javascript'>window.top.location='https://www.google.com//';
+ </script>"; exit;
+//header("Location: https://www.google.com/");
  
  
   $sql = 'SELECT firstName FROM emails';

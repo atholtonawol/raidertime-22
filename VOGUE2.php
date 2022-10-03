@@ -1,5 +1,4 @@
-<?php echo "<script type='text/javascript'>window.top.location='https://www.google.com//';
- </script>"; exit; ?>
+<?php echo "ox"; header("Location: https://stackoverflow.com/questions/768431/how-do-i-make-a-redirect-in-php");exit; ?>
  
 <?php>
  require '/home4/ahsraid1/public_html/database/connect.php';
@@ -12,8 +11,8 @@
  }
  echo "Connected successfully";  
  
- echo "<script type='text/javascript'>window.top.location='https://www.google.com//';
- </script>"; exit;
+//  echo "<script type='text/javascript'>window.top.location='https://www.google.com//';
+//  </script>"; exit;
 //header("Location: https://www.google.com/");
  
  
@@ -43,3 +42,5 @@ echo $var[0]['firstName'];
 // $row = mysqli_fetch_assoc($result);
 // echo $row;
 // ?>
+
+

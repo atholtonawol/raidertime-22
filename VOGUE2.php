@@ -46,7 +46,7 @@ echo $var[0]['firstName'];
     <title>Home Page
     </title>
     <link href='https://fonts.googleapis.com/css?family=Graduate' rel='stylesheet'>
-    <link href='Slide_2.css' rel='stylesheet'>
+    <link href='slide_2.css' rel='stylesheet'>
 <style>
 body {
     font-family: 'Graduate';font-size: 22px;

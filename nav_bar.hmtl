@@ -1,0 +1,22 @@
+<html>
+
+ <head>
+  <link href='https://fonts.googleapis.com/css?family=Graduate' rel='stylesheet'>
+<style>
+body {
+    font-family: 'Graduate';font-size: 22px;
+}
+</style>
+</head>
+ 
+<body>
+<div class = "topnav">
+  <a 1px solid redhref="#home">Home</a>
+  <a href="#faq">FAQ</a>
+  <a href="#announcements">Announcements</a>
+  <a href="#settings">Settings</a>
+  <a href="#help">Need Help?</a>
+ </div>
+</body>
+ 
+ </html>

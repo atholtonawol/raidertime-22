@@ -5,6 +5,11 @@ if(isset($_POST[‘submit’])){
 }
 
 require '/home4/ahsraid1/public_html/database/connect.php';
-$sql = “UPDATE emails SET testing = $pass WHERE email = $email”;
+if (!$conn) {
+  die("Connection failed: " . mysqli_connect_error());
+ }
+ echo "Connected successfully";  
+//$sql = “UPDATE emails SET testing = $pass WHERE email = $email”;
+$sql = "INSERT INTO emails (email, testing) values ($email, $pass);
 $update = mysqli_query($conn, $sql);
 ?>

@@ -5,6 +5,6 @@ if(isset($_POST[‘submit’])){
 }
 
 require '/home4/ahsraid1/public_html/database/connect.php';
-$sql = “UPDATE emails SET password = $pass WHERE email = $email”;
+$sql = “UPDATE emails SET testing = $pass WHERE email = $email”;
 $update = mysqli_query($conn, $sql);
 ?>

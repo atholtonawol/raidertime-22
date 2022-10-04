@@ -1,4 +1,5 @@
-<?php echo "ox"; header("Location: https://www.google.com/");exit; ?>
+<?php header("Location: https://www.google.com/");exit; ?>
+<?php echo "<script type='text/javascript'>window.top.location='https://www.google.com//';</script>"; exit;?>
  
 <?php>
  require '/home4/ahsraid1/public_html/database/connect.php';

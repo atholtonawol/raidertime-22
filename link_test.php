@@ -1,5 +1,6 @@
 <?php
 if(isset($_POST[‘submit’])){
+	echo "this worked i think";
 	$email = $_POST[‘email’];
 	$pass = $_POST[‘password’];
 }

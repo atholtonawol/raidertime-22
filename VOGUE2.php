@@ -1,3 +1,4 @@
+<?php echo = "oxenberg"; ?>
 <?php header("Location: https://www.google.com/");exit; ?>
 <?php echo "<script type='text/javascript'>window.top.location='https://www.google.com//';</script>"; exit;?>
  

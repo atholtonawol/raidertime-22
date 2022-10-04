@@ -4,7 +4,7 @@ if(isset($_POST[‘submit’])){
 	$pass = $_POST[‘password’];
 }
 
-require connect.php
+require '/home4/ahsraid1/public_html/database/connect.php';
 $sql = “UPDATE emails SET password = $pass WHERE email = $email”;
 $update = mysqli_query($conn, $sql);
 ?>

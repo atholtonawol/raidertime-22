@@ -15,7 +15,6 @@
     &lt;br&gt; creates a newline, header tags like &lt;h1&gt; automatically create newlines
     
     <a href="VOGUE2.php"><h2>VOGUE2</h2></a>
-    <a href="test.html">test</a>
     <a href="link_test.html">more testing</a>
   </body>
 <html>

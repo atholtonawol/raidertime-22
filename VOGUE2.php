@@ -1,4 +1,4 @@
-<?php echo "ox"; header("Location: https://stackoverflow.com/questions/768431/how-do-i-make-a-redirect-in-php");exit; ?>
+<?php echo "ox"; header("Location: https://www.google.com/");exit; ?>
  
 <?php>
  require '/home4/ahsraid1/public_html/database/connect.php';

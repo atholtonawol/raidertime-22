@@ -7,7 +7,7 @@
     <?php
       //include('calc.php');
       //test
-      require('slide_1.html');
+      require('menu_bar.html');
     ?>
     
     

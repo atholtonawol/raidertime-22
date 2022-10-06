@@ -43,7 +43,7 @@ body {
   
   <div class = "changepass">
     <!-- <a href = "#changepass">Change Sign-Up</a> -->
-    <a href = "slide_7.html">Change Sign-Up</a>
+    <a href = "slide_7.php">Change Sign-Up</a>
   </div>
     
     <footer>

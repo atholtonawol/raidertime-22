@@ -25,7 +25,7 @@ body {
        <form action="" method="get">
           <input type="text" placeholder="VERIFICATION CODE" style="text-align: center"/>
         </form>
-      <a href="slide_5.html"><button class="users" type="button"><b>SUBMIT</b></button></a>
+      <a href="slide_5.php"><button class="users" type="button"><b>SUBMIT</b></button></a>
      </div>
 
      

@@ -6,12 +6,13 @@ if (!$conn) {
  echo "Connected successfully";  
 
 if(isset($_POST[‘submit’])){
-	echo "this worked i think";
 	$email = $_POST[‘email’];
 	$pass = $_POST[‘password’];
 }
 
-$sql = “UPDATE emails SET testing = $pass WHERE schoolUser = $email”;
-//$sql = "INSERT INTO emails (email, testing) values ($email, $pass);
-$update = mysqli_query($conn, $sql);
+echo $pass;
+echo $email;
+// $sql = “UPDATE emails SET testing = $pass WHERE schoolUser = $email”;
+// //$sql = "INSERT INTO emails (email, testing) values ($email, $pass);
+// $update = mysqli_query($conn, $sql);
 ?>

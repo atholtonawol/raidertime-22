@@ -42,7 +42,7 @@ body {
       
   
       <!--(Note: Only Student links to login page, I think we only need one button)-->
-      <a href="slide_2.html"><button class="users" type="button">Student</button></a>
+      <a href="slide_2.php"><button class="users" type="button">Student</button></a>
 
       <button class="btn mt-2 col-10" type="button">Teacher</button>
    

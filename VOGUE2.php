@@ -6,7 +6,7 @@
  
 <?php
  require '/home4/ahsraid1/public_html/database/connect.php';
- require 'slide_2.php';
+ require 'slide_2_log_in.php';
  
  
  

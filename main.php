@@ -11,7 +11,7 @@
       header("Expires: Mon, 26 Jul 1997 05:00:00 GMT");
       header("Content-Type: application/xml; charset=utf-8");
 
-      require('slide_1.php');
+      require('slide_1_welcome.php');
     ?>
     
     

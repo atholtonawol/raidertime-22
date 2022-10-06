@@ -7,7 +7,9 @@ require '/home4/ahsraid1/public_html/database/connect.php';
 $email = $_POST[‘email’];
 $pass = $_POST[‘password’];
 echo $pass;
+echo "here";
 echo $email;
+echo "and now";
 //isset($_POST[‘submit’])
 // $sql = “UPDATE emails SET testing = $pass WHERE schoolUser = $email”;
 // //$sql = "INSERT INTO emails (email, testing) values ($email, $pass);

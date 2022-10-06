@@ -38,7 +38,7 @@ body {
       <div class="createaccount">
         Don't have an account? <u>Sign up</u>
       </div>
-      <a href="slide_6.php">temp login button</a>
+      <a href="slide_6_home.php">temp login button</a>
   </body>
 
 </html>

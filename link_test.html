@@ -14,6 +14,9 @@ body {
 </style>
   </head> 
     <body>
+      <?php
+        require('menu_bar.html');
+      ?>
       <img src="https://github.com/atholtonawol/raidertime-22/blob/main/assets/image/atholtonA.png?raw=true", align = "right", width="120">
   <h1>Atholton High School</h1>
   <h2>Raider Time Signup</h2>
@@ -23,18 +26,19 @@ body {
         <p>Welcome Raiders
          </p>
       
-   <form class = "login" method = "POST" action = "/link_test.php>
-  <input type="text" id="email" name="email" placeholder="email" required><br>
+   <form class="login" method = "POST" action = "link_test.php">
+  <input type="text" id="username" name="username" placeholder="username" required><br>
 
      <input type="password"id="password" name="lname" placeholder="password" required>
      <input type="submit" id="login"value="Login"/>
      </form>
  
-      <p id="forgotpass">Forgot password?</p>
+      <p id="forgotpass"><a href="slide_3.php">Forgot password?</a></p>
       </div>
       <div class="createaccount">
         Don't have an account? <u>Sign up</u>
       </div>
+      <a href="slide_6.php">temp login button</a>
   </body>
 
 </html>

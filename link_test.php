@@ -4,8 +4,8 @@ require '/home4/ahsraid1/public_html/database/connect.php';
   		die("Connection failed: " . mysqli_connect_error());
  	} 
 
-$email = $_GET[‘email’];
-$pass = $_GET[‘password’];
+$email = $_GET[‘username’];
+$pass = $_GET[‘lname’];
 echo $pass;
 echo "here";
 echo $email;

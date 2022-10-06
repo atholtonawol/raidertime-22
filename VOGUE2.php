@@ -38,6 +38,17 @@ echo $var[0]['firstName'];
 
 $userName = $_POST["username"];
 echo $userName;
+
+  $sql = 'SELECT firstName FROM emails WHERE schoolUser ='.$userName;
+  $result = mysqli_query($conn, $sql);
+
+ if($result)
+ {
+  $var = mysqli_fetch_all($result, MYSQLI_ASSOC);
+  echo $result[0]['firstName'];
+ } else {
+  echo "didnt wrk";
+   }
    
 //  foreach($var as $name){
 //      echo $name['First_Name'];

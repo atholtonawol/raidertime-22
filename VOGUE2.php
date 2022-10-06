@@ -41,7 +41,7 @@ echo $userName;
 
   $sql = 'SELECT firstName FROM emails WHERE schoolUser ='.$userName;
   $result = mysqli_query($conn, $sql);
-
+echo $result; 
  if($result)
  {
   $var = mysqli_fetch_all($result, MYSQLI_ASSOC);

@@ -11,7 +11,7 @@ if(isset($_POST[‘submit’])){
 	$pass = $_POST[‘password’];
 }
 
-//$sql = “UPDATE emails SET testing = $pass WHERE email = $email”;
-$sql = "INSERT INTO emails (email, testing) values ($email, $pass);
+$sql = “UPDATE emails SET testing = $pass WHERE schoolUser = $email”;
+//$sql = "INSERT INTO emails (email, testing) values ($email, $pass);
 $update = mysqli_query($conn, $sql);
 ?>

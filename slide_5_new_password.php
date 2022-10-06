@@ -31,7 +31,7 @@ body {
        <form action="" method="get">
           <input type="text" placeholder="Confirm new Password" style="text-align: center" class="password1"/>
         </form>
-      <a href="slide_2.php"><button class="users" type="button"><b>Change</b></button></a>
+      <a href="slide_2_log_in.php"><button class="users" type="button"><b>Change</b></button></a>
      </div>
 
      

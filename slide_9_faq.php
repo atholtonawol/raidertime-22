@@ -25,21 +25,20 @@ body {
   ?>
 <div class = "container">
     <div class = "row">
-        <div class = "col-12 mx-auto">
+        <div class = "col-11 mx-auto">
         <div class = "faq">
-            <p class = "h3">Frequently Asked Questions</p>
-
-            <div class="accordion accordian-flush" id="accordionOne">
+            <h3 class = "faqHeader">Frequently Asked Questions</h3>
+            <div class="accordion" id="accordionOne">
              
                 <div class="accordion-item">
-                  <h2 class="accordion-header" id="headingOne">
+                  <h2 class = "accordion-header" id="headingOne">
                     <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                         Question 1: Why is signing up neccessary?
                     </button>
                   </h2>
                   <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                     <div class="accordion-body">
-                        Signing up for your desired classroom in advance helps prevent overcrowding and helps organize our weekly Raider Time.
+                        <p class = "h5">Signing up for your desired classroom in advance helps prevent overcrowding and helps organize our weekly Raider Time.</p>
                     </div>
                   </div>
                 </div>
@@ -52,7 +51,7 @@ body {
                   </h2>
                   <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                     <div class="accordion-body">
-                        To sign up for a club meeting you need to sign up for the teacher's classroom who sponsors the club. If you are unsure, as your club sponsor where you will be meeting! 
+                        <p class = "h5">To sign up for a club meeting you need to sign up for the teacher's classroom who sponsors the club. If you are unsure, ask your club sponsor where you will be meeting!</p>
                     </div>
                   </div>
                 </div>
@@ -65,7 +64,7 @@ body {
                   </h2>
                   <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                     <div class="accordion-body">
-                        Any teacher who is not available for the Raider Time will not show up on the dropdown list. If you think we are missing a teacher, please let us know by emailing us at atholtonADS@gmail.com.
+                        <p class = "h5">Any teacher who is not available for the Raider Time will not show up on the dropdown list. If you think we are missing a teacher, please let us know by emailing us at atholtonADS@gmail.com.</p>
                     </div>
                   </div>
                 </div>
@@ -78,7 +77,7 @@ body {
                     </h2>
                     <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
                       <div class="accordion-body">
-                        If you have a question not answered on this page or are experiencing a bug with our website, please contact us at atholtonADS@gmail.com.
+                        <p class = "h5">If you have a question not answered on this page or are experiencing a bug with our website, please contact us at atholtonADS@gmail.com.</p>
                       </div>
                     </div>
                   </div>
@@ -87,6 +86,15 @@ body {
         </div>
     </div>
    </div>
+  </div>
+
+  <div class = "row">
+    <div class = "col-5 mx-auto">
+      <div class = "faqBottom">
+        <p>Have any other questions? Email us! atholtonads@gmail.com</p>
+      </div>
+
+    </div>
   </div>
 </div>
 

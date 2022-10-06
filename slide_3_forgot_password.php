@@ -25,7 +25,7 @@ body {
        <form action="" method="get">
           <input type="text" placeholder="email"/>
         </form>
-      <a href="slide_4.php"><button class="users" type="button">Submit</button></a>
+      <a href="slide_4_verification.php"><button class="users" type="button">Submit</button></a>
      </div>
 
      

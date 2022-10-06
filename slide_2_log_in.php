@@ -33,7 +33,7 @@ body {
      <input type="submit" id="login"value="Login"/>
      </form>
  
-      <p id="forgotpass"><a href="slide_3.php">Forgot password?</a></p>
+      <p id="forgotpass"><a href="slide_3_forgot_password.php">Forgot password?</a></p>
       </div>
       <div class="createaccount">
         Don't have an account? <u>Sign up</u>

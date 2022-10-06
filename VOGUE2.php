@@ -35,6 +35,9 @@ echo $var[0]['firstName'];
     break;
        
   }
+
+$userName = $_POST["username"];
+echo $userName;
    
 //  foreach($var as $name){
 //      echo $name['First_Name'];

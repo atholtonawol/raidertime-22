@@ -1,33 +1,37 @@
 .faq{
- border: 5px solid #16542e; 
- margin: auto;
- padding-top: 20px;
- padding-bottom: 20px;
+  border: 5px solid #16542e; 
+  padding:25px;
+ }
+.faqHeader{
+   text-align: center;
+   color: #16542e;
+   font-family: Graduate;
+ }
+ .accordion-button{
+   background-color: #8ea484;
+   color: black;
+   font: 20px Calibri;
+   border: none;
+   cursor: pointer;
+   text-align: left;
+   padding: 25px;
+ }
+ .accordion-body{
+   background-color: #8ea484;
+   font: 20px Calibri;
+   font-style: italic;
+ }
+.accordion-button:hover{
+  background-color: #16542e;
+  color:white;
 }
-
-.h3{
-  text-align: center;
-  color: #16542e;
-  font-family: Graduate;
-  padding-top: 5px;
-}
-
-.accordion-flush{
-  background-color: #8ea484;
-  color: black;
-  font: 16px Calibri;
-  border: none;
-  cursor: pointer;
-  text-align: left;
-  margin-top: 20px;
-  margin-left: 5px;
-  margin-right: 5px;
-}
-
-.accordion-body{
-  background-color: #8ea484;
-  font: 15px Calibri;
-  width: auto;
-  font-style: italic;
+.faqBottom{
+  border: 3px solid #16542e;
+  font-family:Graduate;
+  font-size: 15px;
+  text-align:center;
+  margin-top:15px;
+  padding-top:5px;
+  padding-top:5px;
 }
 

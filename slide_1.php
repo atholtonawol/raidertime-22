@@ -17,7 +17,9 @@ body {
 </style>
   </head> 
     <body>
-    
+      <?php
+      require('menu_bar.html');
+      ?>
       <div class="container-fluid">
       <div class="row">
     <div class="col-9"><h1 class="h1">Atholton High School</h1>

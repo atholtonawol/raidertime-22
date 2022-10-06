@@ -14,6 +14,9 @@ body {
 </style>
   </head> 
     <body>
+    <?php
+      require('menu_bar.html');
+    ?>
     <div class="verification">
      <p>Enter Verification Code</p>
       <div class="verification2">

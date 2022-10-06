@@ -14,6 +14,9 @@ body {
 </style>
   </head> 
     <body>
+      <?php
+        require('menu_bar.html');
+      ?>
       <img src="https://github.com/atholtonawol/raidertime-22/blob/main/assets/image/atholtonA.png?raw=true", align = "right", width="120">
   <h1>Atholton High School</h1>
   <h2>Raider Time Signup</h2>

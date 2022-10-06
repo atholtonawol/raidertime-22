@@ -14,6 +14,9 @@ body {
 </style>
   </head> 
     <body>
+    <?php
+      require('menu_bar.html');
+    ?>
     <div class="verification">
      <p>Enter Your new Password</p>
       <form action="" method="get">
@@ -28,7 +31,7 @@ body {
        <form action="" method="get">
           <input type="text" placeholder="Confirm new Password" style="text-align: center" class="password1"/>
         </form>
-      <a href="slide_2.html"><button class="users" type="button"><b>Change</b></button></a>
+      <a href="slide_2.php"><button class="users" type="button"><b>Change</b></button></a>
      </div>
 
      

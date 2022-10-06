@@ -14,6 +14,9 @@ body {
 </style>
   </head> 
     <body>
+    <?php
+      require('menu_bar.html');
+    ?>
     <div class="forgotpassword">
      <p>Forgot Password?</p>
       <div class="forgotpassword2">

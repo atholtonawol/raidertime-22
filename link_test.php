@@ -4,11 +4,11 @@ require '/home4/ahsraid1/public_html/database/connect.php';
 	if (!$conn) {
   		die("Connection failed: " . mysqli_connect_error());
  	} 
-$yes = $_POST['submit'];\
+$yes = $_POST['login'];\
 echo $yes;
-isset($_POST[‘submit’]){
+isset($_POST[‘login’]){
 	$email = $_POST[‘username’];
-	$pass = $_POST[‘lname’];
+	$pass = $_POST[‘password’];
 	echo $pass;
 	echo $email;
 }

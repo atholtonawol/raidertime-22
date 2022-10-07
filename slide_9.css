@@ -25,6 +25,11 @@
   background-color: #16542e;
   color:white;
 }
+.accordion-button:not(.collapsed) {
+    background-color: #16542e;
+    color: white;
+    border:none;
+}
 .faqBottom{
   border: 3px solid #16542e;
   font-family:Graduate;

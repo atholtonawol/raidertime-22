@@ -1,5 +1,5 @@
 <?php 
-require 'link_test.html';
+require 'slide_2_log_in.php';
 require '/home4/ahsraid1/public_html/database/connect.php';
 	if (!$conn) {
   		die("Connection failed: " . mysqli_connect_error());

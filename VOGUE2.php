@@ -52,6 +52,7 @@
  if(isset($_POST["username"]))
  {
   $username = $_POST["username"];
+  echo $username; 
   $sql = 'IF EXISTS (SELECT firstName FROM emails WHERE schoolUser={$userName})';
   $result = mysqli_query($conn, $sql);
   echo (gettype($result));

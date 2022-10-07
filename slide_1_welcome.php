@@ -18,7 +18,7 @@ body {
   </head> 
     <body>
       <?php
-      require('menu_bar.html');
+      //require('menu_bar.html');
       ?>
       <div class="container-fluid">
       <div class="row">

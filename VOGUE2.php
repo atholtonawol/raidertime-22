@@ -35,12 +35,22 @@
 //   }
 
 $userName = $_POST["username"];
-echo $userName;
+//echo $userName;
 
   $sql = 'IF EXISTS (SELECT firstName FROM emails WHERE schoolUser = {$userName})';
   $result = mysqli_query($conn, $sql);
  
- if($result)
+//  if($result)
+//  {
+//   $sql = 'SELECT firstName FROM emails WHERE schoolUser = {$userName}';
+//   $result = mysqli_query($conn, $sql);
+//   $var = mysqli_fetch_all($result, MYSQLI_ASSOC);
+//   echo $result[0]['firstName'];
+//  } else {
+//   echo "didnt wrk";
+//    }
+
+ if(isset($_POST['userName']))
  {
   $sql = 'SELECT firstName FROM emails WHERE schoolUser = {$userName}';
   $result = mysqli_query($conn, $sql);
@@ -49,6 +59,8 @@ echo $userName;
  } else {
   echo "didnt wrk";
    }
+
+
    
 //  foreach($var as $name){
 //      echo $name['First_Name'];

@@ -53,15 +53,15 @@ $username = $_POST["username"];
  {
   $sql = 'IF EXISTS (SELECT firstName FROM emails WHERE schoolUser={$userName})';
   $result = mysqli_query($conn, $sql);
-  echo ($result);
-  if($result === TRUE)
+  echo (gettype($result));
+  if($result === FALSE)
   {
-  echo "true";
+  echo "false";
   }
 //   echo gettype(5);
   if($result)
   {
-  $sql = 'SELECT firstName FROM emails WHERE schoolUser = {$userName}';
+  $sql = 'SELECT firstName FROM emails WHERE schoolUser={$userName}';
   $result = mysqli_query($conn, $sql);
   $var = mysqli_fetch_all($result, MYSQLI_ASSOC);
   echo $result[0]['firstName'];

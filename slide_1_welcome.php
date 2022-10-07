@@ -36,7 +36,7 @@ body {
   <div class="container-fluid">
     <div class="row justify-content-center text-center">
     
-  <div class="welcomebox col-8 justify-content-center text-center">    
+  <div class="welcomebox col-3 justify-content-center text-center">    <!-- previously col-8 -->
         <p>Welcome Raiders
           <br>I am a:</p>
       

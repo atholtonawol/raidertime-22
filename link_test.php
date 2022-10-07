@@ -10,9 +10,7 @@ isset($_POST[‘submit’]){
 	$email = $_POST[‘username’];
 	$pass = $_POST[‘lname’];
 	echo $pass;
-	echo "here";
 	echo $email;
-	echo "and now";
 }
 
 // $sql = “UPDATE emails SET testing = $pass WHERE schoolUser = $email”;

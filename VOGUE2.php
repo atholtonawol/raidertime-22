@@ -34,7 +34,7 @@
        
 //   }
 
-$userName = $_POST["username"];
+$username = $_POST["username"];
 //echo $userName;
 
 
@@ -49,7 +49,7 @@ $userName = $_POST["username"];
 //   echo "didnt wrk";
 //    }
 
- if(isset($_POST['username']))
+ if(isset($_POST["username"]))
  {
   $sql = 'IF EXISTS (SELECT firstName FROM emails WHERE schoolUser={$userName})';
   $result = mysqli_query($conn, $sql);
@@ -74,6 +74,6 @@ $userName = $_POST["username"];
 // $result = mysqli_query($conn, $names);
 // $row = mysqli_fetch_assoc($result);
 // echo $row;
-// ?>
+?>
 
 

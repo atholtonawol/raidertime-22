@@ -1,4 +1,4 @@
-<?php echo "test" ?>
+<?php echo "new test" ?>
 
 
  
@@ -37,7 +37,7 @@
 $userName = $_POST["username"];
 //echo $userName;
 
-  $sql = 'IF EXISTS (SELECT firstName FROM emails WHERE schoolUser = {$userName})';
+  $sql = 'IF EXISTS (SELECT firstName FROM emails WHERE schoolUser={$userName})';
   $result = mysqli_query($conn, $sql);
  
 //  if($result)

@@ -56,9 +56,7 @@ $userName = $_POST["username"];
   $result = mysqli_query($conn, $sql);
   $var = mysqli_fetch_all($result, MYSQLI_ASSOC);
   echo $result[0]['firstName'];
- } else {
-  echo "didnt wrk";
-   }
+ } else {echo "did not work";}
 
 
    

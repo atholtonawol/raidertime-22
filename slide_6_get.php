@@ -1,5 +1,5 @@
 <?php
-echo("SLIDE 6 GET\n");
+echo("SLIDE 6 GET\r\n");
 
 require '/home4/ahsraid1/public_html/database/connect.php';
 
@@ -16,7 +16,8 @@ if(true)
  {
   $sql = 'IF EXISTS (SELECT firstName FROM emails WHERE schoolUser={$userName})';
   $result = mysqli_query($conn, $sql);
-  echo "oxenberg\n$result\n";
+  echo mysqli_query($conn, $sql);
+  echo "oxenberg\r\n$result\r\n";
   if($result)
   {
     $sql = 'SELECT firstName FROM emails WHERE schoolUser = {$userName}';

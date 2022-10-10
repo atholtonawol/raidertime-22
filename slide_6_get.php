@@ -11,6 +11,24 @@ if (!$conn) {
 $userName = "ashahe8615";
 
 
+   $sql = 'SELECT firstName FROM emails';
+   $result = mysqli_query($conn, $sql);
+   $var = mysqli_fetch_all($result, MYSQLI_ASSOC);
+   print_r($var);
+   
+   print_r($sql);
+   print_r($result);
+   print_r($var);
+ echo $var[0]['firstName'];
+   foreach($var as $name)
+   {
+     echo $name['firstName'];
+     break;
+      
+   }
+
+
+/*
  //if(isset($_POST['username']))
 if(true)
  {
@@ -29,5 +47,7 @@ if(true)
  } else {echo "isset post username error";}
 
 $first_name = "yesysgf";
+*/
+
 
 ?>

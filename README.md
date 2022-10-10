@@ -26,19 +26,3 @@ Password: `AtholtonRT2122!`
 Run: `./sync_github.sh`
 
 3. Refresh the website and your updates should be reflected.
-
-&nbsp;  
-**Outdated, run the sync script above instead:**
-
-2. Go to repositories directory:
-
-`cd public_html/repositories`
-
-3. Delete existing repo folder. Run this command, then type y twice to confirm the delete. Be careful, deleting a file cannot be undone!
-
-`rm raidertime-22 -r`
-
-4. Clone repo from Github:
-
-`git clone https://github.com/atholtonawol/raidertime-22.git`
-

@@ -55,9 +55,10 @@
   $username = $_POST["username"];
   echo $username; 
   $sql = 'IF EXISTS (SELECT firstName FROM studentInfo WHERE user={$username})';
+  
 //   $sql = 'SELECT firstName FROM emails WHERE EXISTS schoolUser={$username}';
   $result = mysqli_query($conn, $sql);
-  //echo (gettype($result));
+  echo (gettype($result));
 
 //   echo gettype(5);
   if ($result === TRUE)

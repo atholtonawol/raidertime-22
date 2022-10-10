@@ -53,7 +53,7 @@
  {
   $username = $_POST["username"];
   echo $username; 
-  $sql = 'IF EXISTS (SELECT firstName FROM emails WHERE schoolUser={$username})';
+  $sql = 'IF EXISTS (SELECT firstName FROM studentInfo WHERE user={$username})';
 //   $sql = 'SELECT firstName FROM emails WHERE EXISTS schoolUser={$username}';
   $result = mysqli_query($conn, $sql);
   //echo (gettype($result));
@@ -61,12 +61,13 @@
 //   echo gettype(5);
   if($result)
   {
-  $sql = 'SELECT firstName FROM emails WHERE schoolUser={$userName}';
+  $sql = 'SELECT firstName FROM studentInfo WHERE user={$userName}';
   $result = mysqli_query($conn, $sql);
   $var = mysqli_fetch_all($result, MYSQLI_ASSOC);
   echo $result[0]['firstName'];
   }
- } else {echo "did not work";}
+ } 
+else {echo "did not work";}
  if($result === FALSE)
   {
   echo "false";

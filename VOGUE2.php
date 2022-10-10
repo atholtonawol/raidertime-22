@@ -51,6 +51,7 @@
 
  if(isset($_POST["username"]))
  {
+  echo "hello world";
   $username = $_POST["username"];
   echo $username; 
   $sql = 'IF EXISTS (SELECT firstName FROM studentInfo WHERE user={$username})';

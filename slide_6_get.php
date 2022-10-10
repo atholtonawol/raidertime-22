@@ -22,6 +22,12 @@ $userName = "ashahe8615";
    echo "<br>result: ";
    print_r($result);
 
+
+if (mysqli_connect_errno()) {
+  echo "Failed to connect to MySQL: " . mysqli_connect_error();
+  exit();
+}
+
  echo $var[0]['firstName'];
    foreach($var as $name)
    {

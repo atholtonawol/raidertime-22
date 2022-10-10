@@ -56,11 +56,8 @@
   $sql = 'IF EXISTS (SELECT firstName FROM emails WHERE schoolUser={$username})';
 //   $sql = 'SELECT firstName FROM emails WHERE EXISTS schoolUser={$username}';
   $result = mysqli_query($conn, $sql);
-  echo (gettype($result));
-  if($result === FALSE)
-  {
-  echo "false";
-  }
+  //echo (gettype($result));
+
 //   echo gettype(5);
   if($result)
   {
@@ -70,8 +67,10 @@
   echo $result[0]['firstName'];
   }
  } else {echo "did not work";}
-
-
+ if($result === FALSE)
+  {
+  echo "false";
+  } 
    
 //  foreach($var as $name){
 //      echo $name['First_Name'];

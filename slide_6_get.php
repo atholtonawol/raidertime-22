@@ -1,5 +1,5 @@
 <?php
-echo("SLIDE 6 GET");
+echo("SLIDE 6 GET\n");
 
 require '/home4/ahsraid1/public_html/database/connect.php';
 
@@ -11,7 +11,8 @@ if (!$conn) {
 $userName = "ashahe8615";
 
 
- if(isset($_POST['username']))
+ //if(isset($_POST['username']))
+if(true)
  {
   $sql = 'IF EXISTS (SELECT firstName FROM emails WHERE schoolUser={$userName})';
   $result = mysqli_query($conn, $sql);

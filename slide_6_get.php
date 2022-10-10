@@ -1,5 +1,5 @@
 <?php
-echo("SLIDE 6 GET\r\n");
+echo("SLIDE 6 GET<br>");
 
 require '/home4/ahsraid1/public_html/database/connect.php';
 
@@ -14,11 +14,14 @@ $userName = "ashahe8615";
    $sql = 'SELECT firstName FROM emails';
    $result = mysqli_query($conn, $sql);
    $var = mysqli_fetch_all($result, MYSQLI_ASSOC);
+
+   echo "<br>var: ";
    print_r($var);
-   
+   echo "<br>sql: ";
    print_r($sql);
+   echo "<br>result: ";
    print_r($result);
-   print_r($var);
+
  echo $var[0]['firstName'];
    foreach($var as $name)
    {

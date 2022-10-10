@@ -16,7 +16,7 @@ if(true)
  {
   $sql = 'IF EXISTS (SELECT firstName FROM emails WHERE schoolUser={$userName})';
   $result = mysqli_query($conn, $sql);
-  echo "oxenberg";
+  echo "oxenberg\n$result\n";
   if($result)
   {
     $sql = 'SELECT firstName FROM emails WHERE schoolUser = {$userName}';

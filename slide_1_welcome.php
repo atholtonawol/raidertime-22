@@ -7,52 +7,44 @@
     <link href='https://fonts.googleapis.com/css?family=Graduate' rel='stylesheet'>
     
 <style>
-body {
+  body {
     font-family: 'Graduate';font-size: 22px;
-    background-image: url('https://github.com/atholtonawol/raidertime-22/blob/main/assets/image/bw%20atholton%20building%20img.jpg?raw=true');
+    background-image: url('https://github.com/atholtonawol/raidertime-22/blob/main/assets/image/color%20atholton%20building.jpg?raw=true');
     background-size: cover;
     background-repeat: no-repeat;
-}
+    background-color: gainsboro;
+  }
 
 </style>
   </head> 
     <body>
-      <?php
-        require('menu_bar.html');
-      ?>
-      <div class="container-fluid">
-      <div class="row">
-    <div class="col-9"><h1 class="h1">Atholton High School</h1>
-  <h2 class="h2">Raider Time Signup</h2>
-    </div>
-    <div class="col-2 text-end">
-        <img class = "img-fluid" src="https://github.com/atholtonawol/raidertime-22/blob/main/assets/image/atholtonA.png?raw=true">
-        </div>
-</div>
-      </div>
-      
-  <br/>
-      
-  <div class="container-fluid">
-    <div class="row justify-content-center text-center">
     
-  <div class="welcomebox col-3 justify-content-center text-center">    <!-- previously col-8 -->
+      <div class=" px-4 pt-3 container-fluid">
+      <div class="row">
+        <div class="col-10">
+          <h1 class="display-2"><b>Atholton High School</b></h1>
+            <h2 class="display-4"><b>Raider Time Signup</b></h2>
+        </div>
+        <div class="col-2 text-end">
+          <img class = "img-fluid" src="https://github.com/atholtonawol/raidertime-22/blob/main/assets/image/NewAtholtonA.png?raw=true">
+        </div>
+      </div>
+      </div>
+    <br/>
+      
+    <div class="container-fluid">
+      <div class="row justify-content-center text-center">
+      <div class="welcomebox col-md-6 col-10 mt-5 justify-content-center text-center">    
         <p>Welcome Raiders
           <br>I am a:</p>
-      
   
-      <!--(Note: Only Student links to login page, I think we only need one button)-->
-      <a href="slide_2_log_in.php"><button class="users" type="button">Student</button></a>
-
-      <button class="btn mt-2 col-10" type="button">Teacher</button>
-   
-    <button class="btn mt-2 col-10" type="button">Administrator</button>
-    
+        <button class="btn col-9" type="button">Student</button>
+        <button class="btn mt-3 col-9" type="button">Teacher</button>
+        <button class="btn mt-3 mb-5 col-9" type="button">Administrator</button>
+        
+      </div>
       </div>
     </div>
-  <div class="col-sm-3"></div>
-</div>
        
   </body>
-
 </html>

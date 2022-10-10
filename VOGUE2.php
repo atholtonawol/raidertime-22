@@ -51,7 +51,7 @@
 
  if(isset($_POST["username"]))
  {
-  echo "hello world";
+  echo "is set";
   $username = $_POST["username"];
   echo $username; 
   $sql = 'IF EXISTS (SELECT firstName FROM studentInfo WHERE user={$username})';
@@ -60,7 +60,7 @@
   //echo (gettype($result));
 
 //   echo gettype(5);
-  if($result === 1)
+  if($result === 0)
   {
   $sql = 'SELECT firstName FROM studentInfo WHERE user={$userName}';
   $result = mysqli_query($conn, $sql);

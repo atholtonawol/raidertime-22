@@ -1,4 +1,5 @@
 <?php
+echo("SLIDE 6 GET");
 
 require 'link_test.html';
 require '/home4/ahsraid1/public_html/database/connect.php';

@@ -22,7 +22,7 @@ body {
     
     <?php
       require('menu_bar.html');
-      //require('slide_6_get.php');
+      require('slide_6_get.php');
     ?>
     
     <!--

@@ -18,11 +18,12 @@ $userName = "ashahe8615";
   echo "oxenberg";
   if($result)
   {
-  $sql = 'SELECT firstName FROM emails WHERE schoolUser = {$userName}';
-  $result = mysqli_query($conn, $sql);
-  $var = mysqli_fetch_all($result, MYSQLI_ASSOC);
-  echo $result[0]['firstName'];
+    $sql = 'SELECT firstName FROM emails WHERE schoolUser = {$userName}';
+    $result = mysqli_query($conn, $sql);
+    $var = mysqli_fetch_all($result, MYSQLI_ASSOC);
+    echo $result[0]['firstName'];
   }
  } else {echo "did not work";}
 
+$first_name = "yesysgf";
 ?>

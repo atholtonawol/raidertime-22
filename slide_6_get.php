@@ -23,8 +23,9 @@ if(true)
     $result = mysqli_query($conn, $sql);
     $var = mysqli_fetch_all($result, MYSQLI_ASSOC);
     echo $result[0]['firstName'];
-  }
- } else {echo "did not work";}
+  } else { echo "no valid result";}
+  
+ } else {echo "isset post username error";}
 
 $first_name = "yesysgf";
 

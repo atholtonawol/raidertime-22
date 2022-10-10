@@ -54,7 +54,11 @@
   echo "is set";
   $username = $_POST["username"];
   echo $username; 
-  $sql = 'IF EXISTS (SELECT firstName FROM studentInfo WHERE user={$username})';
+  //$sql = 'IF EXISTS (SELECT firstName FROM studentInfo WHERE user={$username})';
+  SELECT IF( EXISTS(
+             SELECT firstName
+             FROM studentInfo
+             WHERE `` =  ? AND id = ?), 1, 0)
   
 //   $sql = 'SELECT firstName FROM emails WHERE EXISTS schoolUser={$username}';
   $result = mysqli_query($conn, $sql);

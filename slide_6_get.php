@@ -11,7 +11,7 @@ if (!$conn) {
 //$userName = $_POST["username"];
 $userName = "ashahe8615";
 
-
+/*
  if(isset($_POST['username']))
  {
   $sql = 'IF EXISTS (SELECT firstName FROM emails WHERE schoolUser={$userName})';
@@ -27,4 +27,5 @@ $userName = "ashahe8615";
  } else {echo "did not work";}
 
 $first_name = "yesysgf";
+*/
 ?>

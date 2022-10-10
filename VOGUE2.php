@@ -60,7 +60,7 @@
   //echo (gettype($result));
 
 //   echo gettype(5);
-  if (!$result)
+  if ($result === 1)
   {
   $sql = 'SELECT firstName FROM studentInfo WHERE user={$userName}';
   $result = mysqli_query($conn, $sql);
@@ -69,7 +69,7 @@
   }
  } 
 else {echo "did not work";}
- if($result === FALSE)
+ if($result === 0)
   {
   echo "false";
   } 

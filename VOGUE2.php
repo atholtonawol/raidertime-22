@@ -71,7 +71,7 @@
   $sql = 'SELECT firstName FROM studentInfo WHERE user = something';
   $result = mysqli_query($conn, $sql);
   $var = mysqli_fetch_all($result, MYSQLI_ASSOC);
-  echo ($var);
+  print_r($var);
 //  echo $var[0]["firstName"];
 ?>
 

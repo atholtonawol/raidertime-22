@@ -16,7 +16,7 @@ if (!$conn) {
 $userName = "ashahe8615";
 
 
-   $sql = 'SELECT firstName FROM emails';
+   $sql = 'SELECT firstName FROM studentInfo WHERE user="kdamav7949"';
    $result = mysqli_query($conn, $sql);
    $var = mysqli_fetch_all($result, MYSQLI_ASSOC);
 

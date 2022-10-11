@@ -60,15 +60,13 @@ if(true)
     print_r($result);
     echo "<br>var 0: ";
     print_r($var[0]['firstName']);
- 
-    echo 'Invalid SQL ressfdgult: Number of results is '.count($var).' instead of 1!';
     
     if (count($var) != 1) { //Ensure that exactly one result was found
+      echo 'Invalid SQL result: Number of results is '.count($var).' instead of 1!';
+    } else {
       //These variables will be referenced by slide_6_home.php
       $first_name = $var[0]['firstName'];
       $last_name = $var[0]['lastName'];
-    } else {
-      echo 'Invalid SQL result: Number of results is '.count($var).' instead of 1!';
     }
     
   

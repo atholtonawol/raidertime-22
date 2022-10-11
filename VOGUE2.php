@@ -89,6 +89,12 @@ else {echo "did not work";}
 // $result = mysqli_query($conn, $names);
 // $row = mysqli_fetch_assoc($result);
 // echo $row;
+
+  $sql = 'SELECT firstName FROM studentInfo WHERE user = aaball6969';
+  $result = mysqli_query($conn, $sql);
+  $var = mysqli_fetch_all($result, MYSQLI_ASSOC);
+echo print_r($var);
+ echo $var[0]["firstName"];
 ?>
 
 

@@ -11,22 +11,11 @@
  if (!$conn) {
   die("Connection failed: " . mysqli_connect_error());
  }
- else{echo "Connected successfully";}  
+  
  
 //  echo "<script type='text/javascript'>window.top.location='https://www.google.com//';
 //  </script>"; exit;
 //header("Location: https://www.google.com/");
- 
- 
-//   $sql = 'SELECT firstName FROM emails';
-//   $result = mysqli_query($conn, $sql);
-//   $var = mysqli_fetch_all($result, MYSQLI_ASSOC);
-//   print_r($var);
-   
-//   print_r($sql);
-//   print_r($result);
-//   print_r($var);
-// echo $var[0]['firstName'];
 //   foreach($var as $name)
 //   {
 //     echo $name['firstName'];
@@ -35,52 +24,40 @@
 //   }
 
 
-//echo $userName;
 
 
- 
-//  if($result)
+//  if(isset($_POST["username"]))
 //  {
-//   $sql = 'SELECT firstName FROM emails WHERE schoolUser = {$userName}';
+//   echo "is set";
+//   $username = $_POST["username"];
+//   echo $username; 
+ 
+  
+
+  
+// //   $sql = 'SELECT firstName FROM emails WHERE EXISTS schoolUser={$username}';
+//   $result = mysqli_query($conn, $sql);
+
+
+
+//   if ($result === TRUE)
+//   {
+//   echo "vihan";
+//   $sql = 'SELECT firstName FROM studentInfo WHERE user={$userName}';
 //   $result = mysqli_query($conn, $sql);
 //   $var = mysqli_fetch_all($result, MYSQLI_ASSOC);
 //   echo $result[0]['firstName'];
-//  } else {
-//   echo "didnt wrk";
-//    }
+//   }
+//  } 
+// else {echo "did not work";}
+//  if($result === FALSE)
+//   {
+//   echo "false";
+//   } 
 
- if(isset($_POST["username"]))
- {
-  echo "is set";
-  $username = $_POST["username"];
-  echo $username; 
-  //$sql = 'IF EXISTS (SELECT firstName FROM studentInfo WHERE user={$username})';
-  
-//   SELECT IF( EXISTS(
-//              SELECT firstName
-//              FROM studentInfo
-//              WHERE `` =  ? AND id = ?), 1, 0)
-  
-//   $sql = 'SELECT firstName FROM emails WHERE EXISTS schoolUser={$username}';
-  $result = mysqli_query($conn, $sql);
-  echo (gettype($result));
 
-//   echo gettype(5);
-  if ($result === TRUE)
-  {
-   echo "vihan";
-  $sql = 'SELECT firstName FROM studentInfo WHERE user={$userName}';
-  $result = mysqli_query($conn, $sql);
-  $var = mysqli_fetch_all($result, MYSQLI_ASSOC);
-  echo $result[0]['firstName'];
-  }
- } 
-else {echo "did not work";}
- if($result === FALSE)
-  {
-  echo "false";
-  } 
-   
+
+
 //  foreach($var as $name){
 //      echo $name['First_Name'];
 //  }
@@ -91,10 +68,10 @@ else {echo "did not work";}
 // $row = mysqli_fetch_assoc($result);
 // echo $row;
 
-//   $sql = 'SELECT firstName FROM studentInfo WHERE user = something';
-//   $result = mysqli_query($conn, $sql);
-//   $var = mysqli_fetch_all($result, MYSQLI_ASSOC);
-// echo print_r($var);
+  $sql = 'SELECT firstName FROM studentInfo WHERE user = something';
+  $result = mysqli_query($conn, $sql);
+  $var = mysqli_fetch_all($result, MYSQLI_ASSOC);
+  echo print_r($var);
 //  echo $var[0]["firstName"];
 ?>
 

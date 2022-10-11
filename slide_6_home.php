@@ -35,7 +35,7 @@ body {
   
     <div class = "pass">
       <p class = "title">Radier Time Pass</p>
-      <p class = "name">Name: {FIRSTNAME} {LASTNAME}</p>
+      <p class = "name">Name: [First][Last]</p>
       <p class = "teacher">Raider Time Teacher: [Last],[First]</p>
       <p class = "location">Location: [Classroom No.]</p>
       <p class = "date">Date: MM/DD/YYYY</p>

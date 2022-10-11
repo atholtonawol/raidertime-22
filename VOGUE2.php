@@ -68,18 +68,24 @@
 // $row = mysqli_fetch_assoc($result);
 // echo $row;
 // aaball6969
-  $sql = "SELECT firstName FROM studentInfo WHERE user = 'aaball6969'";
+ 
+if(isset($_POST["username"]))
+{
+  $username = $_POST["username"];
+  $sql = "SELECT firstName FROM studentInfo WHERE user = '{$username}'";
   $result = mysqli_query($conn, $sql);
   $var = mysqli_fetch_all($result, MYSQLI_ASSOC);
   print_r($var);
-if(count($var) != 0)
-{
- echo $var[0]['firstName'];
+  if(count($var) != 0)
+  {
+     echo $var[0]['firstName'];
+  }
+  else
+  {
+    echo "invalid"; 
+  }
 }
-else
-{
- echo "invalid"; 
-}
+
 ?>
 
 

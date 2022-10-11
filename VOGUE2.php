@@ -77,9 +77,9 @@ if(isset($_POST["username"]))
   $var = mysqli_fetch_all($result, MYSQLI_ASSOC);
   if(count($var) != 0)
   {
-//       echo "<script type='text/javascript'>window.top.location='https://www.google.com//';
+//       echo "<script type='text/javascript'>window.top.location=''https://www.google.com//'";
 //       </script>"; exit;
-       header('Location: https://www.google.com//');
+       header("Location: 'https://www.google.com//'");
        die();
 //      echo $var[0]['firstName'];
   }

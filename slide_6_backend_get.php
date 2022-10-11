@@ -1,18 +1,11 @@
 <?php
 //Returns the contents of a div 
 function getDiv($divName) {
-    echo "getdiv";
-    $dom = new DOMDocument;
-    $dom -> loadHTML( $data );
-    $divs = $dom -> getElementsByTagName('div');
-
-    foreach ( $divs as $div )
-    {
-        if ( $div -> hasAttribute('class') && strpos( $div -> getAttribute('class'), "pass" ) !== false )
-        {
-            return $div -> nodeValue;
-        }
-    }
+  echo "getdiv";
+  $dom = new DOMDocument();
+  $dom->loadHTML($html);
+  $xpath = new DOMXPath($dom);
+  $divContent = $xpath->query('//div[@id="'.$divName.'"]');
 }
 
 

@@ -48,10 +48,9 @@ $userName = "kdamav7949";
 //if(isset($_POST['username']))
 if(true)
   {
-    $sql = 'SELECT firstName, lastName FROM studentInfo WHERE user="'.$userName.'"';
-   
-    $result = mysqli_query($conn, $sql);
-    $var = mysqli_fetch_all($result, MYSQLI_ASSOC);
+    $sql = 'SELECT firstName, lastName FROM studentInfo WHERE user="'.$userName.'"';   //The query sent to the SQL server (mySQL?)
+    $result = mysqli_query($conn, $sql);   //Connects to the SQL server and sends the $sql query. The server responds with an object containing the result of the query.
+    $var = mysqli_fetch_all($result, MYSQLI_ASSOC);   //Takes the result object from the server, and turns it into an associative array that is easy to reference in our code.
  
   echo "<br>var: ";
    print_r($var);
@@ -60,7 +59,7 @@ if(true)
    echo "<br>result: ";
    print_r($result);
  echo "<br>var 0: ";
-    //print_r(var[0]['firstName']);
+    print_r($var[0]['firstName']);
   
   } else {
     echo "isset post username error";

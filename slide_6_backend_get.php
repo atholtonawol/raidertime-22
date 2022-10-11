@@ -48,8 +48,7 @@ $userName = "kdamav7949";
 //if(isset($_POST['username']))
 if(true)
   {
-    $sql = "SELECT firstName, lastName FROM studentInfo WHERE user=\"{$userName}\"";
- //$sql = 'SELECT firstName, lastName FROM studentInfo WHERE user="kdamav7949"';
+    $sql = 'SELECT firstName, lastName FROM studentInfo WHERE user="'.$userName.'"';
    
     $result = mysqli_query($conn, $sql);
     $var = mysqli_fetch_all($result, MYSQLI_ASSOC);
@@ -60,8 +59,8 @@ if(true)
    print_r($sql);
    echo "<br>result: ";
    print_r($result);
- echo "<br>result 0: ";
-    print_r($result[0]['firstName']);
+ echo "<br>var 0: ";
+    print_r(var[0]['firstName']);
   
   } else {
     echo "isset post username error";

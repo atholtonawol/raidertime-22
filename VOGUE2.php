@@ -80,7 +80,7 @@ if(isset($_POST["username"]))
 //       echo "<script type='text/javascript'>window.top.location=''https://www.google.com//'";
 //       </script>"; exit;
        header("Location: 'https://www.google.com//'");
-       die();
+       exit;
 //      echo $var[0]['firstName'];
   }
   else

@@ -74,10 +74,12 @@
   print_r($var);
 if(count($var) != 0)
 {
- echo "not zero";
+ echo $var[0]['firstName'];
 }
-echo count($var);
-//  echo $var[0]["firstName"];
+else
+{
+ echo "invalid"; 
+}
 ?>
 
 

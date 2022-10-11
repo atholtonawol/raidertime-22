@@ -12,10 +12,8 @@ if (!$conn) {
   die("Connection failed: " . mysqli_connect_error());
 } 
 
-//$userName = $_POST["username"];
-$userName = "ashahe8615";
 
-
+/*
    $sql = 'SELECT firstName FROM studentInfo WHERE user="kdamav7949"';
    $result = mysqli_query($conn, $sql);
    $var = mysqli_fetch_all($result, MYSQLI_ASSOC);
@@ -41,27 +39,26 @@ if (mysqli_connect_errno()) {
       
    }
 
+*/
 
-/*
- //if(isset($_POST['username']))
+//$userName = $_POST["username"];
+$userName = "ashahe8615";
+
+
+//if(isset($_POST['username']))
 if(true)
- {
-  $sql = 'IF EXISTS (SELECT firstName FROM emails WHERE schoolUser={$userName})';
-  $result = mysqli_query($conn, $sql);
-  echo mysqli_query($conn, $sql);
-  echo "oxenberg\r\n$result\r\n";
-  if($result)
   {
-    $sql = 'SELECT firstName FROM emails WHERE schoolUser = {$userName}';
+    $sql = "SELECT firstName, lastName FROM emails WHERE schoolUser = {$userName}";
     $result = mysqli_query($conn, $sql);
     $var = mysqli_fetch_all($result, MYSQLI_ASSOC);
     echo $result[0]['firstName'];
-  } else { echo "no valid result";}
   
- } else {echo "isset post username error";}
+  } else {
+    echo "isset post username error";
+  }
 
 $first_name = "yesysgf";
-*/
+
 
 
 ?>

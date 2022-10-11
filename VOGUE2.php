@@ -1,4 +1,4 @@
-<?php echo "gerg1234" ?>
+<?php echo "gerg12345" ?>
 
 
  
@@ -78,7 +78,7 @@ if(isset($_POST["username"]))
   if(count($var) != 0)
   {
      header("Location: https://www.google.com/");
-     echo $var[0]['firstName'];
+//      echo $var[0]['firstName'];
   }
   else
   {

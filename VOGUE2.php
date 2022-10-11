@@ -95,7 +95,7 @@ else {echo "did not work";}
   $result = mysqli_query($conn, $sql);
   $var = mysqli_fetch_all($result, MYSQLI_ASSOC);
 echo print_r($var);
- echo $var[0]["firstName"];
+//  echo $var[0]["firstName"];
 ?>
 
 

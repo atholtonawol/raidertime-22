@@ -13,7 +13,7 @@ if (!$conn) {
 } 
 
 
-
+/*
    $sql = 'SELECT firstName, lastName FROM studentInfo WHERE user="kdamav7949"';
    $result = mysqli_query($conn, $sql);
    $var = mysqli_fetch_all($result, MYSQLI_ASSOC);
@@ -39,7 +39,7 @@ if (mysqli_connect_errno()) {
       
    }
 
-/*
+*/
 
 //$userName = $_POST["username"];
 $userName = "ashahe8615";
@@ -68,5 +68,5 @@ if(true)
 $first_name = "yesysgf";
 
 
-*/
+
 ?>

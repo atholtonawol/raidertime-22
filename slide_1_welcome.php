@@ -19,7 +19,7 @@
   </head> 
     <body>
       <?php
-        require('menu_bar.html');
+        //require('menu_bar.html');
       ?>
     
       <div class=" px-4 pt-3 container-fluid">

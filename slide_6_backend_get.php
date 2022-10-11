@@ -17,20 +17,16 @@ if (!$conn) {
    $sql = 'SELECT firstName, lastName FROM studentInfo WHERE user="kdamav7949"';
    $result = mysqli_query($conn, $sql);
    $var = mysqli_fetch_all($result, MYSQLI_ASSOC);
-
    echo "<br>var: ";
    print_r($var);
    echo "<br>sql: ";
    print_r($sql);
    echo "<br>result: ";
    print_r($result);
-
-
 if (mysqli_connect_errno()) {
   echo "Failed to connect to MySQL: " . mysqli_connect_error();
   exit();
 }
-
  echo $var[0]['firstName'];
    foreach($var as $name)
    {
@@ -38,7 +34,6 @@ if (mysqli_connect_errno()) {
      break;
       
    }
-
 */
 
 //$userName = $_POST["username"];
@@ -67,21 +62,6 @@ if(true)
       //These variables will be referenced by slide_6_home.php
       $first_name = $var[0]['firstName'];
       $last_name = $var[0]['lastName'];
-      
-      /*
-      $doc = new DomDocument();
-      $doc->loadHTMLFile('http://www.results.com');
-      $thediv = $doc->getElementById('pass');
-      echo $thediv->textContent;
-     */
-     // $passDiv = getDiv('pass');
-     //foreach($var[0] as $key => $value){
-        //$passDiv = str_replace('{'.strtoupper($key).'}', $value, $passDiv);
-      //}
-
-      
-    // print_r(getDiv("pass"));
-      //document.getElementById('pass').innerHTML = <?php print_r(getDiv("pass")); ?>;
     }
     
   

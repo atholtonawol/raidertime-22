@@ -1,6 +1,4 @@
 <?php
-
-
 echo("SLIDE 6 GET<br>");
 
 $servername = "50.87.190.153";
@@ -70,12 +68,12 @@ if(true)
       $first_name = $var[0]['firstName'];
       $last_name = $var[0]['lastName'];
       
-      
+      /*
       $doc = new DomDocument();
       $doc->loadHTMLFile('http://www.results.com');
       $thediv = $doc->getElementById('pass');
       echo $thediv->textContent;
-     
+     */
      // $passDiv = getDiv('pass');
      //foreach($var[0] as $key => $value){
         //$passDiv = str_replace('{'.strtoupper($key).'}', $value, $passDiv);

@@ -60,7 +60,7 @@ if(true)
    echo "<br>result: ";
    print_r($result);
  echo "<br>var 0: ";
-    print_r(var[0]['firstName']);
+    //print_r(var[0]['firstName']);
   
   } else {
     echo "isset post username error";

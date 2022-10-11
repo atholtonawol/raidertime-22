@@ -52,20 +52,29 @@ if(true)
     $result = mysqli_query($conn, $sql);   //Connects to the SQL server and sends the $sql query. The server responds with an object containing the result of the query.
     $var = mysqli_fetch_all($result, MYSQLI_ASSOC);   //Takes the result object from the server, and turns it into an associative array that is easy to reference in our code.
  
-  echo "<br>var: ";
-   print_r($var);
-   echo "<br>sql: ";
-   print_r($sql);
-   echo "<br>result: ";
-   print_r($result);
- echo "<br>var 0: ";
+    echo "<br>var: ";
+    print_r($var);
+    echo "<br>sql: ";
+    print_r($sql);
+    echo "<br>result: ";
+    print_r($result);
+    echo "<br>var 0: ";
     print_r($var[0]['firstName']);
+ 
+    echo 'Invalid SQL ressfdgult: Number of results is '.count($var).' instead of 1!';
+    
+    if (count($var) != 1) { //Ensure that exactly one result was found
+      //These variables will be referenced by slide_6_home.php
+      $first_name = $var[0]['firstName'];
+      $last_name = $var[0]['lastName'];
+    } else {
+      echo 'Invalid SQL result: Number of results is '.count($var).' instead of 1!';
+    }
+    
   
   } else {
     echo "isset post username error";
   }
-
-$first_name = "yesysgf";
 
 
 

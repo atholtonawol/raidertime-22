@@ -11,6 +11,14 @@
 <link rel="stylesheet" href="stlye.css"/>
 <!-- End Links -->
 
+<header>
+  <div class="container">
+    <div class="row mt-4 justify-content-left text-left"> 
+      <h2>Change Password</h2>
+    </div>
+  </div>  
+</header>
+    
     <!-- Uses css code to create background image -->
 <style>
 body {

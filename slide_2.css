@@ -1,69 +1,90 @@
-.lw { font-size: 60px; }
 .welcomebox{
-  background: #16542e;
-  padding:  10px; 
-  width: 260px;
-  text-align: center;
-  margin:  auto;
-}
-input{
-  width: 230px;
-  padding: 10px;
-}
-#forgotpassword{
-  font-family: calibri;
-  font-size: 16px;
-  cursor: pointer;
-}
+    background: #16542e;
+    padding:  10px; 
+    text-align: center;
+    text-decoration-color: white;
+    margin:  auto;
+    margin-top: 10vh !important;
+    border-radius: 20px;
+    height: 280px;
+  }
+  
+  .welcomebox p{
+    margin-top: 1%;
+    color: white;
+    text-align: center;
+  }
+  #password{
+    margin-top: 10px;
+    font-family: 'calibri'; font-size: 22px; 
+    width: 350px;
+  }
+  #username{
+    margin-top: 10px;
+    font-family: 'calibri'; font-size: 22px; 
+    width: 350px;
+  }
+  #login{
+    background-color: #8ea484ff;
+    border: 1px solid white;
+    padding:  5px;
+    margin-top: 15px;
+    width:  90px;
+    cursor: pointer;
+    font-family: 'calibri';font-size: 15px;
+  }
+  .users{
+    display:block;
+    padding:  10px;
+    width:  200px;
+    margin-bottom:  20px;
+    text-align:  center;
+    margin-left:  auto;
+    margin-right:  auto;
+    cursor: text;
+  }
 
-.welcomebox p{
-  color: white;
-  text-align: center;
-}
-#forgotpass{
-  font-family: calibri;
-  font-size: 15px;
-  margin-bottom: 2px;
-  margin-top: -10px;
-}
+  #forgotpass{
+    font-family: calibri;
+    font-size: 16px;
+    cursor: pointer;
+  }
 
-.createaccount{
-  background: #16542e;
-  padding: 5px;
-  width: 270px;
-  text-align: center;
-  text-decoration-color: white;
-  margin:  auto;
-  margin-top: 10px;
-  font-size: 15px;
-  color: white;
-  font-family: calibri;
-}
+  .createaccount{
+    background: #16542e;
+    padding: 5px;
+    width: 270px;
+    text-align: center;
+    text-decoration-color: white;
+    margin:  auto;
+    margin-top: 10px;
+    font-size: 15px;
+    color: white;
+    font-family: calibri;
+    border-radius: 10px;
+  }
+  
 
-.users{
-  display:block;
-  padding:  10px;
-  width:  200px;
-  margin-bottom:  20px;
-  text-align:  center;
-  margin-left:  auto;
-  margin-right:  auto;
-  cursor: text;
-}
-#password{
-  margin-top: 10px;
-}
-#login{
-  display: block;
-  background-color: #8ea484ff;
-  border: 1px solid white;
-  padding:  5px;
-  margin-top: 15px;
-  width:  90px;
-  margin-bottom:  10px;
-  text-align:  center;
-  margin-left:  auto;
-  margin-right:  auto;
-  cursor: pointer;
-  font-family: 'Graduate';font-size: 15px;
-}
+  h1{
+    text-shadow: -1px 1px 0 white,
+                  1px 1px 0 white,
+                  1px -1px 0 white,
+                  -1px -1px 0 white; 
+  }
+  h2{
+    text-shadow: -1px 1px 0 white,
+                  1px 1px 0 white,
+                  1px -1px 0 white,
+                  -1px -1px 0 white; 
+  }
+  
+  .btn{
+    background-color:  #8ea484ff;
+    border: 1px solid white;
+    padding:  10px;
+  }
+
+  .btn:hover{
+    background-color:white;
+    transition: 0.7s;
+  }

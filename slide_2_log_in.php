@@ -47,7 +47,7 @@
                <input type="submit" id="login"value="LOGIN"/>
                </form>
            
-                <p id="forgotpass"><u>Forgot password?</u></p>
+                <p id="forgotpass"><a href="slide_3_forgot_password.php"><u>Forgot password?</u></a></p>
                 <div class="createaccount">
                   Don't have an account? <u>Sign up</u>
                 </div>  

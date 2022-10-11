@@ -72,14 +72,7 @@
   $result = mysqli_query($conn, $sql);
   $var = mysqli_fetch_all($result, MYSQLI_ASSOC);
   print_r($var);
- if($var)
- {
- echo "true";
- }
-else
-{
-echo "false"
-}
+echo count($var);
 //  echo $var[0]["firstName"];
 ?>
 

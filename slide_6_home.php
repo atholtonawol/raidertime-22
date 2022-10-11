@@ -33,19 +33,19 @@ body {
     
     <h3>Welcome, [User Name]</h3>
   
-  <div class = "pass">
-    <p class = "title">Radier Time Pass</p>
-    <p class = "name">Name: [First][Last]</p>
-    <p class = "teacher">Raider Time Teacher: [Last],[First]</p>
-    <p class = "location">Location: [Classroom No.]</p>
-    <p class = "date">Date: MM/DD/YYYY</p>
-    <img src = "https://ahs.hcpss.org/sites/default/files/atholtonhs.png"/>
-  </div>
+    <div class = "pass">
+      <p class = "title">Radier Time Pass</p>
+      <p class = "name">Name: $first_name $last_name</p>
+      <p class = "teacher">Raider Time Teacher: [Last],[First]</p>
+      <p class = "location">Location: [Classroom No.]</p>
+      <p class = "date">Date: MM/DD/YYYY</p>
+      <img src = "https://ahs.hcpss.org/sites/default/files/atholtonhs.png"/>
+    </div>
   
-  <div class = "changepass">
-    <!-- <a href = "#changepass">Change Sign-Up</a> -->
-    <a href = "slide_7.php">Change Sign-Up</a>
-  </div>
+    <div class = "changepass">
+      <!-- <a href = "#changepass">Change Sign-Up</a> -->
+      <a href = "slide_7.php">Change Sign-Up</a>
+    </div>
     
     <footer>
     

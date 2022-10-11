@@ -78,14 +78,14 @@ if(true)
       $first_name = $var[0]['firstName'];
       $last_name = $var[0]['lastName'];
      
-      $passDiv = getDiv('pass');
-      foreach($var[0] as $key => $value){
-        $passDiv = str_replace('{'.strtoupper($key).'}', $value, $passDiv);
-      }
+     // $passDiv = getDiv('pass');
+     //foreach($var[0] as $key => $value){
+        //$passDiv = str_replace('{'.strtoupper($key).'}', $value, $passDiv);
+      //}
 
       
-     print_r(getDiv("pass"));
-      document.getElementById('pass').innerHTML = <?php print_r(getDiv("pass")); ?>;
+    // print_r(getDiv("pass"));
+      //document.getElementById('pass').innerHTML = <?php print_r(getDiv("pass")); ?>;
     }
     
   

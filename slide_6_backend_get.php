@@ -51,7 +51,15 @@ if(true)
     $sql = "SELECT firstName, lastName FROM emails WHERE schoolUser = {$userName}";
     $result = mysqli_query($conn, $sql);
     $var = mysqli_fetch_all($result, MYSQLI_ASSOC);
-    echo $result[0]['firstName'];
+ 
+  echo "<br>var: ";
+   print_r($var);
+   echo "<br>sql: ";
+   print_r($sql);
+   echo "<br>result: ";
+   print_r($result);
+ echo "<br>result 0: ";
+    print_r($result[0]['firstName']);
   
   } else {
     echo "isset post username error";

@@ -91,7 +91,7 @@ else {echo "did not work";}
 // $row = mysqli_fetch_assoc($result);
 // echo $row;
 
-  $sql = 'SELECT firstName FROM studentInfo WHERE user = aaball6969';
+  $sql = 'SELECT firstName FROM studentInfo WHERE user = aaball696';
   $result = mysqli_query($conn, $sql);
   $var = mysqli_fetch_all($result, MYSQLI_ASSOC);
 echo print_r($var);

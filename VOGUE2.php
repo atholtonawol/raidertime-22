@@ -68,7 +68,9 @@
 // $row = mysqli_fetch_assoc($result);
 // echo $row;
 // aaball6969
- 
+
+
+//SENDS USER TO NEXT PAGE IF THE USERNAME ENTERED IS CORRECT
 if(isset($_POST["username"]))
 {
   $username = $_POST["username"];

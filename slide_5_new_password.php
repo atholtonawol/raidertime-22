@@ -10,7 +10,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
 <link rel="stylesheet" href="stlye.css"/>
 <!-- End Links -->
-    
+
+    <!-- Uses css code to create background image -->
 <style>
 body {
     font-family: 'Graduate';font-size: 22px;
@@ -18,6 +19,7 @@ body {
     background-size: cover;
 }
 </style>
+    <!-- End css code -->
   </head> 
     <body>
 
@@ -25,7 +27,9 @@ body {
       <?php
       require('menu_bar.html');
     ?>
-      
+
+      <!-- Start where bootstrap centers everything -->
+    <div class="row mt-5 justify-content-center text-center">  
     <div class="verification">
      <p>Enter Your new Password</p>
       <form action="" method="get">
@@ -42,7 +46,8 @@ body {
         </form>
       <a href="slide_2_log_in.php"><button class="users" type="button"><b>Change</b></button></a>
      </div>
-
+    </div>  
+<!-- End where bootstrap centers everything -->
      
   </body>
 

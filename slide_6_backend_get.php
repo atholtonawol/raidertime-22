@@ -1,4 +1,20 @@
 <?php
+//Returns the contents of a div 
+function getDiv($divName) {
+    $dom = new DOMDocument;
+    $dom -> loadHTML( $data );
+    $divs = $dom -> getElementsByTagName('div');
+
+    foreach ( $divs as $div )
+    {
+        if ( $div -> hasAttribute('class') && strpos( $div -> getAttribute('class'), $divName ) !== false )
+        {
+            return $div -> nodeValue;
+        }
+    }
+}
+
+
 echo("SLIDE 6 GET<br>");
 
 $servername = "50.87.190.153";
@@ -67,6 +83,8 @@ if(true)
       //These variables will be referenced by slide_6_home.php
       $first_name = $var[0]['firstName'];
       $last_name = $var[0]['lastName'];
+     
+     echo getDiv("pass");
     }
     
   

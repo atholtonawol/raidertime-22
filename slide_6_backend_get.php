@@ -1,6 +1,7 @@
 <?php
 //Returns the contents of a div 
 function getDiv($divName) {
+    echo "getdiv";
     $dom = new DOMDocument;
     $dom -> loadHTML( $data );
     $divs = $dom -> getElementsByTagName('div');
@@ -84,7 +85,7 @@ if(true)
       $first_name = $var[0]['firstName'];
       $last_name = $var[0]['lastName'];
      
-     echo getDiv("pass");
+     print_r(getDiv("pass"));
     }
     
   

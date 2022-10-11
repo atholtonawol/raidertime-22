@@ -8,7 +8,7 @@ function getDiv($divName) {
 
     foreach ( $divs as $div )
     {
-        if ( $div -> hasAttribute('class') && strpos( $div -> getAttribute('class'), $divName ) !== false )
+        if ( $div -> hasAttribute('class') && strpos( $div -> getAttribute('class'), "pass" ) !== false )
         {
             return $div -> nodeValue;
         }

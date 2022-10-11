@@ -1,12 +1,4 @@
 <?php
-//Returns the contents of a div 
-function getDiv($divName) {
-  echo "getdiv";
-  $dom = new DOMDocument();
-  $dom->loadHTML($html);
-  $xpath = new DOMXPath($dom);
-  $divContent = $xpath->query('//div[@id="'.$divName.'"]');
-}
 
 
 echo("SLIDE 6 GET<br>");
@@ -77,6 +69,12 @@ if(true)
       //These variables will be referenced by slide_6_home.php
       $first_name = $var[0]['firstName'];
       $last_name = $var[0]['lastName'];
+      
+      
+      $doc = new DomDocument();
+      $doc->loadHTMLFile('http://www.results.com');
+      $thediv = $doc->getElementById('pass');
+      echo $thediv->textContent;
      
      // $passDiv = getDiv('pass');
      //foreach($var[0] as $key => $value){

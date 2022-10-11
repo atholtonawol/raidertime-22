@@ -48,7 +48,7 @@ $userName = "kdamav7949";
 //if(isset($_POST['username']))
 if(true)
   {
-    $sql = 'SELECT firstName, lastName FROM studentInfo WHERE user="{$userName}"';
+    $sql = "SELECT firstName, lastName FROM studentInfo WHERE user=\"{$userName}\"";
  //$sql = 'SELECT firstName, lastName FROM studentInfo WHERE user="kdamav7949"';
    
     $result = mysqli_query($conn, $sql);

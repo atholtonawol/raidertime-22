@@ -75,9 +75,9 @@ if(isset($_POST["username"]))
   $sql = "SELECT firstName FROM studentInfo WHERE user = '{$username}'";
   $result = mysqli_query($conn, $sql);
   $var = mysqli_fetch_all($result, MYSQLI_ASSOC);
-  print_r($var);
   if(count($var) != 0)
   {
+     header("Location: https://www.google.com/");
      echo $var[0]['firstName'];
   }
   else

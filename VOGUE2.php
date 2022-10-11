@@ -67,8 +67,8 @@
 // $result = mysqli_query($conn, $names);
 // $row = mysqli_fetch_assoc($result);
 // echo $row;
-
-  $sql = "SELECT firstName FROM studentInfo WHERE user = 'aaball6969'";
+// aaball6969
+  $sql = "SELECT firstName FROM studentInfo WHERE user = 'someting'";
   $result = mysqli_query($conn, $sql);
   $var = mysqli_fetch_all($result, MYSQLI_ASSOC);
   print_r($var);

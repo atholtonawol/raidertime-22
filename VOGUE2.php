@@ -11,7 +11,7 @@
  if (!$conn) {
   die("Connection failed: " . mysqli_connect_error());
  }
-  
+  echo "hi"; 
  
 //  echo "<script type='text/javascript'>window.top.location='https://www.google.com//';
 //  </script>"; exit;

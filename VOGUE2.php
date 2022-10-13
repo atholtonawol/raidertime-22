@@ -75,6 +75,8 @@ if(isset($_POST["username"]) && isset($_POST["lname"]))
 {
   $username = $_POST["username"];
   $password = $_POST['lname'];
+  echo $username;
+ echo $lname;
   $sql = "SELECT firstName FROM studentInfo WHERE user = '{$username}'";
   $result = mysqli_query($conn, $sql);
   $var = mysqli_fetch_all($result, MYSQLI_ASSOC);
@@ -82,8 +84,8 @@ if(isset($_POST["username"]) && isset($_POST["lname"]))
   {
    
     
-    echo "<script type='text/javascript'>window.top.location='slide_5_new_password.php';
-    </script>"; exit;
+//     echo "<script type='text/javascript'>window.top.location='slide_5_new_password.php';
+//     </script>"; exit;
    $sql = "UPDATE studentInfo SET testing = '{$password}' WHERE user = '{$username}'";
    $result = mysqli_query($conn, $sql);
        

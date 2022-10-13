@@ -1,33 +1,28 @@
-.foot{
-     background-color: #003000;
-     position: sticky;
-  } 
-  
-
-
-  h1{
+h5{
+  font-family: graduate;
+  color: eeeeee;
+  padding-top: 9px;
+}
+.col-sm-2{
+  padding-top: 6px;
+  text-align: right;
+}
+.col-sm-7{
+  text-align: right;
+  padding-top: 6px;
+}
+.container-fluid{
+     background-color: #16542e;
+     height: 2.5rem;
+    position: fixed;
+     bottom: 0;
+} 
+ .container-fluid a{
     color: #eeeeee;
-    font-size: 17px;
-    padding: 12px 10px 12px 10px;
-    text-align: left;
-  }
- 
-  .foot a{
-    color: #eeeeee;
-    font-size: 17px;
-    padding: 8px 4px;  
-  }
-  
-
-
-  .foot a:hover{
+    font-family: graduate;
+    font-size: 18px;
+}
+.container-fluid a:hover{
     background-color: #eeeeee;
     color: #16542e;
-  }
-
-  
-
-  .active{
-    background-color: #eeeeee;
-    color: #16542e;
-  }
+}

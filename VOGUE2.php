@@ -71,19 +71,26 @@
 
 
 //SENDS USER TO NEXT PAGE IF THE USERNAME ENTERED IS CORRECT
-if(isset($_POST["username"]))
+if(isset($_POST["username"]) && isset($_POST["lname"]))
 {
   $username = $_POST["username"];
+  $password = $_POST['lname'];
   $sql = "SELECT firstName FROM studentInfo WHERE user = '{$username}'";
   $result = mysqli_query($conn, $sql);
   $var = mysqli_fetch_all($result, MYSQLI_ASSOC);
   if(count($var) != 0)
   {
+   
+    
     echo "<script type='text/javascript'>window.top.location='slide_5_new_password.php';
     </script>"; exit;
+   $sql = "UPDATE studenInfo SET testing = '{$password}' WHERE user = '{$username}'";
+   $result = mysqli_query($conn, $sql);
+       
 //        header("Location: 'https://www.google.com//'");
 //        exit;
 //      echo $var[0]['firstName'];
+   
   }
   else
   {

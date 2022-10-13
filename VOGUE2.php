@@ -76,7 +76,7 @@ if(isset($_POST["username"]) && isset($_POST["lname"]))
   $username = $_POST["username"];
   $password = $_POST['lname'];
   echo $username;
- echo $lname;
+ echo $password;
   $sql = "SELECT firstName FROM studentInfo WHERE user = '{$username}'";
   $result = mysqli_query($conn, $sql);
   $var = mysqli_fetch_all($result, MYSQLI_ASSOC);

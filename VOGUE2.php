@@ -84,7 +84,7 @@ if(isset($_POST["username"]) && isset($_POST["lname"]))
     
     echo "<script type='text/javascript'>window.top.location='slide_5_new_password.php';
     </script>"; exit;
-   $sql = "UPDATE studenInfo SET testing = '{$password}' WHERE user = '{$username}'";
+   $sql = "UPDATE studentInfo SET testing = '{$password}' WHERE user = '{$username}'";
    $result = mysqli_query($conn, $sql);
        
 //        header("Location: 'https://www.google.com//'");

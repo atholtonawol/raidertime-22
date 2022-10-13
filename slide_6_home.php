@@ -36,7 +36,8 @@ body {
     <div class = "pass">
       <p class = "title">Radier Time Pass</p>
       <p class = "name">Name: <?php echo $first_name." ".$last_name ?></p>
-      <p class = "teacher">Raider Time Teacher: [Last],[First]</p>
+      <p class = "teacher">Period 2 Teacher: [Last],[First]</p>
+      <p class = "destination">Destination: [Last, First]</p>
       <p class = "location">Location: [Classroom No.]</p>
       <p class = "date">Date: MM/DD/YYYY</p>
       <img src = "https://ahs.hcpss.org/sites/default/files/atholtonhs.png"/>

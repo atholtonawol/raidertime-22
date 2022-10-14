@@ -184,6 +184,20 @@
         <option value="Stuppy, Thomas">Stuppy, Thomas</option>
         <option value="Chaudhry, Mabrooka">Chaudhry, Mabrooka</option>
         <option value="Peddicord, Scott">Peddicord, Scott</option>
+         <?php 
+             
+        require '/home4/ahsraid1/public_html/database/connect.php';
+        if (!$conn) {
+           die("Connection failed: " . mysqli_connect_error());
+         } 
+   
+              $sql = 'SELECT teachers, room FROM teacherInfo';
+              $result = mysqli_query($conn, $sql);
+          while($row = mysqli_fetch_array($result)){
+             //FRONT END FIGURE OUT FORMATTING. ALIGN THE ROOM NUMBER TO THE RIGHT
+             echo "<option>". $row['teachers'].$row['room']."</option>";
+          }
+          ?>
       </select>
     </td>
     <!--When new teacher is selected from dropdown, pass preview should show.-->

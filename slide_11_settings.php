@@ -61,14 +61,7 @@
             </tbody>
           </table>
         </div>
-        <?php 
-             $sql = 'SELECT teachers FROM teacherInfo';
-               $result = mysqli_query($conn, $sql);
-             while($row = mysqli_fetch_array($result)){
-              echo $row['teachers'];
-             }
-        
-                  ?>
+
         <div class=" col-5 container-fluid">
           <h2>Default Sign-Up </h2>  
           <td>
@@ -79,7 +72,10 @@
               <option value="Stuppy, Thomas">Stuppy, Thomas</option>
               <option value="Chaudhry, Mabrooka">Chaudhry, Mabrooka</option>
               <option value="Peddicord, Scott">Peddicord, Scott</option>
-             <?php while($row = mysqli_fetch_array($result)){
+             <?php 
+              $sql = 'SELECT teachers FROM teacherInfo';
+              $result = mysqli_query($conn, $sql);
+              while($row = mysqli_fetch_array($result)){
               echo "<option>". $row['teachers']."</option>";
              }
               ?>

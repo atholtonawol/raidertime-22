@@ -76,7 +76,7 @@
               $sql = 'SELECT teachers, room FROM teacherInfo';
               $result = mysqli_query($conn, $sql);
               while($row = mysqli_fetch_array($result)){
-              echo "<option>". $row['teachers']."    ""</option>";
+              echo "<option>". $row['teachers']."    ".$row['room']."</option>";
              }
               ?>
             </select>

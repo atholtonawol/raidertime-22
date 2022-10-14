@@ -15,7 +15,7 @@
   </head>
   <body>
     <?php
-      require('menu_bar.html');
+//       require('menu_bar.html');
     ?>
     <div class="container">
     <h1>Raider Time Pass History</h1>

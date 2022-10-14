@@ -62,7 +62,7 @@
           </table>
         </div>
         <?php 
-              $sql = 'SELECT teachers FROM teacherInfo';
+             $sql = 'SELECT teachers FROM teacherInfo';
                $result = mysqli_query($conn, $sql);
              while($row = mysqli_fetch_array($result)){
               echo $row['teachers'];

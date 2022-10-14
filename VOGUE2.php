@@ -12,6 +12,13 @@
   die("Connection failed: " . mysqli_connect_error());
  }
   echo "hi"; 
+
+
+              $sql = 'SELECT teachers FROM teacherInfo';
+               $result = mysqli_query($conn, $sql);
+              $var = mysqli_fetch_all($result, MYSQLI_ASSOC);
+              echo $var;
+ 
  
 //  echo "<script type='text/javascript'>window.top.location='https://www.google.com//';
 //  </script>"; exit;

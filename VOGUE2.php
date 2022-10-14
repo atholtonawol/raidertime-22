@@ -11,7 +11,7 @@
  if (!$conn) {
   die("Connection failed: " . mysqli_connect_error());
  }
-  echo "hi"; 
+  echo "hello"; 
 
 
               $sql = 'SELECT teachers FROM teacherInfo';

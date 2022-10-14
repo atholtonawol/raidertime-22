@@ -62,7 +62,7 @@
           </table>
         </div>
         <?php 
-              $sql = 'SELECT teacher FROM raidertime_teachers';
+              $sql = 'SELECT teachers FROM teacherInfo';
                $result = mysqli_query($conn, $sql);
               $var = mysqli_fetch_all($result, MYSQLI_ASSOC);
               echo $var;

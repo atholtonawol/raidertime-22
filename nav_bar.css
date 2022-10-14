@@ -1,23 +1,23 @@
-.nav-link{
-  float: left;
-  margin:auto;
-  padding:15px;
-  font-size:15px;
+
+ .nav-link{
   background-color: #16542e;
   color: white;
   text-align: center;
   transition: all 0.3s ease;
-  text-decoration: none;
   border: 1.5px solid white;
+  float:left;
+  padding:30px;
+  font-size:20px;
+  text-decoration:none;
  }
 
- .nav-link a:hover{
+ .nav-item a:hover{
   background-color: white;
   color: #16542e;
   border: 1.5px solid #16542e;
  }
  
- .nav-link a:active{
+ .nav-item a:active{
   background-color: white;
   color: #16542e;
   border: 1.5px solid #16542e;

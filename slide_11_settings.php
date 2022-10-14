@@ -10,9 +10,6 @@
         if (!$conn) {
            die("Connection failed: " . mysqli_connect_error());
          } 
-        else{
-          echo"connected yay";
-          }
     ?>
     <style>
       body {
@@ -23,7 +20,7 @@
   </head>
   <body>
     <?php
-//       require('menu_bar.html');
+include('menu_bar.html');
     ?>
     <div class="container">
     <h1>Raider Time Pass History</h1>

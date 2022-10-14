@@ -16,7 +16,9 @@
 
               $sql = 'SELECT teachers FROM teacherInfo';
                $result = mysqli_query($conn, $sql);
-              $var = mysqli_fetch_array($result);
+             while($row = mysqli_fetch_array($result)){
+              echo $row['teachers'];
+             }
               echo $var;
  
  

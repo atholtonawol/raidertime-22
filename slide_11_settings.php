@@ -68,7 +68,8 @@
               <?php 
               $sql = 'SELECT firstName FROM emails';
                $result = mysqli_query($conn, $sql);
-              echo $result;
+              $var = mysqli_fetch_all($result, MYSQLI_ASSOC);
+              echo $var;
                   ?>
               <option autoComplete="on" list="suggestions" selected>Select New Teacher</option>
               <option value="Rhee, Hana">Rhee, Hana</option>

@@ -1,76 +1,180 @@
 h3{
-  color: #16542e;
-  text-align: center;
-}
+    color: #16542e;
+    text-align: center;
+  }
+  
+  .pass{
+    background-color: #16542e;
+    width: 450px;
+    height: 385px;
+    margin: auto;
+  }
+  
+  .title{
+    color: white;
+    text-align: center;
+    font-size: 23px;
+    padding-top: 7px;
+  }
 
-.pass{
-  background-color: #16542e;
-  width: 450px;
-  height: 385px;
-  margin: auto;
-}
+  .name{
+    color: white;
+    font-size: 18px;
+    padding: 5px;
+    padding-left: 20px;
+  }
+  
+  .teacher{
+    color: white;
+    font-size: 18px;
+    padding: 5px;
+    padding-left: 20px;
+  }
+  
+  .location{
+    color: white;
+    font-size: 18px;
+    padding: 5px;
+    padding-left: 20px;
+  }
+  
+  .date{
+    color: white;
+    font-size: 18px;
+    padding: 5px;
+    padding-bottom: 1px;
+    padding-left: 20px;
+  }
+  
+  img{
+    height: 130px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -5px;
+  }
+  
+  .changepass a{
+    text-align: center;
+    margin: auto;
+    width: 250px;
+    display: block;
+    margin-top: 20px;
+    background-color: #8ea484;
+    color: black;
+    border: 2px solid #16542e;
+    padding: 5px;
+    font: 20px Graduate;
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+  
+  .changepass a:hover{
+    background-color: #16542e;
+    color: white;
+    border: 2px solid white;
+  }
 
-.title{
-  color: white;
-  text-align: center;
-  font-size: 23px;
-  padding-top: 7px;
-}
+  :root {
+      --atholton-green: #16542eff;
+  }
+  
+  .btn{
+    background-color:  #8ea484ff;
+    border: 1px solid white;
+    padding:  10px;
+  }
+ 
+    .btn:hover{
+      background-color: white;
+      transition: 0.7s;
+    }
 
-.name{
-  color: white;
-  font-size: 18px;
-  padding: 5px;
-  padding-left: 20px;
-}
+    #pass-preview {
+      background: white;
+    }
 
-.teacher{
-  color: white;
-  font-size: 18px;
-  padding: 5px;
-  padding-left: 20px;
-}
+    .modal-content {
+        background: var(--atholton-green);
+    }
+    
+    .form-popup {
+      background-color: var(--atholton-green);
+      display: none;
+      height: 80%;
+      margin: auto;
+      outline: 5px dotted white;
+      position: auto;
+      width: 70%;
+      border-style: solid;
+      border-width: 20px;
+      border-color: var(--atholton-green);
+    }
 
-.location{
-  color: white;
-  font-size: 18px;
-  padding: 5px;
-  padding-left: 20px;
-}
+    h1 {
+      background: transparent;
+      color: white;
+      margin-top: 7%;
+      text-align: center;
+    }
 
-.date{
-  color: white;
-  font-size: 18px;
-  padding: 5px;
-  padding-bottom: 1px;
-  padding-left: 20px;
-}
+    h2 {
+      background: transparent;
+      color: white;
+      margin: 2%;
+      text-align: center;
+    }
 
-img{
-  height: 130px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: -5px;
-}
+    h4 {
+      background: white;
+      color: #16542E;
+      font-weight: bold;
+      margin-top: 10%;
+      text-align: center;
+    }
 
-.changepass a{
-  text-align: center;
-  margin: auto;
-  width: 250px;
-  display: block;
-  margin-top: 20px;
-  background-color: #8ea484;
-  color: black;
-  border: 2px solid #16542e;
-  padding: 5px;
-  font: 20px Graduate;
-  text-decoration: none;
-  transition: all 0.3s ease;
-}
+    h5 {
+      background: transparent;
+      color: white;
+      font-family: Calibri;
+      margin: 5%;
+      text-align: center;
+    }
 
-.changepass a:hover{
-  background-color: #16542e;
-  color: white;
-  border: 2px solid white;
-}
+    option {
+      background: white;
+      font-family: Calibri;
+      font-size: 15px;
+    }
+
+    select {
+      background: white;
+      font-family: Calibri;
+      font-size: 18px;
+      margin-bottom: 2%;
+      margin-left: 25%;
+      padding: 3px;
+      width: 50%;
+    }
+
+    ul {
+      list-style-type: none;
+      background: white;
+    }
+
+    li {
+      background: white;
+    }
+
+    li span {
+      display: inline-block;
+      background: white;
+    }
+
+    #title {
+      margin-top: 8%;
+    }
+
+    #student {
+      font-family: Calibri;
+    }

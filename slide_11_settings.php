@@ -66,7 +66,7 @@
           <td>
             <select name="teacher-dropdown" id="teacher-dropdown">
               <?php 
-              $sql = 'SELECT firstName FROM emails';
+              $sql = 'SELECT teacher FROM raidertime_teachers';
                $result = mysqli_query($conn, $sql);
               $var = mysqli_fetch_all($result, MYSQLI_ASSOC);
               echo $var;

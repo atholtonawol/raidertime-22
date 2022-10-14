@@ -61,16 +61,17 @@
             </tbody>
           </table>
         </div>
-        <div class=" col-5 container-fluid">
-          <h2>Default Sign-Up </h2>  
-          <td>
-            <select name="teacher-dropdown" id="teacher-dropdown">
-              <?php 
+        <?php 
               $sql = 'SELECT teacher FROM raidertime_teachers';
                $result = mysqli_query($conn, $sql);
               $var = mysqli_fetch_all($result, MYSQLI_ASSOC);
               echo $var;
                   ?>
+        <div class=" col-5 container-fluid">
+          <h2>Default Sign-Up </h2>  
+          <td>
+            <select name="teacher-dropdown" id="teacher-dropdown">
+              
               <option autoComplete="on" list="suggestions" selected>Select New Teacher</option>
               <option value="Rhee, Hana">Rhee, Hana</option>
               <option value="Stuppy, Thomas">Stuppy, Thomas</option>

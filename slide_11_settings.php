@@ -65,6 +65,11 @@
           <h2>Default Sign-Up </h2>  
           <td>
             <select name="teacher-dropdown" id="teacher-dropdown">
+              <?php 
+              $sql = 'SELECT firstName FROM emails';
+               $result = mysqli_query($conn, $sql);
+              echo $result;
+                  ?>
               <option autoComplete="on" list="suggestions" selected>Select New Teacher</option>
               <option value="Rhee, Hana">Rhee, Hana</option>
               <option value="Stuppy, Thomas">Stuppy, Thomas</option>

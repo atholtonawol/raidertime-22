@@ -19,7 +19,7 @@
       require('menu_bar.html');
     ?>
     <div class="pt-3 container-fluid">
-        <h1 id="heading">Raider Time Pass Schedule</h1>
+        <h1 id="heading">Raider Time Schedule</h1>
         <br>
           <div class="row justify-content-center">
             <div class = "schedule col-5 justify-content-center">

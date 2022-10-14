@@ -19,7 +19,7 @@
              while($row = mysqli_fetch_array($result)){
               echo $row['teachers'];
              }
-              echo $var;
+              
  
  
 //  echo "<script type='text/javascript'>window.top.location='https://www.google.com//';

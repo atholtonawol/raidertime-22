@@ -11,77 +11,7 @@
   <link href='https://fonts.googleapis.com/css?family=Graduate' rel='stylesheet'>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
-</head>
-  
-<body>
-  <!-- HTML -->
-  <div class="container mt-3">
-    <!-- Button that opens popup to change signup -->
-    <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#myPopup">
-      Change Signup
-    </button>
-  </div>
-
-  <div class="modal" id="myPopup">
-      <div class="modal-dialog">
-        <div class="modal-content">
-            <!-- Modal Header -->
-            <div class="modal-header border-0">
-              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
-            </div>
-            <div class="modal-body">
-              <!-- Modal body.. -->
-               <div class="position-relative">
-    </div>
-    <h1 class="display-5">Change Signup for MM/DD/YY</h1>
-    <!--Change next line to display teacher name and room number for current signup.-->
-    <h3>[Teacher Name] - [Room Number]</h3>
-    <h2 class="display-6">New Signup Selection</h2>
-
-    <td>
-      <select name="teacher-dropdown" id="teacher-dropdown">
-        <option autoComplete="on" list="suggestions" selected>Select New Teacher</option>
-        <option value="Rhee, Hana">Rhee, Hana</option>
-        <option value="Stuppy, Thomas">Stuppy, Thomas</option>
-        <option value="Chaudhry, Mabrooka">Chaudhry, Mabrooka</option>
-        <option value="Peddicord, Scott">Peddicord, Scott</option>
-      </select>
-    </td>
-    <!--When new teacher is selected from dropdown, pass preview should show.-->
-
-    <div class="pass-preview" style="background: white">
-      <h4 class="display-6" style="margin-top: 3%; padding-top: 20px">Pass Preview</h4>
-      <ul>
-        <li>
-          <span id="title">NAME:</span>
-          <span id="student">[First] [Last]</span>
-        </li>
-        <li>
-          <span id="title">RAIDER TIME TEACHER:</span>
-          <span id="student">[Last], [First]</span>
-        </li>
-        <li>
-          <span id="title">LOCATION:</span>
-          <span id="student">[Classroom No.]</span>
-        </li>
-        <li style="padding-bottom: 5%">
-          <span id="title">DATE:</span>
-          <span id="student">MM/DD/YY</span>
-        </li>
-      </ul>
-    </div>
-
-    <!--When student is satisfied with pass preview and new teacher selected, they press button to enact changes.-->
-     <div class="col text-center">
-              <button type="button" class="btn mt-3" style="margin-bottom: 1%">Submit
-      Change</button>
-     </div>
-            </div>
-        </div>
-      </div>
-  </div>  
-
-  <!-- CSS -->
+    <!-- CSS -->
   <style>
     :root {
       --atholton-green: #16542eff;
@@ -98,7 +28,14 @@
       padding:  10px;
     }
  
-    .btn:hover{
+    .btn:hover{  <!-- CSS -->
+  <style>
+    :root {
+      --atholton-green: #16542eff;
+    }
+    
+    body {
+      font-family: 'Graduate';
       background-color: white;
       transition: 0.7s;
     }
@@ -211,6 +148,79 @@
     #student {
       font-family: Calibri;
     }
+  </style>
+  
+</head>
+  
+<body>
+  <!-- HTML -->
+  <div class="container mt-3">
+    <!-- Button that opens popup to change signup -->
+    <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#myPopup">
+      Change Signup
+    </button>
+  </div>
+
+  <div class="modal" id="myPopup">
+      <div class="modal-dialog">
+        <div class="modal-content">
+            <!-- Modal Header -->
+            <div class="modal-header border-0">
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+              <!-- Modal body.. -->
+               <div class="position-relative">
+    </div>
+    <h1 class="display-5">Change Signup for MM/DD/YY</h1>
+    <!--Change next line to display teacher name and room number for current signup.-->
+    <h3>[Teacher Name] - [Room Number]</h3>
+    <h2 class="display-6">New Signup Selection</h2>
+
+    <td>
+      <select name="teacher-dropdown" id="teacher-dropdown">
+        <option autoComplete="on" list="suggestions" selected>Select New Teacher</option>
+        <option value="Rhee, Hana">Rhee, Hana</option>
+        <option value="Stuppy, Thomas">Stuppy, Thomas</option>
+        <option value="Chaudhry, Mabrooka">Chaudhry, Mabrooka</option>
+        <option value="Peddicord, Scott">Peddicord, Scott</option>
+      </select>
+    </td>
+    <!--When new teacher is selected from dropdown, pass preview should show.-->
+
+    <div class="pass-preview" style="background: white">
+      <h4 class="display-6" style="margin-top: 3%; padding-top: 20px">Pass Preview</h4>
+      <ul>
+        <li>
+          <span id="title">NAME:</span>
+          <span id="student">[First] [Last]</span>
+        </li>
+        <li>
+          <span id="title">RAIDER TIME TEACHER:</span>
+          <span id="student">[Last], [First]</span>
+        </li>
+        <li>
+          <span id="title">LOCATION:</span>
+          <span id="student">[Classroom No.]</span>
+        </li>
+        <li style="padding-bottom: 5%">
+          <span id="title">DATE:</span>
+          <span id="student">MM/DD/YY</span>
+        </li>
+      </ul>
+    </div>
+
+    <!--When student is satisfied with pass preview and new teacher selected, they press button to enact changes.-->
+     <div class="col text-center">
+              <button type="button" class="btn mt-3" style="margin-bottom: 1%">Submit
+      Change</button>
+     </div>
+            </div>
+        </div>
+      </div>
+  </div>  
+
+
   <!-- JavaScript -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js">
     

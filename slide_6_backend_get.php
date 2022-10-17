@@ -14,7 +14,7 @@ if (!$conn) {
 
 
 /*
-   $sql = 'SELECT firstName, lastName FROM studentInfo WHERE user="kdamav7949"';
+   $sql = 'SELECT firstName, lastName FROM student_info WHERE user="kdamav7949"';
    $result = mysqli_query($conn, $sql);
    $var = mysqli_fetch_all($result, MYSQLI_ASSOC);
    echo "<br>var: ";
@@ -43,7 +43,7 @@ $userName = "ashahe8615";
 //if(isset($_POST['username']))
 if(true)
   {
-    $sql = 'SELECT firstName, lastName FROM studentInfo WHERE user="'.$userName.'"';   //The query sent to the SQL server (mySQL?)
+    $sql = 'SELECT firstName, lastName FROM student_info WHERE user="'.$userName.'"';   //The query sent to the SQL server (mySQL?)
     $result = mysqli_query($conn, $sql);   //Connects to the SQL server and sends the $sql query. The server responds with an object containing the result of the query.
     $var = mysqli_fetch_all($result, MYSQLI_ASSOC);   //Takes the result object from the server, and turns it into an associative array that is easy to reference in our code.
  

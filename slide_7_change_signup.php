@@ -191,7 +191,7 @@
            die("Connection failed: " . mysqli_connect_error());
          } 
    
-              $sql = 'SELECT teachers, room FROM teacherInfo';
+              $sql = 'SELECT teachers, room FROM teacherInfoOld';
               $result = mysqli_query($conn, $sql);
           while($row = mysqli_fetch_array($result)){
              //FRONT END FIGURE OUT FORMATTING. ALIGN THE ROOM NUMBER TO THE RIGHT
@@ -234,8 +234,14 @@
       </div>
   </div>  
 
-
   
+  
+  <?php
+    if(isset($_POST["teacher-dropdown"]))
+    {
+    
+    }
+  ?>
   <!-- JavaScript -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js">
     

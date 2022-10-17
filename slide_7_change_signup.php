@@ -243,9 +243,17 @@
     if(isset($_POST["teacher-dropdown"]))
     {
     $var = $_POST["teacher-dropdown"];
-//     $sql = "UPDATE studentInfo SET newTeacher = '$var' WHERE lastName = 'Aballo'";
+    $sql = "UPDATE studentInfo SET newTeacher = '{$var}' WHERE lastName = 'Aballo'";
     echo $var; 
-    $result = mysqli_query($conn, $sql);
+      if(mysqli_query($conn, $sql))
+      {
+      echo "It worked";
+      }
+      else
+      {
+      echo mysqli_error($conn);
+      }
+//     $result = mysqli_query($conn, $sql);
     }
     ?>
 

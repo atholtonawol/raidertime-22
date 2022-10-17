@@ -239,11 +239,12 @@
   </div>  
 
   
-      <?php
+    <?php
     if(isset($_POST["teacher-dropdown"]))
     {
     $var = $_POST["teacher-dropdown"];
-    $sql = "UPDATE studentInfo SET newTeacher = '$_POST["teacher-dropdown"]' WHERE lastName = 'Aballo'";
+//     $sql = "UPDATE studentInfo SET newTeacher = '$var' WHERE lastName = 'Aballo'";
+    echo $var; 
     $result = mysqli_query($conn, $sql);
     }
     ?>

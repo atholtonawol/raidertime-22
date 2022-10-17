@@ -201,6 +201,11 @@
           ?>
       </select>
     </td>
+      <div class="col text-center">
+      <button type="submit" class="btn mt-3" style="margin-bottom: 1%">Submit
+      Change
+      </button>
+      </div>
     </form>
     <!--When new teacher is selected from dropdown, pass preview should show.-->
 
@@ -227,10 +232,7 @@
     </div>
 
     <!--When student is satisfied with pass preview and new teacher selected, they press button to enact changes.-->
-     <div class="col text-center">
-              <button type="button" class="btn mt-3" style="margin-bottom: 1%">Submit
-      Change</button>
-     </div>
+
             </div>
         </div>
       </div>

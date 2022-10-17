@@ -14,11 +14,12 @@
   echo "hello"; 
 
 
-              $sql = 'SELECT teachers FROM teacherInfo';
-               $result = mysqli_query($conn, $sql);
-             while($row = mysqli_fetch_array($result)){
-              echo "<p>".$row['teachers']."</p>";
-             }
+  $sql = 'SELECT teachers FROM teacherInfo';
+  $result = mysqli_query($conn, $sql);
+  while($row = mysqli_fetch_array($result)){
+      echo "<p>".$row['teachers']."</p>";
+  }
+             
               
  
  

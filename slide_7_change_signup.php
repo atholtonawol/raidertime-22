@@ -206,14 +206,7 @@
       </button>
       </div>
     </form>
-    <?php
-    if(isset($_POST["teacher-dropdown"]))
-    {
-    $var = $_POST["teacher-dropdown"];
-    $sql = "UPDATE studentInfo SET newTeacher = '$_POST["teacher-dropdown"]' WHERE lastName = 'Aballo'";
-    $result = mysqli_query($conn, $sql);
-    }
-    ?>
+
     <!--When new teacher is selected from dropdown, pass preview should show.-->
 
     <div class="pass-preview" style="background: white">
@@ -246,7 +239,14 @@
   </div>  
 
   
-  
+      <?php
+    if(isset($_POST["teacher-dropdown"]))
+    {
+    $var = $_POST["teacher-dropdown"];
+    $sql = "UPDATE studentInfo SET newTeacher = '$_POST["teacher-dropdown"]' WHERE lastName = 'Aballo'";
+    $result = mysqli_query($conn, $sql);
+    }
+    ?>
 
   <!-- JavaScript -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js">

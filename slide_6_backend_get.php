@@ -43,27 +43,36 @@ $userName = "ashahe8615";
 //if(isset($_POST['username']))
 if(true)
   {
-    $sql = 'SELECT firstName, lastName FROM student_info WHERE user="'.$userName.'"';   //The query sent to the SQL server (mySQL?)
-    $result = mysqli_query($conn, $sql);   //Connects to the SQL server and sends the $sql query. The server responds with an object containing the result of the query.
-    $var = mysqli_fetch_all($result, MYSQLI_ASSOC);   //Takes the result object from the server, and turns it into an associative array that is easy to reference in our code.
+    //Connect to student_info
+    $s_sql = 'SELECT firstName, lastName, hrTeacher, newTeacher FROM student_info WHERE user="'.$userName.'"';   //The query sent to the SQL server (mySQL?)
+    $s_result = mysqli_query($conn, $sql);   //Connects to the SQL server and sends the $s_sql query. The server responds with an object containing the result of the query.
+    $s_var = mysqli_fetch_all($result, MYSQLI_ASSOC);   //Takes the result object from the server, and turns it into an associative array that is easy to reference in our code.
  
-    echo "<br>var: ";
-    print_r($var);
-    echo "<br>sql: ";
-    print_r($sql);
-    echo "<br>result: ";
-    print_r($result);
-    echo "<br>var 0: ";
-    print_r($var[0]['firstName']);
     
-    if (count($var) != 1) { //Ensure that exactly one result was found
-      echo 'Invalid SQL result: Number of results is '.count($var).' instead of 1!';
+    if (count($s_var) != 1) { //Ensure that exactly one result was found
+      echo 'Invalid SQL result: Number of results is '.count($s_var).' instead of 1!';
     } else {
       //These variables will be referenced by slide_6_home.php
-      $first_name = $var[0]['firstName'];
-      $last_name = $var[0]['lastName'];
-    }
-    
+      $first_name = $s_var[0]['firstName'];
+      $last_name = $s_var[0]['lastName'];
+      $hr_teacher = $s_var[0]['hrTeacher'];
+      $new_teacher = $s_var[0]['newTeacher'];
+     
+      //Connect to teacher_info
+      $t_sql = 'SELECT name, room FROM teacher_info WHERE id='.$hr_teacher;   //The query sent to the SQL server (mySQL?)
+      $t_result = mysqli_query($conn, $sql);   //Connects to the SQL server and sends the $t_sql query. The server responds with an object containing the result of the query.
+      $t_var = mysqli_fetch_all($result, MYSQLI_ASSOC);   //Takes the result object from the server, and turns it into an associative array that is easy to reference in our code.
+
+
+      if (count($t_var) != 1) { //Ensure that exactly one result was found
+        echo 'Invalid SQL result: Number of results is '.count($t_var).' instead of 1!';
+      } else {
+        //These variables will be referenced by slide_6_home.php
+        $first_name = $s_var[0]['firstName'];
+        $last_name = $s_var[0]['lastName'];
+
+      }
+
   
   } else {
     echo "isset post username error";

@@ -177,6 +177,7 @@
     <h3>[Teacher Name] - [Room Number]</h3>
     <h2 class="display-6">New Signup Selection</h2>
 
+    <form method = "POST">
     <td>
       <select name="teacher-dropdown" id="teacher-dropdown">
         <option autoComplete="on" list="suggestions" selected>Select New Teacher</option>
@@ -200,6 +201,7 @@
           ?>
       </select>
     </td>
+    </form>
     <!--When new teacher is selected from dropdown, pass preview should show.-->
 
     <div class="pass-preview" style="background: white">
@@ -239,6 +241,7 @@
   <?php
     if(isset($_POST["teacher-dropdown"]))
     {
+      $var = $_POST["teacher-dropdown"];
     $sql = "UPDATE studentInfo SET newTeacher = '$_POST["teacher-dropdown"]' WHERE lastName = 'Aballo'";
     $result = mysqli_query($conn, $sql);
     }

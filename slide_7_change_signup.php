@@ -239,7 +239,8 @@
   <?php
     if(isset($_POST["teacher-dropdown"]))
     {
-    
+    $sql = "UPDATE studentInfo SET newTeacher = '$_POST["teacher-dropdown"]'";
+    $result = mysqli_query($conn, $sql);
     }
   ?>
   <!-- JavaScript -->

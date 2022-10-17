@@ -13,7 +13,7 @@
  }
   echo "hello"; 
 
-echo "<a href = 'https://ahsraidertime.org/repositories/raidertime-22/slide_7_change_signup.php'>"
+echo "<a href = 'https://ahsraidertime.org/repositories/raidertime-22/slide_7_change_signup.php'>";
 
   $sql = 'SELECT teachers FROM teacherInfo';
   $result = mysqli_query($conn, $sql);

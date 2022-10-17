@@ -202,8 +202,7 @@
       </select>
     </td>
       <div class="col text-center">
-      <button type="submit" class="btn mt-3" style="margin-bottom: 1%">Submit
-      Change
+      <button type="submit" class="btn mt-3" style="margin-bottom: 1%">Submit Teacher
       </button>
       </div>
     </form>

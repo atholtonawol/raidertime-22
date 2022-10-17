@@ -15,7 +15,7 @@
 
 echo "<a href = 'https://ahsraidertime.org/repositories/raidertime-22/slide_7_change_signup.php'>Slide 7</a>";
 
-  $sql = 'SELECT teachers FROM teacherInfo';
+  $sql = 'SELECT name FROM teacher_info';
   $result = mysqli_query($conn, $sql);
   while($row = mysqli_fetch_array($result)){
       echo "<p>".$row['teachers']."</p>";
@@ -54,7 +54,7 @@ echo "<a href = 'https://ahsraidertime.org/repositories/raidertime-22/slide_7_ch
 //   if ($result === TRUE)
 //   {
 //   echo "vihan";
-//   $sql = 'SELECT firstName FROM studentInfo WHERE user={$userName}';
+//   $sql = 'SELECT firstName FROM student_info WHERE user={$userName}';
 //   $result = mysqli_query($conn, $sql);
 //   $var = mysqli_fetch_all($result, MYSQLI_ASSOC);
 //   echo $result[0]['firstName'];
@@ -88,7 +88,7 @@ if(isset($_POST["username"]) && isset($_POST["lname"]))
   $password = $_POST['lname'];
   echo $username;
  echo $password;
-  $sql = "SELECT firstName FROM studentInfo WHERE user = '{$username}'";
+  $sql = "SELECT firstName FROM student_info WHERE user = '{$username}'";
   $result = mysqli_query($conn, $sql);
   $var = mysqli_fetch_all($result, MYSQLI_ASSOC);
   if(count($var) != 0)
@@ -97,7 +97,7 @@ if(isset($_POST["username"]) && isset($_POST["lname"]))
     
 //     echo "<script type='text/javascript'>window.top.location='slide_5_new_password.php';
 //     </script>"; exit;
-   $sql = "UPDATE studentInfo SET password = '{$password}' WHERE user = '{$username}'";
+   $sql = "UPDATE student_info SET password = '{$password}' WHERE user = '{$username}'";
    $result = mysqli_query($conn, $sql);
        
 //        header("Location: 'https://www.google.com//'");

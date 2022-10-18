@@ -48,33 +48,29 @@
       font-size: 22px;
     }
 
-    button {
-      font-family: Graduate;
-      font-size: 3vw;
+    .btn{
+      background-color:  #8ea484ff;
+      border: 1px solid white;
+      padding:  10px;
+    }
+ 
+    .btn:hover{
+      background-color: white;
+      transition: 0.7s;
     }
 
-    .btn {
-      background-color: #8ea484ff;
-      color: black;
-      margin-bottom: 5%;
-    }
+    div {}
 
-    .btn-cancel {
-      background-color: transparent;
-      border: none;
-      color: white;
-    }
+    .spacing {}
 
     #pass-preview {
       background: white;
-      margin: 3%;
-      margin-left: 15%;
-      margin-right: 15%;
-      padding-left: 5%;
-      padding-right: 5%;
-      padding-top: 1px;
     }
 
+    .modal-content {
+        background: var(--atholton-green);
+    }
+    
     .form-popup {
       background-color: var(--atholton-green);
       display: none;

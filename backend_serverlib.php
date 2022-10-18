@@ -4,12 +4,12 @@
 
 
 //======== STUDENT_INFO ========//
-
+/*
 /* SER_get_student
 Get the information of one student
 $username - The username of the student in the database
 $column - Which column you want from the database (only one column!)
-*/
+/*
 function SER_get_student(int $username, String $column) {
     $sql = 'SELECT '.$column.' FROM student_info WHERE user="'.$username.'"';   //The query sent to the mySQL server
     $result = mysqli_query($conn, $sql);   //Connects to the SQL server and sends the $sql query. The server responds with an object containing the result of the query.
@@ -20,7 +20,7 @@ function SER_get_student(int $username, String $column) {
     } else {
         return var[0][$column];
 }
-
+*/
 
 //======== TEACHER_INFO ========//
 
@@ -31,6 +31,8 @@ $id - The ID of the teacher in the database
 $column - Which column you want from the database (only one column!)
 */
 function SER_get_teacher(int $id, String $column) {
+    echo $column;
+    /*
     $sql = 'SELECT '.$column.' FROM teacher_info WHERE id='.$id;  //The query sent to the mySQL server
     $result = mysqli_query($conn, $sql);  //Connects to the SQL server and sends the $sql query. The server responds with an object containing the result of the query.
     $var = mysqli_fetch_all($result, MYSQLI_ASSOC);  //Takes the result object from the server, and turns it into an associative array that is easy to reference in our code.
@@ -41,6 +43,7 @@ function SER_get_teacher(int $id, String $column) {
         //These variables will be referenced by slide_6_home.php
         return var[0][$column];
     }
+    */
 }
 
 

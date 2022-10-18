@@ -27,6 +27,8 @@
      require('slide_6_backend_get.php');
    ?>
     
+     Note: "Choose a teacher" and "Room" are the default values in the database for those fields. When a user is logged in, they will be replaced with the actual data.  
+  
     <!--
     <nav>
       <button type = "button">Home</button>

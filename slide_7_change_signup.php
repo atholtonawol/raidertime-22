@@ -192,7 +192,7 @@
            die("Connection failed: " . mysqli_connect_error());
          } 
    
-              $sql = 'SELECT teachers, room FROM teacherInfoOld';
+              $sql = 'SELECT teachers, room FROM old_teacherInfo';
               $result = mysqli_query($conn, $sql);
           while($row = mysqli_fetch_array($result)){
              //FRONT END FIGURE OUT FORMATTING. ALIGN THE ROOM NUMBER TO THE RIGHT

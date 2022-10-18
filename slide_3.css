@@ -16,9 +16,11 @@ h3{
 }
 .words {
     color: white;
-    font-size: 100%;
+    font-size: 90%;
     padding: 5px;
     text-align: center;
+    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+
 }
 input[type=text]{
   width: 398px;

@@ -37,7 +37,7 @@
   
     <div class = "pass">
       <p class = "title">Raider Time Pass</p>
-      <p class = "name">Name: <?php echo $first_name." ".$last_name ?></p>
+      <p class = "name">Name: asdf</p>
       <p class = "teacher">Period 2 Teacher: [Last],[First]</p>
       <!-- <p class = "destination">Destination: [Last, First]</p> -->
       <p class = "location">Location: [Classroom No.]</p>

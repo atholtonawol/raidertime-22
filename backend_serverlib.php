@@ -13,7 +13,7 @@ Get the information of one teacher
 $id - The ID of the teacher in the database
 $column - Which column you want from the database (only one column!)
 */
-function beser_get_teacher(int $id, String $column) {
+function SER_get_teacher(int $id, String $column) {
     $sql = 'SELECT '.$column.' FROM teacher_info WHERE id='.$new_id;  //The query sent to the mySQL server
     $result = mysqli_query($conn, $sql);  //Connects to the SQL server and sends the $sql query. The server responds with an object containing the result of the query.
     $var = mysqli_fetch_all($result, MYSQLI_ASSOC);  //Takes the result object from the server, and turns it into an associative array that is easy to reference in our code.

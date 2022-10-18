@@ -1,12 +1,7 @@
 <?php
 echo("SLIDE 6 GET<br>");
 
-$servername = "50.87.190.153";
-$username = "ahsraid1_awol23";
-$password = "12345";
-
-//Create connection
-$conn = mysqli_connect($servername, $username, $password, "ahsraid1_awol23");
+require '/home4/ahsraid1/public_html/database/connect.php';
 
 if (!$conn) {
     die("Connection failed: " . mysqli_connect_error());

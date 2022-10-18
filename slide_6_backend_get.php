@@ -19,8 +19,7 @@ $userName = "ashahe8615";
 
 
 //if(isset($_POST['username']))
-if(true)
-  {
+if(true) {
     //Connect to student_info
     $s_sql = 'SELECT firstName, lastName FROM student_info WHERE user="'.$userName.'"';   //The query sent to the SQL server (mySQL?)
     $s_result = mysqli_query($conn, $s_sql);   //Connects to the SQL server and sends the $s_sql query. The server responds with an object containing the result of the query.
@@ -28,15 +27,16 @@ if(true)
  
     print_r($s_sql);
  print_r($s_var);
+ /*
     if (count($s_var) != 1) { //Ensure that exactly one result was found
       echo 'Invalid SQL result for student_info: Number of results is '.count($s_var).' instead of 1!';
     } else {
       //These variables will be referenced by slide_6_home.php
       $first_name = $s_var[0]['firstName'];
       $last_name = $s_var[0]['lastName'];
-      //$hr_teacher = $s_var[0]['hrTeacher'];
-      //$new_teacher = $s_var[0]['newTeacher'];
-     /*
+      $hr_teacher = $s_var[0]['hrTeacher'];
+      $new_teacher = $s_var[0]['newTeacher'];
+     
       //Connect to teacher_info
       $t_sql = 'SELECT name, room FROM teacher_info WHERE id='.$hr_teacher;   //The query sent to the SQL server (mySQL?)
       $t_result = mysqli_query($conn, $t_sql);   //Connects to the SQL server and sends the $t_sql query. The server responds with an object containing the result of the query.

@@ -36,13 +36,14 @@ $id - The ID of the teacher in the database
 $column - Which column you want from the database (only one column!)
 */
 function SER_get_teacher(int $id, String $column) {
-    $sql = 'SELECT '.$column.' FROM teacher_info WHERE id='.$id;  //The query sent to the mySQL server
+    /*$sql = 'SELECT '.$column.' FROM teacher_info WHERE id='.$id;  //The query sent to the mySQL server
     $result = mysqli_query($conn, $sql);  //Connects to the SQL server and sends the $sql query. The server responds with an object containing the result of the query.
     print_r($sql);
     print_r($result);
     
     $var = mysqli_fetch_all($result, MYSQLI_ASSOC);  //Takes the result object from the server, and turns it into an associative array that is easy to reference in our code.
     print_r($var);
+    */
     /*
     if (count($var) != 1) { //Ensure that exactly one result was found
         echo 'Invalid SQL result in get_teacher('.$id.'): Number of results is '.count($var).' instead of 1!';
@@ -51,6 +52,17 @@ function SER_get_teacher(int $id, String $column) {
         return var[0][$column];
     }
     */
+    $new_sql = 'SELECT name, room FROM teacher_info WHERE id='.$id;
+        $new_result = mysqli_query($conn, $new_sql);
+        $new_var = mysqli_fetch_all($new_result, MYSQLI_ASSOC);
+        if (count($new_var) != 1) { //Ensure that exactly one result was found
+            echo 'Invalid SQL result for teacher_info: Number of results is '.count($new_var).' instead of 1!';
+        } else {
+            //These variables will be referenced by slide_6_home.php
+            $new_name = $new_var[0]['name'];
+            $new_room = $new_var[0]['room'];
+            return $new_name;
+        }
 }
 
 

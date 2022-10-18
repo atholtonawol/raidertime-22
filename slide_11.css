@@ -39,6 +39,7 @@
 
 
 
+   <style>
     :root {
       --atholton-green: #16542eff;
     }
@@ -54,7 +55,14 @@
       padding:  10px;
     }
  
-    .btn:hover{
+    .btn:hover{  <!-- CSS -->
+  <style>
+    :root {
+      --atholton-green: #16542eff;
+    }
+    
+    body {
+      font-family: 'Graduate';
       background-color: white;
       transition: 0.7s;
     }

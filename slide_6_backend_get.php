@@ -31,7 +31,7 @@ if(true) {
         $last_name = $s_var[0]['lastName'];
         $hr_id = $s_var[0]['hrTeacher'];
         $new_id = $s_var[0]['newTeacher'];
-        /*
+        
         //Connect to teacher_info
         $t_sql = 'SELECT name, room FROM teacher_info WHERE id='.$hr_id;   //The query sent to the SQL server (mySQL?)
         $t_result = mysqli_query($conn, $t_sql);   //Connects to the SQL server and sends the $t_sql query. The server responds with an object containing the result of the query.
@@ -46,12 +46,10 @@ if(true) {
             $new_room = $s_var[0]['room'];
 
         }
-        */
+        
     }
 
-    $hr_name = "hrname";
     $new_name = "newname";
-    $new_room = "newroom";
 } else {
     echo "isset post username error";
 }

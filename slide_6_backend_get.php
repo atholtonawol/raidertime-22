@@ -23,10 +23,11 @@ if(true)
   {
     //Connect to student_info
     $s_sql = 'SELECT firstName, lastName FROM student_info WHERE user="'.$userName.'"';   //The query sent to the SQL server (mySQL?)
-    $s_result = mysqli_query($conn, $sql);   //Connects to the SQL server and sends the $s_sql query. The server responds with an object containing the result of the query.
-    $s_var = mysqli_fetch_all($result, MYSQLI_ASSOC);   //Takes the result object from the server, and turns it into an associative array that is easy to reference in our code.
+    $s_result = mysqli_query($conn, $s_sql);   //Connects to the SQL server and sends the $s_sql query. The server responds with an object containing the result of the query.
+    $s_var = mysqli_fetch_all($s_result, MYSQLI_ASSOC);   //Takes the result object from the server, and turns it into an associative array that is easy to reference in our code.
  
-    
+    printr($s_sql);
+ printr($s_var);
     if (count($s_var) != 1) { //Ensure that exactly one result was found
       echo 'Invalid SQL result for student_info: Number of results is '.count($s_var).' instead of 1!';
     } else {
@@ -38,8 +39,8 @@ if(true)
      /*
       //Connect to teacher_info
       $t_sql = 'SELECT name, room FROM teacher_info WHERE id='.$hr_teacher;   //The query sent to the SQL server (mySQL?)
-      $t_result = mysqli_query($conn, $sql);   //Connects to the SQL server and sends the $t_sql query. The server responds with an object containing the result of the query.
-      $t_var = mysqli_fetch_all($result, MYSQLI_ASSOC);   //Takes the result object from the server, and turns it into an associative array that is easy to reference in our code.
+      $t_result = mysqli_query($conn, $t_sql);   //Connects to the SQL server and sends the $t_sql query. The server responds with an object containing the result of the query.
+      $t_var = mysqli_fetch_all($t_result, MYSQLI_ASSOC);   //Takes the result object from the server, and turns it into an associative array that is easy to reference in our code.
 
 
       if (count($t_var) != 1) { //Ensure that exactly one result was found

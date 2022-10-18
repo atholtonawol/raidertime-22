@@ -9,6 +9,7 @@ h3{
   height: autopx;
   margin: auto;
   margin-bottom: 15px;
+  border-radius: 20px;
 
 }
 
@@ -21,28 +22,28 @@ h3{
 
 .name{
   color: grey;
-  font-size: 18px;
+  font-size: 21px;
   padding: 5px;
   padding-left: 20px;
 }
 
 .teacher{
   color: grey;
-  font-size: 18px;
+  font-size: 21px;
   padding: 5px;
   padding-left: 20px;
 }
 
 .location{
   color: grey;
-  font-size: 18px;
+  font-size: 21px;
   padding: 5px;
   padding-left: 20px;
 }
 
 .date{
   color: grey;
-  font-size: 18px;
+  font-size: 21px;
   padding: 5px;
   padding-bottom: 1px;
   padding-left: 20px;

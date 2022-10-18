@@ -1,20 +1,23 @@
 <!DOCTYPE html>
 <html>
-<head>
+    <head>
+    <title>Home Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="slide_2.css">
     <link href='https://fonts.googleapis.com/css?family=Graduate' rel='stylesheet'>
-    <style>
-        body {
-            font-family: 'Graduate';
-            background-image: url('https://github.com/atholtonawol/raidertime-22/blob/main/assets/image/bw%20atholton%20building%20img.jpg?raw=true');
-            background-size: cover;
-        }
-    </style>
-   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-  <link rel="stylesheet" href="slide_3.css">
-</head>
+    
+<style>
+  body {
+    font-family: 'Graduate';font-size: 22px;
+    background-image: url('https://github.com/atholtonawol/raidertime-22/blob/main/assets/image/color%20atholton%20building.jpg?raw=true');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: gainsboro;
+    
+  }
 
+</style>
+</head>
 <body>
   <div class="row justify-content-center text-center">
     <div class="welcomebox col-md-6 col-10 mt-5 justify-content-center text-center">
@@ -47,6 +50,5 @@
       </div>
      </div>
   </footer>
-
-</body>
+ </body>
 </html>

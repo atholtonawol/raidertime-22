@@ -2,6 +2,7 @@
 echo("SLIDE 6 GET<br>");
 
 require '/home4/ahsraid1/public_html/database/connect.php';
+require 'backend_serverlib.php';
 
 if (!$conn) {
     die("Connection failed: " . mysqli_connect_error());
@@ -33,7 +34,7 @@ if(true) {
         $hr_id = $s_var[0]['hrTeacher'];
         $new_id = $s_var[0]['newTeacher'];
         
-        
+        /*
         //==== Connect to teacher_info to grab Homeroom teacher info ====//
         
         $hr_sql = 'SELECT name FROM teacher_info WHERE id='.$hr_id;
@@ -61,6 +62,11 @@ if(true) {
             $new_name = $new_var[0]['name'];
             $new_room = $new_var[0]['room'];
         }
+        */
+        
+        $hr_name = SER_get_teacher($hr_id, 'name');
+        $new_name = SER_get_teacher($new_id, 'name');
+        $new_room = SER_get_teacher($new_id, 'room');
         
         
     }

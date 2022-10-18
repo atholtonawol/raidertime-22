@@ -1,4 +1,4 @@
-<?php declare(strict_types=1);
+<?php //declare(strict_types=1);
 //This is a mini library to be imported by the other php files, that handles accessing the database
 //All SER functions are defined here
 

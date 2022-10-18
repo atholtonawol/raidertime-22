@@ -26,8 +26,8 @@ if(true)
     $s_result = mysqli_query($conn, $s_sql);   //Connects to the SQL server and sends the $s_sql query. The server responds with an object containing the result of the query.
     $s_var = mysqli_fetch_all($s_result, MYSQLI_ASSOC);   //Takes the result object from the server, and turns it into an associative array that is easy to reference in our code.
  
-    printr($s_sql);
- printr($s_var);
+    print_r($s_sql);
+ print_r($s_var);
     if (count($s_var) != 1) { //Ensure that exactly one result was found
       echo 'Invalid SQL result for student_info: Number of results is '.count($s_var).' instead of 1!';
     } else {

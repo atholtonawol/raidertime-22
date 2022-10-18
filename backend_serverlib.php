@@ -52,6 +52,7 @@ function SER_get_teacher(int $id, String $column) {
         return var[0][$column];
     }
     */
+    print_r($id);
     $new_sql = 'SELECT name, room FROM teacher_info WHERE id='.$id;
         $new_result = mysqli_query($conn, $new_sql);
         $new_var = mysqli_fetch_all($new_result, MYSQLI_ASSOC);

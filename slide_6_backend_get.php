@@ -10,9 +10,9 @@ if (!$conn) {
 
 
 //$userName = $_POST["username"];
-$userName = "ashahe8615";
-//userName = "kdamav7949";
-serName = "aaball6969";
+//$userName = "ashahe8615";
+$userName = "kdamav7949";
+//$userName = "aaball6969";
 
 
 //if(isset($_POST['username']))

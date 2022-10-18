@@ -36,7 +36,7 @@ if(true) {
       $last_name = $s_var[0]['lastName'];
       $hr_teacher = $s_var[0]['hrTeacher'];
       $new_teacher = $s_var[0]['newTeacher'];
-     /*
+     
       //Connect to teacher_info
       $t_sql = 'SELECT name, room FROM teacher_info WHERE id='.$hr_teacher;   //The query sent to the SQL server (mySQL?)
       $t_result = mysqli_query($conn, $t_sql);   //Connects to the SQL server and sends the $t_sql query. The server responds with an object containing the result of the query.
@@ -47,12 +47,11 @@ if(true) {
         echo 'Invalid SQL result for teacher_info: Number of results is '.count($t_var).' instead of 1!';
       } else {
         //These variables will be referenced by slide_6_home.php
-        //$first_name = $s_var[0]['firstName'];
-        //$last_name = $s_var[0]['lastName'];
+        $teacher_name = $s_var[0]['name'];
+        $teacher_room = $s_var[0]['room'];
 
       }
     }
-   */
   }
   
 } else {

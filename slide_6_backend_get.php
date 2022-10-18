@@ -27,7 +27,7 @@ if(true) {
  
     print_r($s_sql);
  print_r($s_var);
- /*
+ 
     if (count($s_var) != 1) { //Ensure that exactly one result was found
       echo 'Invalid SQL result for student_info: Number of results is '.count($s_var).' instead of 1!';
     } else {
@@ -36,7 +36,7 @@ if(true) {
       $last_name = $s_var[0]['lastName'];
       $hr_teacher = $s_var[0]['hrTeacher'];
       $new_teacher = $s_var[0]['newTeacher'];
-     
+     /*
       //Connect to teacher_info
       $t_sql = 'SELECT name, room FROM teacher_info WHERE id='.$hr_teacher;   //The query sent to the SQL server (mySQL?)
       $t_result = mysqli_query($conn, $t_sql);   //Connects to the SQL server and sends the $t_sql query. The server responds with an object containing the result of the query.
@@ -51,11 +51,13 @@ if(true) {
         //$last_name = $s_var[0]['lastName'];
 
       }
-*/
-  
-  } else {
-    echo "isset post username error";
+    }
+   */
   }
+  
+} else {
+  echo "isset post username error";
+}
 
 
 

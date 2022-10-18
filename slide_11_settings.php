@@ -82,6 +82,75 @@ include('menu_bar.html');
       
         </div>
         </div>
+      <!--Change Signup Popup-->
+      <div class="h-100 d-flex align-items-center justify-content-center">
+    <button type="button" class="btn btn-outline-dark btn-lg" onclick="openPopup()">Change Signup</button>
+    
+  </div>
+  <div class="form-popup" id="myPopup">
+    <!--Change next line to display today's date.-->
+    <div class="position-relative">
+      <div class="position-absolute top-0 start-0 translate-middle"><button class="btn-cancel"
+          onclick="closePopup()">&#10006</button></div>
+    </div>
+    <h1 class="display-5">Change Signup for MM/DD/YY</h1>
+    <!--Change next line to display teacher name and room number for current signup.-->
+    <h3>[Teacher Name] - [Room Number]</h3>
+    <h2 class="display-6">New Signup Selection</h2>
+
+    <td>
+      <select name="teacher-dropdown" id="teacher-dropdown">
+        <option autoComplete="on" list="suggestions" selected>Select New Teacher</option>
+        <option value="Rhee, Hana">Rhee, Hana</option>
+        <option value="Stuppy, Thomas">Stuppy, Thomas</option>
+        <option value="Chaudhry, Mabrooka">Chaudhry, Mabrooka</option>
+        <option value="Peddicord, Scott">Peddicord, Scott</option>
+      </select>
+    </td>
+    <!--When new teacher is selected from dropdown, pass preview should show.-->
+
+    <div class="pass-preview" style="background: white">
+      <h4 class="display-6">Pass Preview</h4>
+      <ul>
+        <li>
+          <span id="title">NAME:</span>
+          <span id="student">[First] [Last]</span>
+        </li>
+        <li>
+          <span id="title">RAIDER TIME TEACHER:</span>
+          <span id="student">[Last], [First]</span>
+        </li>
+        <li>
+          <span id="title">LOCATION:</span>
+          <span id="student">[Classroom No.]</span>
+        </li>
+        <li>
+          <span id="title">DATE:</span>
+          <span id="student">MM/DD/YY</span>
+        </li>
+      </ul>
+      <img src="raider.png" alt="Raider Logo">
+    </div>
+
+    <!--When student is satisfied with pass preview and new teacher selected, they press button to enact changes.-->
+    <button type="button" class="btn btn-outline-dark" style="margin-left: 25%; width: 50%; margin-top: 5%">Submit
+      Change</button>
+  </div>
+  <div> </div>
+</body>
+
+
+<script>
+  function openPopup() {
+    document.getElementById("myPopup").style.display = "block";
+  }
+
+  function closePopup() {
+    document.getElementById("myPopup").style.display = "none";
+  }
+</script>
+<!--Change Signup Popup ends here-->
+      
       <div class="row">
         <h1 id="">Change Password</h1>
         <div class="changepassbox col-9 mt-5 text-center">    

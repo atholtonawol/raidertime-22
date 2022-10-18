@@ -38,6 +38,7 @@ $column - Which column you want from the database (only one column!)
 function SER_get_teacher(int $id, String $column) {
     $sql = 'SELECT '.$column.' FROM teacher_info WHERE id='.$id;  //The query sent to the mySQL server
     $result = mysqli_query($conn, $sql);  //Connects to the SQL server and sends the $sql query. The server responds with an object containing the result of the query.
+    print_r($result);
     /*
     $var = mysqli_fetch_all($result, MYSQLI_ASSOC);  //Takes the result object from the server, and turns it into an associative array that is easy to reference in our code.
     

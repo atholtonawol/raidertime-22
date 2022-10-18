@@ -34,7 +34,7 @@ if(true) {
         $hr_id = $s_var[0]['hrTeacher'];
         $new_id = $s_var[0]['newTeacher'];
         
-        
+        /*
         //==== Connect to teacher_info to grab Homeroom teacher info ====//
         
         $hr_sql = 'SELECT name FROM teacher_info WHERE id='.$hr_id;
@@ -62,6 +62,7 @@ if(true) {
             $new_name = $new_var[0]['name'];
             $new_room = $new_var[0]['room'];
         }
+        */
         
     }
 

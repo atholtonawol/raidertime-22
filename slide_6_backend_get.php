@@ -50,7 +50,7 @@ if(true)
  
     
     if (count($s_var) != 1) { //Ensure that exactly one result was found
-      echo 'Invalid SQL result: Number of results is '.count($s_var).' instead of 1!';
+      echo 'Invalid SQL result for student_info: Number of results is '.count($s_var).' instead of 1!';
     } else {
       //These variables will be referenced by slide_6_home.php
       $first_name = $s_var[0]['firstName'];
@@ -65,11 +65,11 @@ if(true)
 
 
       if (count($t_var) != 1) { //Ensure that exactly one result was found
-        echo 'Invalid SQL result: Number of results is '.count($t_var).' instead of 1!';
+        echo 'Invalid SQL result for teacher_info: Number of results is '.count($t_var).' instead of 1!';
       } else {
         //These variables will be referenced by slide_6_home.php
-        $first_name = $s_var[0]['firstName'];
-        $last_name = $s_var[0]['lastName'];
+        //$first_name = $s_var[0]['firstName'];
+        //$last_name = $s_var[0]['lastName'];
 
       }
 

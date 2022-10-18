@@ -34,11 +34,11 @@ if(true) {
       //These variables will be referenced by slide_6_home.php
       $first_name = $s_var[0]['firstName'];
       $last_name = $s_var[0]['lastName'];
-      $hr_teacher = $s_var[0]['hrTeacher'];
-      $new_teacher = $s_var[0]['newTeacher'];
-     
+      $hr_id = $s_var[0]['hrTeacher'];
+      $new_id = $s_var[0]['newTeacher'];
+     /*
       //Connect to teacher_info
-      $t_sql = 'SELECT name, room FROM teacher_info WHERE id='.$hr_teacher;   //The query sent to the SQL server (mySQL?)
+      $t_sql = 'SELECT name, room FROM teacher_info WHERE id='.$hr_id;   //The query sent to the SQL server (mySQL?)
       $t_result = mysqli_query($conn, $t_sql);   //Connects to the SQL server and sends the $t_sql query. The server responds with an object containing the result of the query.
       $t_var = mysqli_fetch_all($t_result, MYSQLI_ASSOC);   //Takes the result object from the server, and turns it into an associative array that is easy to reference in our code.
 
@@ -51,6 +51,7 @@ if(true) {
         $new_room = $s_var[0]['room'];
 
       }
+      */
     }
   }
   

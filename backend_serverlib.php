@@ -1,4 +1,4 @@
-<?php //declare(strict_types=1);
+<?php
 //This is a mini library to be imported by the other php files, that handles accessing the database
 //All SER functions are defined here
 
@@ -36,7 +36,6 @@ $id - The ID of the teacher in the database
 $column - Which column you want from the database (only one column!)
 */
 function SER_get_teacher(int $id, String $column) {
-    /*
     $sql = 'SELECT '.$column.' FROM teacher_info WHERE id='.$id;  //The query sent to the mySQL server
     $result = mysqli_query($conn, $sql);  //Connects to the SQL server and sends the $sql query. The server responds with an object containing the result of the query.
     $var = mysqli_fetch_all($result, MYSQLI_ASSOC);  //Takes the result object from the server, and turns it into an associative array that is easy to reference in our code.
@@ -47,18 +46,6 @@ function SER_get_teacher(int $id, String $column) {
         //These variables will be referenced by slide_6_home.php
         return var[0][$column];
     }
-    */
-    
-        $hr_sql = 'SELECT name FROM teacher_info WHERE id='.$id;
-        $hr_result = mysqli_query($conn, $hr_sql);
-        $hr_var = mysqli_fetch_all($hr_result, MYSQLI_ASSOC);
-
-        if (count($hr_var) != 1) { //Ensure that exactly one result was found
-            echo 'Invalid SQL result for teacher_info: Number of results is '.count($hr_var).' instead of 1!';
-        } else {
-            //These variables will be referenced by slide_6_home.php
-            $hr_name = $hr_var[0]['name'];
-        }
 }
 
 

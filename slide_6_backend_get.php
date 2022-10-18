@@ -63,7 +63,7 @@ if(true) {
         
     }
 
-    $new_name = "newname";
+    
 } else {
     echo "isset post username error";
 }

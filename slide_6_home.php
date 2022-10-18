@@ -43,7 +43,7 @@
       <p class = "teacher">Period 2 Teacher: <?php echo $hr_name ?></p>
       <!-- <p class = "destination">Destination: <?php echo $new_name ?></p><-->
       <p class = "location">Location: <?php echo $new_name ?>, <?php echo $new_room ?></p>
-      <p class = "date">Date: <?php date("F jS, Y") ?></p>
+      <p class = "date">Date: <?php echo date("F jS, Y") ?></p>
       <img style="padding-bottom: 5%" src = "https://ahs.hcpss.org/sites/default/files/atholtonhs.png"/>
     </div>
 

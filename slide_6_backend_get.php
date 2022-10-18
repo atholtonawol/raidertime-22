@@ -54,7 +54,9 @@ if(true) {
       */
     }
   }
-  
+  $hr_name = "hrname";
+  $new_name = "newname";
+  $new_room = "newroom";
 } else {
   echo "isset post username error";
 }

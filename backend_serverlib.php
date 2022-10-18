@@ -37,7 +37,7 @@ function SER_get_teacher(int $id, String $column) {
 
     if (count($var) != 1) { //Ensure that exactly one result was found
         echo 'Invalid SQL result in get_teacher('.$id.'): Number of results is '.count($var).' instead of 1!';
-    //} else {
+    }// else {
      //   //These variables will be referenced by slide_6_home.php
       //  return var[0][$column];
     //}

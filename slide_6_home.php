@@ -38,9 +38,9 @@
     <div class = "pass">
       <p class = "title">Raider Time Pass</p>
       <p class = "name">Name: <?php echo $first_name." ".$last_name ?></p>
-      <p class = "teacher">Period 2 Teacher: [Name]</p>
-      <p class = "destination">Destination: [Name]</p>
-      <p class = "location">Location: [Classroom No.]</p>
+      <p class = "teacher">Period 2 Teacher: <?php echo $hr_name ?></p>
+      <p class = "destination">Destination: <?php echo $new_name ?></p></p>
+      <p class = "location">Location: <?php echo $new_room ?></p></p>
       <p class = "date">Date: MM/DD/YYYY</p>
       <img style="padding-bottom: 5%" src = "https://ahs.hcpss.org/sites/default/files/atholtonhs.png"/>
     </div>

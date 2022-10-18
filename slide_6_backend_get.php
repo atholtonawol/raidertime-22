@@ -30,20 +30,22 @@ if(true) {
         $hr_id = $s_var[0]['hrTeacher'];
         $new_id = $s_var[0]['newTeacher'];
         
-        //Connect to teacher_info
-        $t_sql = 'SELECT name, room FROM teacher_info WHERE id='.$hr_id;   //The query sent to the SQL server (mySQL?)
-        $t_result = mysqli_query($conn, $t_sql);   //Connects to the SQL server and sends the $t_sql query. The server responds with an object containing the result of the query.
-        $t_var = mysqli_fetch_all($t_result, MYSQLI_ASSOC);   //Takes the result object from the server, and turns it into an associative array that is easy to reference in our code.
+        //==== Connect to teacher_info ====//
+        
+        $hr_sql = 'SELECT name, room FROM teacher_info WHERE id='.$hr_id;   //The query sent to the SQL server (mySQL?)
+        $hr_result = mysqli_query($conn, $hr_sql);   //Connects to the SQL server and sends the $hr_sql query. The server responds with an object containing the result of the query.
+        $hr_var = mysqli_fetch_all($hr_result, MYSQLI_ASSOC);   //Takes the result object from the server, and turns it into an associative array that is easy to reference in our code.
 
 
-        if (count($t_var) != 1) { //Ensure that exactly one result was found
-            echo 'Invalid SQL result for teacher_info: Number of results is '.count($t_var).' instead of 1!';
+        if (count($hr_var) != 1) { //Ensure that exactly one result was found
+            echo 'Invalid SQL result for teacher_info: Number of results is '.count($hr_var).' instead of 1!';
         } else {
             //These variables will be referenced by slide_6_home.php
-            $hr_name = $t_var[0]['name'];
-            $new_room = $t_var[0]['room'];
-
+            $hr_name = $hr_var[0]['name'];
+            $new_room = $hr_var[0]['room'];
         }
+        
+        //==== Connect to 
         
     }
 

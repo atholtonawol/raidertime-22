@@ -2,6 +2,11 @@
 //This is a mini library to be imported by the other php files, that handles accessing the database
 //All SER functions are defined here
 
+require '/home4/ahsraid1/public_html/database/connect.php';
+
+if (!$conn) {
+    die("Connection failed: " . mysqli_connect_error());
+} 
 
 //======== STUDENT_INFO ========//
 /*

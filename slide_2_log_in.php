@@ -54,7 +54,24 @@
                 <div class="createaccount">
                   Don't have an account? <u>Sign up</u>
                 </div>  
-              
+              //backend code for storing login (VOGUE2!)
+              if(isset($_POST["username"]) && isset($_POST["lname"]))
+              {
+                $username = $_POST["username"];
+                $password = $_POST['lname'];
+                echo $username;
+                echo $password;
+                $sql = "SELECT firstName FROM student_info WHERE user = '{$username}'";
+                $result = mysqli_query($conn, $sql);
+                $var = mysqli_fetch_all($result, MYSQLI_ASSOC);
+                if(count($var) != 0)
+                { 
+                  $sql = "UPDATE student_info SET password = '{$password}' WHERE user = '{$username}'";
+                  $result = mysqli_query($conn, $sql);
+                  } else {
+                    echo "invalid"; 
+                  }
+                }
               </div>
                 
         

@@ -28,7 +28,7 @@
    ?>
     
      Note: "Choose a teacher" and "Room" are the default values in the database for those fields. When a user is logged in, they will be replaced with the actual data.  
-  
+    <a href="slide_12_teacher_home.php>Teacher view</a>
     <!--
     <nav>
       <button type = "button">Home</button>

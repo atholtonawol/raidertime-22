@@ -53,16 +53,14 @@ function SER_get_teacher(int $id, String $column) {
     }
     */
     print_r($id);
-    $new_sql = 'SELECT name, room FROM teacher_info WHERE id='.$id;
-        $new_result = mysqli_query($conn, $new_sql);
-        $new_var = mysqli_fetch_all($new_result, MYSQLI_ASSOC);
-        if (count($new_var) != 1) { //Ensure that exactly one result was found
-            echo 'Invalid SQL result for teacher_info: Number of results is '.count($new_var).' instead of 1!';
+    $hr_sql = 'SELECT name FROM teacher_info WHERE id='.$id;
+        $hr_result = mysqli_query($conn, $hr_sql);
+        $hr_var = mysqli_fetch_all($hr_result, MYSQLI_ASSOC);
+        if (count($hr_var) != 1) { //Ensure that exactly one result was found
+            echo 'Invalid SQL result for teacher_info in lib: Number of results is '.count($hr_var).' instead of 1!';
         } else {
             //These variables will be referenced by slide_6_home.php
-            $new_name = $new_var[0]['name'];
-            $new_room = $new_var[0]['room'];
-            return $new_name;
+            return $hr_var[0]['name'];
         }
 }
 

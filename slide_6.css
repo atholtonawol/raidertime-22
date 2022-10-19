@@ -75,20 +75,37 @@ h3{
     border: 2px solid white;
   }
 
-  :root {
+  <style>
+    :root {
       --atholton-green: #16542eff;
-  }
-  
-  .btn{
-    background-color:  #8ea484ff;
-    border: 1px solid white;
-    padding:  10px;
-  }
+    }
+    
+    body {
+      font-family: 'Graduate';
+      font-size: 22px;
+    }
+
+    .btn{
+      background-color:  #8ea484ff;
+      border: 1px solid white;
+      padding:  10px;
+    }
  
-    .btn:hover{
+    .btn:hover{  <!-- CSS -->
+
+    :root {
+      --atholton-green: #16542eff;
+    }
+    
+    body {
+      font-family: 'Graduate';
       background-color: white;
       transition: 0.7s;
     }
+
+    div {}
+
+    .spacing {}
 
     #pass-preview {
       background: white;
@@ -125,6 +142,14 @@ h3{
       text-align: center;
     }
 
+    h3 {
+      background: transparent;
+      color: white;
+      font-family: Calibri;
+      margin: 5%;
+      text-align: center;
+    }
+
     h4 {
       background: white;
       color: #16542E;
@@ -133,18 +158,25 @@ h3{
       text-align: center;
     }
 
-    h5 {
-      background: transparent;
-      color: white;
-      font-family: Calibri;
-      margin: 5%;
-      text-align: center;
+    img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+      max-width: 100%;
+      height: auto;
     }
 
     option {
       background: white;
       font-family: Calibri;
       font-size: 15px;
+    }
+
+    p {
+      background: white;
+      color: #16542E;
+      font-family: Calibri;
     }
 
     select {
@@ -164,6 +196,7 @@ h3{
 
     li {
       background: white;
+
     }
 
     li span {

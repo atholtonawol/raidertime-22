@@ -1,4 +1,4 @@
-h3{
+  h3{
     color: #16542e;
     text-align: center;
   }
@@ -75,7 +75,6 @@ h3{
     border: 2px solid white;
   }
 
-  <style>
     :root {
       --atholton-green: #16542eff;
     }
@@ -112,7 +111,7 @@ h3{
     }
 
     .modal-content {
-        background: var(--atholton-green);
+        background: blue;
     }
     
     .form-popup {

@@ -61,6 +61,5 @@
       </div>
       </div>
     </div>
-       <a href="slide_6_home.php">temp login button</a>
   </body>
 </html>

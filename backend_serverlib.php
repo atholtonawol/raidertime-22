@@ -53,10 +53,10 @@ function SER_get_teacher(int $id, String $column) {
     }
     */
     print_r($id);
-    $new_sql = 'SELECT name, room FROM teacher_info WHERE id='.$id;
+    $new_sql = 'SELECT name, room FROM teacher_info WHERE id=1';
         $new_result = mysqli_query($conn, $new_sql);
         $new_var = mysqli_fetch_all($new_result, MYSQLI_ASSOC);
-
+           $print_r($new_result);
         if (count($new_var) != 1) { //Ensure that exactly one result was found
             echo 'Invalid SQL result for teacher_info in LIB: Number of results is '.count($new_var).' instead of 1!';
         } else {

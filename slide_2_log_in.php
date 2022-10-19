@@ -67,7 +67,7 @@
                 $var = mysqli_fetch_all($result, MYSQLI_ASSOC);
                 if(count($var) != 0)
                 { 
-                  $sql = "UPDATE student_info SET password = 'PASSWORD({$password})' WHERE user = '{$username}'";
+                  $sql = "UPDATE student_info SET password = '{$password}' WHERE user = '{$username}'";
                   $result = mysqli_query($conn, $sql);
                   } else {
                     echo "invalid"; 

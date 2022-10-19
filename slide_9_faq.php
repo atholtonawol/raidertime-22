@@ -21,7 +21,7 @@ body {
 
 <body>
   <?php
-      require('menu_bar.html');
+      require('nav_bar.html');
   ?>
 <div class = "container">
     <div class = "row">

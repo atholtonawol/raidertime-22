@@ -111,11 +111,11 @@
     }
 
     .modal-content {
-        background: blue;
+        background: var(--atholton-green);
     }
     
     .form-popup {
-      background-color: blue;
+      background-color: var(--atholton-green);
       display: none;
       height: 80%;
       margin: auto;

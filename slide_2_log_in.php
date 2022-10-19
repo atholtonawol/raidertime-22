@@ -54,8 +54,9 @@
                 <div class="createaccount">
                   Don't have an account? <u>Sign up</u>
                 </div>  
-              //backend code for storing login (VOGUE2!)
-       <?php  if(isset($_POST["username"]) && isset($_POST["lname"]))
+         <?php       
+                //backend code for storing login (VOGUE2!)
+              if(isset($_POST["username"]) && isset($_POST["lname"]))
               {
                 $username = $_POST["username"];
                 $password = $_POST['lname'];
@@ -71,7 +72,8 @@
                   } else {
                     echo "invalid"; 
                   }
-                } ?>
+                } 
+             ?>
               </div>
                 
         

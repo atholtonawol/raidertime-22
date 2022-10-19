@@ -23,11 +23,12 @@
      <div>
         <input type="text" id="emailform"  name="email" placeholder="Email">
       </div>
-        <a href="slide_4_verification.php">
-          <div class="d-flex justify-content-center">
+        
+         <div class="d-flex justify-content-center">
+            <a href="slide_4_verification.php">
               <button>Send Verification Code</button>
-          </div>  
-        </a>
+            </a>
+         </div>  
     </div>
   </div>
   

@@ -20,7 +20,7 @@
   </head>
   <body>
     <?php
-include('menu_bar.html');
+include('nav_bar.html');
     ?>
     <div class="container">
     <h1>Raider Time Pass History</h1>

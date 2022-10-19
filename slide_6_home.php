@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- style sheets, bootstrap, javascript -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">    
-    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
   <style>
     body {
       font-family: 'Graduate';font-size: 22px;
@@ -58,7 +58,7 @@
         <div class="modal-content">
             <!-- Modal Header -->
             <div class="modal-header border-0">
-              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" style="margin-top: 5%"></button>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
             </div>
             <div class="modal-body">
               <!-- Modal body.. -->
@@ -66,9 +66,10 @@
     </div>
     <h1 class="display-5">Change Signup for MM/DD/YY</h1>
     <!--Change next line to display teacher name and room number for current signup.-->
-    <h5>[Teacher Name] - [Room Number]</h5>
+    <h3>[Teacher Name] - [Room Number]</h3>
     <h2 class="display-6">New Signup Selection</h2>
 
+    <form method = "POST">
     <td>
       <select name="teacher-dropdown" id="teacher-dropdown">
         <option autoComplete="on" list="suggestions" selected>Select New Teacher</option>
@@ -76,8 +77,28 @@
         <option value="Stuppy, Thomas">Stuppy, Thomas</option>
         <option value="Chaudhry, Mabrooka">Chaudhry, Mabrooka</option>
         <option value="Peddicord, Scott">Peddicord, Scott</option>
+         <?php 
+             
+        require '/home4/ahsraid1/public_html/database/connect.php';
+        if (!$conn) {
+           die("Connection failed: " . mysqli_connect_error());
+         } 
+   
+              $sql = 'SELECT teachers, room FROM old_teacherInfo';
+              $result = mysqli_query($conn, $sql);
+          while($row = mysqli_fetch_array($result)){
+             //FRONT END FIGURE OUT FORMATTING. ALIGN THE ROOM NUMBER TO THE RIGHT
+             echo "<option>". $row['teachers'].$row['room']."</option>";
+          }
+          ?>
       </select>
     </td>
+      <div class="col text-center">
+      <button type="submit" class="btn mt-3" style="margin-bottom: 1%">Submit Teacher
+      </button>
+      </div>
+    </form>
+
     <!--When new teacher is selected from dropdown, pass preview should show.-->
 
     <div class="pass-preview" style="background: white">
@@ -103,29 +124,35 @@
     </div>
 
     <!--When student is satisfied with pass preview and new teacher selected, they press button to enact changes.-->
-     <div class="col text-center">
-              <button type="button" class="btn mt-3" style="margin-bottom: 1%">Submit
-      Change</button>
-     </div>
+
             </div>
         </div>
       </div>
   </div>  
-    
-    <footer>
-    
-    </footer>
+
+  
+    <?php
+    if(isset($_POST["teacher-dropdown"]))
+    {
+    $var = $_POST["teacher-dropdown"];
+    $sql = "UPDATE student_info SET newTeacher = '{$var}' WHERE lastName = 'Aballo'";
+    echo $var; 
+      if(!mysqli_query($conn, $sql))
+      {
+      echo mysqli_error($conn);
+      }
+//     $result = mysqli_query($conn, $sql);
+    }
+    ?>
 
   <!-- JavaScript -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js">
     
   </script>
+
     
   </body>
 
 </html>
-
-<!-- JavaScript -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js">
     
   </script>

@@ -21,6 +21,8 @@
       &lt;br&gt; creates a newline, header tags like &lt;h1&gt; automatically create newlines
     
       <a href="VOGUE2.php"><h2>VOGUE2</h2></a>
+      <br>
+      <a href="googleSignIn.php"><h2>signin</h2></a>
     </span>
   </body>
 <html>

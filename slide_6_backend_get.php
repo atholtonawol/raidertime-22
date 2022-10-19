@@ -34,7 +34,7 @@ if(true) {
         $hr_id = $s_var[0]['hrTeacher'];
         $new_id = $s_var[0]['newTeacher'];
         
-        
+        /*
         //==== Connect to teacher_info to grab Homeroom teacher info ====//
         
         $hr_sql = 'SELECT name FROM teacher_info WHERE id='.$hr_id;
@@ -47,7 +47,7 @@ if(true) {
             //These variables will be referenced by slide_6_home.php
             $hr_name = $hr_var[0]['name'];
         }
-        
+        */
         
         //==== Connect to teacher_info to grab New teacher info ====//
         
@@ -64,7 +64,7 @@ if(true) {
         }
         
         
-       // $hr_name = SER_get_teacher($hr_id, 'name');
+       $hr_name = SER_get_teacher($hr_id, 'name');
        // $new_name = SER_get_teacher($new_id, 'name');
        // $new_room = SER_get_teacher($new_id, 'room');
         

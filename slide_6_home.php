@@ -23,7 +23,7 @@
    </header>
     
    <?php
-     require('menu_bar.html');
+     require('nav_bar.html');
      require('slide_6_backend_get.php');
    ?>
     

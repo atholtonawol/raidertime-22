@@ -115,7 +115,7 @@
     }
     
     .form-popup {
-      background-color: var(--atholton-green);
+      background-color: blue;
       display: none;
       height: 80%;
       margin: auto;

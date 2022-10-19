@@ -42,7 +42,7 @@
         <p>Welcome Raiders
           <br>I am a:</p>
   
-          <form class="login" method = "POST">
+          <form class="login" action = "slide_6_home.php"  method = "POST">
             <input type="text" id="username" name="username" placeholder="username" required><br>
           
                <input type="password"id="password" name="lname" placeholder="password" required>

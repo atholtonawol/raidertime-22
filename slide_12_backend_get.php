@@ -20,6 +20,19 @@ $arr = array("hello", "world", "yes");
   
 //if(isset($_POST['username']))
 if(true) {
+    //==== Connect to teacher_info ====/
+    $sql = 'SELECT name FROM `teacher_info` WHERE id='.$teacher_id;
+    $result = mysqli_query($conn, $sql);
+    $var = mysqli_fetch_all($result, MYSQLI_ASSOC); 
+    
+ 
+    if (count($var) != 1) { //Ensure that exactly one result was found
+        echo 'Invalid SQL result for student_info: Number of results is '.count($var).' instead of 1!';
+    } else {
+        //These variables will be referenced by slide_12_teacher_home.php
+        $teacher_name = $var[0]['name];
+    }
+        
     //==== Connect to student_info ====/
     $sql = 'SELECT fullName FROM `student_info` WHERE newTeacher='.$teacher_id;
     $result = mysqli_query($conn, $sql);
@@ -33,9 +46,6 @@ if(true) {
         foreach($var as $i) {
           print_r($i['fullName']);
           }
-        
-        
-        
         
     }
 

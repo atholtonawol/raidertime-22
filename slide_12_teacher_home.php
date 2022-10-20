@@ -62,7 +62,7 @@ body {
                     for($i = 0; $i < count($student_list); $i++) {
                       echo '
                         <tr>
-                        <th scope="row" style="color: whitesmoke">'.$i.'</th>
+                        <th scope="row" style="color: whitesmoke">'.($i+1).'</th>
                         <td style="color: whitesmoke">'.$student_list[$i].'</td>
                         </tr>
                       ';

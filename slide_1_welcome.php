@@ -18,9 +18,10 @@
 </style>
   </head> 
     <body>
-      <?php
-        //require('nav_bar.html');
-      ?>
+       <?php
+     require('nav_bar.html');
+   ?>
+    
     
       <div class=" px-4 pt-3 container-fluid">
       <div class="row">

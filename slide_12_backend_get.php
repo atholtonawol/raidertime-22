@@ -21,7 +21,7 @@ if(true) {
     
  
     if (count($var) != 1) { //Ensure that exactly one result was found
-        echo 'Invalid SQL result for student_info: Number of results is '.count($var).' instead of 1!';
+        echo 'Invalid SQL result for teacher_info: Number of results is '.count($var).' instead of 1!';
     } else {
         //These variables will be referenced by slide_12_teacher_home.php
         $teacher_name = $var[0]['name'];
@@ -34,8 +34,8 @@ if(true) {
     $var = mysqli_fetch_all($result, MYSQLI_ASSOC); 
     
  
-    if (count($var) != 1) { //Ensure that exactly one result was found
-        echo 'Invalid SQL result for student_info: Number of results is '.count($var).' instead of 1!';
+    if (count($var) > 0) { //Ensure that exactly one result was found
+        echo 'Invalid SQL result for student_info: No students found!;
     } else {
         //These variables will be referenced by slide_12_teacher_home.php
         $student_list = array();

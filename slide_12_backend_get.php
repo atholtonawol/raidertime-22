@@ -30,7 +30,7 @@ if(true) {
         echo 'Invalid SQL result for student_info: Number of results is '.count($var).' instead of 1!';
     } else {
         //These variables will be referenced by slide_12_teacher_home.php
-        $teacher_name = $var[0]['name];
+        $teacher_name = $var[0]['name'];
     }
         
     //==== Connect to student_info ====/

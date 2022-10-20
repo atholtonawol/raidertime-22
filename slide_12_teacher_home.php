@@ -29,13 +29,8 @@ body {
       require('slide_12_backend_get.php');
     ?>
     
-    <!--
-    <nav>
-      <button type = "button">Home</button>
-    </nav>
-    -->
     
-    <h3>Welcome, [Teacher Name]</h3>
+    <h3>Welcome, <?php echo $teacher_name ?></h3>
     <p class = "title">Radier Time Class</p>
     <!-- This code was originally in the green box #34 -->
         <!-- Start bootstrap -->

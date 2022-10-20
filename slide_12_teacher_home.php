@@ -59,6 +59,7 @@ body {
                   </thead>
                   <tbody style="font-size: 20px">
                   <?php
+                  echo "PHP LOOP";
                     foreach($student_array as $name) {
                       echo '
                         <tr>

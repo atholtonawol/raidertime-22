@@ -59,15 +59,13 @@ body {
                   </thead>
                   <tbody style="font-size: 20px">
                   <?php
-                  echo "PHP LOOP";
                     for($i = 0; $i < count($student_list); $i++) {
                       echo '
                         <tr>
-                        <th scope="row" style="color: whitesmoke">1</th>
-                        <td style="color: whitesmoke">Billy Bob Joe</td>
+                        <th scope="row" style="color: whitesmoke">'.$i.'</th>
+                        <td style="color: whitesmoke">'.$student_list[$i].'</td>
                         </tr>
                       ';
-                      echo $i;
                     }
                   ?>
                   <!--

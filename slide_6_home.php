@@ -18,12 +18,9 @@
 </head>
   
 <body>
-   <header> 
-    
-   </header>
     
    <?php
-     require('nav_bar.html');
+     require('header.html');
      require('slide_6_backend_get.php');
    ?>
     

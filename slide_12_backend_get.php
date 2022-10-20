@@ -34,7 +34,7 @@ if(true) {
     $var = mysqli_fetch_all($result, MYSQLI_ASSOC); 
     
  
-    if (count($var) > 0) { //Ensure that exactly one result was found
+    if (count($var) <= 0) { //Ensure that exactly one result was found
         echo 'Invalid SQL result for student_info: No students found!';
     } else {
         //These variables will be referenced by slide_12_teacher_home.php

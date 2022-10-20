@@ -35,7 +35,7 @@ if(true) {
     
  
     if (count($var) > 0) { //Ensure that exactly one result was found
-        echo 'Invalid SQL result for student_info: No students found!;
+        echo 'Invalid SQL result for student_info: No students found!';
     } else {
         //These variables will be referenced by slide_12_teacher_home.php
         $student_list = array();

@@ -12,7 +12,6 @@
     background-image: url('https://github.com/atholtonawol/raidertime-22/blob/main/assets/image/color%20atholton%20building.jpg?raw=true');
     background-size: cover;    
   }
-
 </style>
 </head>
 <body>
@@ -23,7 +22,12 @@
      <div>
         <input type="text" id="emailform"  name="email" placeholder="Email">
       </div>
-         <a href="slide_4_verification.php"><button class="d-flex justify-content-center" type="button">Student</button></a>
+        
+         <div class="d-flex justify-content-center">
+            <a href="slide_4_verification.php">
+              <button>Send Verification Code</button>
+            </a>
+         </div>  
     </div>
   </div>
   

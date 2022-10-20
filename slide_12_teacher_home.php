@@ -60,13 +60,14 @@ body {
                   <tbody style="font-size: 20px">
                   <?php
                   echo "PHP LOOP";
-                    foreach($student_array as $name) {
-                      echo '
+                    for($i = 0; $i < count($student_list); $i++) {
+                      /*echo '
                         <tr>
                         <th scope="row" style="color: whitesmoke">1</th>
                         <td style="color: whitesmoke">Billy Bob Joe</td>
                         </tr>
-                      ';
+                      ';*/
+                      echo $i;
                     }
                   ?>
                   <!--

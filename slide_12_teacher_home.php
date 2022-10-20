@@ -60,15 +60,15 @@ body {
                   <tbody style="font-size: 20px">
                   <?php
                   echo "PHP LOOP";
-                    /*for($i = 0; $i < count($student_list); $i++) {
-                      echo '
+                    for($i = 0; $i < count($student_list); $i++) {
+                      /*echo '
                         <tr>
                         <th scope="row" style="color: whitesmoke">1</th>
                         <td style="color: whitesmoke">Billy Bob Joe</td>
                         </tr>
-                      ';
+                      ';*/
                       echo $i;
-                    }*/
+                    }
                   ?>
                   <!--
                   <tr>

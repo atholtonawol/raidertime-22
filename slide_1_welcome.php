@@ -9,7 +9,7 @@
 <style>
   body {
     font-family: 'Graduate';font-size: 22px;
-    background-image: url('https://github.com/atholtonawol/raidertime-22/blob/main/assets/image/atholton_building_updated_color.jpg?raw=true');
+    background-image: url('https://github.com/atholtonawol/raidertime-22/blob/main/assets/image/SchoolPicEdited.jpg?raw=true');
     background-size: cover;
     background-repeat: no-repeat;
     background-color: gainsboro;

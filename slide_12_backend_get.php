@@ -42,7 +42,6 @@ if(true) {
         foreach($var as $i) {
           $student_list[] = $i['fullName']; //Appends student name to the array, PHP syntax is weird
         }
-        print_r($student_list);
     }
 
     

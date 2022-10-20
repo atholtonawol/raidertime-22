@@ -58,6 +58,16 @@ body {
                     </tr>
                   </thead>
                   <tbody style="font-size: 20px">
+                  <?php
+                    foreach($student_array as $name) {
+                      echo '
+                        <tr>
+                        <th scope="row" style="color: whitesmoke">1</th>
+                        <td style="color: whitesmoke">Billy Bob Joe</td>
+                        </tr>
+                      ';
+                    }
+                  ?>
                   <!--
                   <tr>
                     <th scope="row" style="color: whitesmoke">1</th>

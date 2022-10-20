@@ -58,6 +58,7 @@ body {
                     </tr>
                   </thead>
                   <tbody style="font-size: 20px">
+                  <!--
                   <tr>
                     <th scope="row" style="color: whitesmoke">1</th>
                     <td style="color: whitesmoke">Billy Bob Joe</td>
@@ -78,6 +79,7 @@ body {
                     <th scope="row" style="color: whitesmoke">5</th>
                     <td style="color: whitesmoke">Liam Tronki</td>
                   </tr>
+                  -->
                 </tbody>
                 </table>
               </div>

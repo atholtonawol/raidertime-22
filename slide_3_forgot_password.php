@@ -11,6 +11,7 @@
     font-family: 'Graduate';font-size: 22px;
     background-image: url('https://github.com/atholtonawol/raidertime-22/blob/main/assets/image/color%20atholton%20building.jpg?raw=true');
     background-size: cover;    
+    text-decoration: none;
   }
 
 </style>

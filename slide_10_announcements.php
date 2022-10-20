@@ -16,7 +16,7 @@
   </head>
   <body>
     <?php
-      require('nav_bar.html');
+      require('header.html');
     ?>
     <div class="pt-3 container-fluid">
         <h1 id="heading">Raider Time Schedule</h1>

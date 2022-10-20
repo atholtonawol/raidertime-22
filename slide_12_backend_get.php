@@ -21,7 +21,7 @@ $arr = array("hello", "world", "yes");
 //if(isset($_POST['username']))
 if(true) {
     //==== Connect to teacher_info ====/
-    $sql = 'SELECT name FROM `teacher_info` WHERE id='.$teacher_id;
+    $sql = 'SELECT name, room FROM `teacher_info` WHERE id='.$teacher_id;
     $result = mysqli_query($conn, $sql);
     $var = mysqli_fetch_all($result, MYSQLI_ASSOC); 
     
@@ -31,6 +31,7 @@ if(true) {
     } else {
         //These variables will be referenced by slide_12_teacher_home.php
         $teacher_name = $var[0]['name'];
+        $teacher_room = $var[0]['room'];
     }
         
     //==== Connect to student_info ====/

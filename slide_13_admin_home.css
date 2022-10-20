@@ -1,0 +1,67 @@
+body {
+      font-family: 'Graduate';font-size: 22px;
+      background-color: #eeeeee;
+  }
+
+  :root {
+      --atholton-green: #16542eff;
+  }
+
+  .search {
+    text-align: center;
+    margin-left: 25%;
+    width: 50%;
+  }
+
+  #userSearch{
+    margin-top: 10px;
+    font-family: 'calibri'; font-size: 22px; 
+    width: 350px;
+  }
+
+  #searchEnter{
+    background-color: #8ea484ff;
+    border: 1px solid white;
+    padding:  5px;
+    margin-top: 15px;
+    width:  90px;
+    cursor: pointer;
+    font-size: 15px;
+  }
+
+  .btn{
+    background-color: #8ea484ff;
+    border: 1px solid white;
+    padding:  10px;
+  }
+ 
+  .btn:hover{
+    background-color: white;
+    transition: 0.7s;
+  }
+
+  .student, .teacher {
+    width: 70%;
+    margin-left: 15%;
+  }
+
+  ul {
+      list-style-type: none;
+  }
+
+  li span {
+    display: inline-block;
+  }
+  
+  #title {
+      margin-top: 4%;
+  }
+
+  #student, #teacher {
+    font-family: Calibri;
+  }
+
+  th, td {
+    color: white;
+    font-weight: normal;
+  }

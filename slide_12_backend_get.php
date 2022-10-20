@@ -9,14 +9,8 @@ if (!$conn) {
 
 
 
-//$userName = $_POST["username"];
-$userName = "ashahe8615";
-//$userName = "kdamav7949";
-//$userName = "aaball6969";
-
 $teacher_id = 75;
 
-$arr = array("hello", "world", "yes");
   
 //if(isset($_POST['username']))
 if(true) {
@@ -44,10 +38,11 @@ if(true) {
         echo 'Invalid SQL result for student_info: Number of results is '.count($var).' instead of 1!';
     } else {
         //These variables will be referenced by slide_12_teacher_home.php
+        $student_list = array();
         foreach($var as $i) {
-          print_r($i['fullName']);
-          }
-        
+          $student_list[] = $i['fullName']; //Appends student name to the array, PHP syntax is weird
+        }
+        print_r($student_list);
     }
 
     

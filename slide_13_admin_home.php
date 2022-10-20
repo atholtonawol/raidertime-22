@@ -12,6 +12,10 @@
   </head>
   
   <body>
+       <?php
+     require('nav_bar.html');
+   ?>
+    
     
     <h5 style="font-family: Calibri; text-align: center; margin-top: 5%">Please search for a teacher to view their roster or for a student to view their current sign-up.</h5>
     <form class="search" method = "POST">

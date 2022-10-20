@@ -38,9 +38,9 @@ body {
     <div class="row">
       <div class="d-flex align-items-center">
         <div class="col-md-7">
-          <p class = "name">Name:  <!-- Php code for teacher name --></p>
-          <p class = "location">Classroom: [Classroom No.]</p>
-          <p class = "date">Date: MM/DD/YYYY</p>
+          <p class = "name">Name: <?php echo $teacher_name ?></p>
+          <p class = "location">Classroom: <?php echo $teacher_room ?></p>
+          <p class = "date">Date: <?php echo date("F jS, Y") ?></p>
         </div>
         <!-- start code inside of green box -->
     <!-- For the code inside of the green box, everything that had style="whitesmoke" was css code to alter color of output text since I was struggling to do so via a class -->

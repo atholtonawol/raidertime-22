@@ -45,7 +45,6 @@
         <p>Welcome Raiders
           <br>I am a:</p>
   
-          <!--
           <form class="login" action = "slide_6_home.php"  method = "POST">
             <input type="text" id="username" name="username" placeholder="username" required><br>
           
@@ -57,11 +56,6 @@
                 <p id="forgotpass"><a href="slide_3_forgot_password.php"><u>Forgot password?</u></a></p>
                 <div class="createaccount">
                   Don't have an account? <u>Sign up</u>
-            -->
-                <?php
-                  //Google sign in
-                  require('googleSignIn.php');
-                ?>
                 </div>  
          <?php       
         

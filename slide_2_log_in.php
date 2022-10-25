@@ -58,6 +58,7 @@
                   Don't have an account? <u>Sign up</u>
                 </div>  
         
+        <?php
                 //backend code for storing login (VOGUE2!)
               if(isset($_POST["username"]) && isset($_POST["lname"]))
               {

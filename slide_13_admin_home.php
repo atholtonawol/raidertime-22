@@ -84,5 +84,7 @@
     </div>
     <!--When no teacher or student is found, display the following text.-->
     <h5 style="font-family: Calibri; text-align: center; margin-top: 5%; margin-bottom: 5%">Sorry, no results were found for '___'.</h5>
-<footer>
-</footer>
+<?php
+     require('footer.html');
+   ?>
+  </body>

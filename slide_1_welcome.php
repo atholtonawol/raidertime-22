@@ -26,7 +26,9 @@
             <h2 class="display-4"><b>Raider Time Signup</b></h2>
         </div>
         <div class="col-2 text-end">
-         <a href="https://ahs.hcpss.org/"><img class = "img-fluid" src="https://github.com/atholtonawol/raidertime-22/blob/main/assets/image/NewAtholtonA.png?raw=true"></a>
+         <a href="https://ahs.hcpss.org/">
+          <img class = "img-fluid" src="https://github.com/atholtonawol/raidertime-22/blob/main/assets/image/NewAtholtonA.png?raw=true">
+         </a>
         </div>
       </div>
       </div>
@@ -44,16 +46,12 @@
                 
           <br>I am a:</p>
         <a href="slide_2_log_in.php"><button class="btn col-9" type="button">Student</button></a>
-        <a href="slide_2_log_in.php"><button class="btn mt-3 col-9" type="button">Teacher</button>
-        <a href="slide_2_log_in.php"><button class="btn mt-3 mb-5 col-9" type="button">Administrator</button>
+        <button class="btn mt-3 col-9" type="button">Teacher</button>
+        <button class="btn mt-3 mb-5 col-9" type="button">Administrator</button>
         
       </div>
       </div>
     </div>
-  <?php
-                  //Google sign in
-                  require('googleSignIn.php');
-                ?>
   <?php
      require('footer.html');
    ?>

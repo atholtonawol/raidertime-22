@@ -1,7 +1,7 @@
 <html>
   <body>
     <?php
-      require('menu_bar.html');
+      require('header.html');
     ?>
     
     <?php

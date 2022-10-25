@@ -1,0 +1,7 @@
+.header-image {
+background-image: url(“cat.jpg”);
+background-position: center;
+background-repeat: no-repeat;
+position: relative;
+background-size: cover;
+}

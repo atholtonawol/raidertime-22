@@ -104,9 +104,9 @@ body {
 
 
 
-    <footer>
-    
-    </footer>
+   <?php
+     require('footer.html');
+   ?>
     
   </body>
 

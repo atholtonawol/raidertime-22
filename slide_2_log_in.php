@@ -21,7 +21,6 @@
     <body>
          <?php
      require('nav_bar.html');
-      require('googleSignIn.php');
    ?>
     
     
@@ -43,7 +42,10 @@
       <div class="welcomebox col-md-4 col-9 mt-5 justify-content-center text-center">    
         <p>Welcome Raiders
           <br>I am a:</p>
-  
+          <?php
+        
+      require('googleSignIn.php');
+        ?>
           <form class="login" action = "slide_6_home.php"  method = "POST">
             <input type="text" id="username" name="username" placeholder="username" required><br>
           

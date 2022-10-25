@@ -1,5 +1,5 @@
 <?php
-echo("SLIDE 12 GET<br>");
+//echo("SLIDE 12 GET<br>");
 
 require '/home4/ahsraid1/public_html/database/connect.php';
 

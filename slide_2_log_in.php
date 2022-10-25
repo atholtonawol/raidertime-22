@@ -41,7 +41,7 @@
     <div class="container-fluid">
       <div class="row justify-content-center text-center">
       <div class="welcomebox col-md-4 col-9 mt-5 justify-content-center text-center">    
-        <p>Welcome Raiders</p>
+        <h2>Welcome Raiders</h2>
           <?php
             require('googleSignIn.php');
           ?>
@@ -75,7 +75,7 @@
     </div>
 
   <?php
-    require('footer.html');
+    require('footer.php');
     $user_email = _COOKIE['user_email'];
     echo "asdfasdfadf";
     print_r($user_email);

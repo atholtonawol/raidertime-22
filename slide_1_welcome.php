@@ -44,8 +44,8 @@
                 
           <br>I am a:</p>
         <a href="slide_2_log_in.php"><button class="btn col-9" type="button">Student</button></a>
-        <button class="btn mt-3 col-9" type="button">Teacher</button>
-        <button class="btn mt-3 mb-5 col-9" type="button">Administrator</button>
+        <a href="slide_2_log_in.php"><button class="btn mt-3 col-9" type="button">Teacher</button>
+        <a href="slide_2_log_in.php"><button class="btn mt-3 mb-5 col-9" type="button">Administrator</button>
         
       </div>
       </div>

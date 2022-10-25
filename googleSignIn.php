@@ -41,7 +41,7 @@ function onSignIn(googleUser) {
   document.getElementById('pfp').innerHTML = `Your profile picture is here: ${profile.getImageUrl()}`;
   document.getElementById('email').innerHTML =` Your email is ${profile.getEmail()}`;
   
-  document.cookie = "user_email=${profile.getEmail()}";
+  document.cookie = "user_email=33";
 }
 
 

@@ -27,7 +27,7 @@
         </div>
         <div class="col-2 text-end">
          <a href="https://ahs.hcpss.org/">
-           <img class = "img-fluid" src="https://github.com/atholtonawol/raidertime-22/blob/main/assets/image/NewAtholtonA.png?raw=true" width="150" height="70">
+           <img class = "img-fluid" src="https://github.com/atholtonawol/raidertime-22/blob/main/assets/image/NewAtholtonA.png?raw=true">
          </a>
         </div>
       </div>

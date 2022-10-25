@@ -21,6 +21,7 @@
     <body>
          <?php
      require('nav_bar.html');
+      require('googleSignIn.php');
    ?>
     
     

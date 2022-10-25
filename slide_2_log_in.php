@@ -58,10 +58,12 @@
                 <div class="createaccount">
                   Don't have an account? <u>Sign up</u>
             -->
+                <?php
+                  //Google sign in
+                  require('googleSignIn.php');
+                ?>
                 </div>  
          <?php       
-              //Google sign in
-              require('googleSignIn.php');
         
         
                 //backend code for storing login (VOGUE2!)

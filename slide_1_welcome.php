@@ -50,11 +50,11 @@
         <button class="btn mt-3 mb-5 col-9" type="button">Administrator</button>
         
       </div>
-        <?php
+      </div>
+      <?php
                   //Google sign in
                   require('googleSignIn.php');
                 ?>
-      </div>
     </div>
   <?php
      require('footer.html');

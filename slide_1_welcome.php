@@ -42,6 +42,11 @@
       <div class="row justify-content-center text-center">
       <div class="welcomebox col-md-6 col-10 mt-5 justify-content-center text-center">    
         <p>Welcome Raiders
+          
+                <?php
+                  //Google sign in
+                  require('googleSignIn.php');
+                ?>
           <br>I am a:</p>
   
         <a href="slide_2_log_in.php"><button class="btn col-9" type="button">Student</button></a>

@@ -36,7 +36,6 @@
       
      <?php
      require('nav_bar.html');
-     require('googleSignIn.php');
    ?>  
       
       
@@ -46,19 +45,25 @@
         <p>Welcome Raiders
           <br>I am a:</p>
   
+          <!--
           <form class="login" action = "slide_6_home.php"  method = "POST">
             <input type="text" id="username" name="username" placeholder="username" required><br>
           
                <input type="password"id="password" name="lname" placeholder="password" required>
                <br>
                <input type="submit" id="login"value="LOGIN"/>
-               </form>
+          </form>
            
                 <p id="forgotpass"><a href="slide_3_forgot_password.php"><u>Forgot password?</u></a></p>
                 <div class="createaccount">
                   Don't have an account? <u>Sign up</u>
+            -->
                 </div>  
          <?php       
+              //Google sign in
+              require('googleSignIn.php');
+        
+        
                 //backend code for storing login (VOGUE2!)
               if(isset($_POST["username"]) && isset($_POST["lname"]))
               {

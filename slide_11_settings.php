@@ -205,5 +205,9 @@ include('nav_bar.html');
         </div>
       </div>
     </div>
+      
+   <?php
+     require('footer.html');
+   ?>
   </body>
   </html>

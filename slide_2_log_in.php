@@ -75,7 +75,7 @@
     </div>
 
   <?php
-    require('footer.php');
+    require('footer.html');
     $user_email = _COOKIE['user_email'];
     echo "asdfasdfadf";
     print_r($user_email);

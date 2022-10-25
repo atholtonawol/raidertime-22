@@ -19,6 +19,9 @@
       </style>
   </head>
   <body>
+   <?php
+     require('header.html');
+   ?>
     <?php
 include('nav_bar.html');
     ?>

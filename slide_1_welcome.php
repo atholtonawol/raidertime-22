@@ -51,11 +51,11 @@
         
       </div>
       </div>
-      <?php
+    </div>
+  <?php
                   //Google sign in
                   require('googleSignIn.php');
                 ?>
-    </div>
   <?php
      require('footer.html');
    ?>

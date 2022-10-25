@@ -16,8 +16,9 @@
 <body>
   <h3>Please Sign In With Google!</h3>
 <!--getting google client info -->
-  <div class="g-signin2" data-onsuccess="onSignIn"></div>
-  <a id = "sign-out" href="#" onclick="signOut();">Sign out</a>
+  <button class = "signIn">
+    <div class="g-signin2" data-onsuccess="onSignIn"></div>
+  </button>
   <p id = "name"></p>
   <p id = "pfp"></p>
   <p id = "email"></p>
@@ -26,6 +27,7 @@
   <!-- href="#" onclick="signOut();">Sign out</a>
   <!-- href="#" onclick="getData()"> get Data< >
   <script src="script.js"></script>
+  <a id = "sign-out" href="#" onclick="signOut();">Sign out</a>
   <!-- get profile info (doesn't work)-->
   
 </body>

@@ -33,10 +33,6 @@
       </div>
       </div>
     <br/>
-      
-     <?php
-     require('nav_bar.html');
-   ?>
     
     <div class="container-fluid">
       <div class="row justify-content-center text-center">

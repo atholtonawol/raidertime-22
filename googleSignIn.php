@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width">
   <title>replit</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="googleSignIn.css">
   <script src="https://apis.google.com/js/platform.js" async defer></script>
   <meta name="google-signin-client_id"
     content="751418040846-b0h7hb2us3svgl4037fjqbtmtkl9djrs.apps.googleusercontent.com">
@@ -13,7 +14,7 @@
 
 
 <body>
-  <h1>Please Sign In With Google!</h1>
+  <h3>Please Sign In With Google!</h3>
 <!--getting google client info -->
   <div class="g-signin2" data-onsuccess="onSignIn"></div>
   <a id = "sign-out" href="#" onclick="signOut();">Sign out</a>

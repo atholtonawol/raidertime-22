@@ -40,10 +40,6 @@ function onSignIn(googleUser) {
   document.getElementById('pfp').innerHTML = `Your profile picture is here: ${profile.getImageUrl()}`;
   document.getElementById('email').innerHTML =` Your email is ${profile.getEmail()}`;
 }
-     <?php
-   echo "<script>document.writeln(name);</script>";
-  
-      ?>
 
 
   
@@ -55,5 +51,8 @@ function signOut() {
     });
   }
 </script>
-
+      <?php
+   //echo "<script>document.writeln(name);</script>";
+  
+       ?>
 

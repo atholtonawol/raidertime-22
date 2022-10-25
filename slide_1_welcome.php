@@ -46,7 +46,7 @@
       </div>
       </div>
       <div class="needHelp col-2">Need Help?
-      <a class = "nav-link" href ="slide_9_faq.html">FAQs</a>
+      <a class = "nav-link" href ="slide_9_faq.php">FAQs</a>
       </div> 
     </div>
        

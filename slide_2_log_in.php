@@ -5,7 +5,6 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="slide_2.css">
     <link href='https://fonts.googleapis.com/css?family=Graduate' rel='stylesheet'>
-    <!--<link href='googleSignIn.php' rel='stylesheet'>-->
     
 <style>
   body {
@@ -20,6 +19,10 @@
 </style>
   </head> 
     <body>
+         <?php
+     require('nav_bar.html');
+   ?>
+    
     
       <div class=" px-4 pt-3 container-fluid">
       <div class="row">
@@ -34,11 +37,6 @@
       </div>
     <br/>
       
-     <?php
-     require('nav_bar.html');
-   ?>  
-      
-      
     <div class="container-fluid">
       <div class="row justify-content-center text-center">
       <div class="welcomebox col-md-4 col-9 mt-5 justify-content-center text-center">    
@@ -51,14 +49,13 @@
                <input type="password"id="password" name="lname" placeholder="password" required>
                <br>
                <input type="submit" id="login"value="LOGIN"/>
-          </form>
+               </form>
            
                 <p id="forgotpass"><a href="slide_3_forgot_password.php"><u>Forgot password?</u></a></p>
                 <div class="createaccount">
                   Don't have an account? <u>Sign up</u>
                 </div>  
-        
-        <?php
+         <?php       
                 //backend code for storing login (VOGUE2!)
               if(isset($_POST["username"]) && isset($_POST["lname"]))
               {
@@ -84,9 +81,5 @@
       </div>
       </div>
     </div>
-  
-    <?php
-     require('footer.html');
-   ?>
   </body>
 </html>

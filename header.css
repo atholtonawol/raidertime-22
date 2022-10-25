@@ -1,3 +1,10 @@
+.header {
+  padding: 60px;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+}
+
 .header-image {
 background-image: url(“atholton_building_updated_color_crop2.jpg”);
 background-position: center;

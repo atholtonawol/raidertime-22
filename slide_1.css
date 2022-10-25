@@ -1,6 +1,6 @@
 .welcomebox{
     background: #16542e;
-    padding:  10px; 
+    padding:  1%; 
     text-align: center;
     text-decoration-color: white;
     margin:  auto;
@@ -36,4 +36,17 @@
   .btn:hover{
     background-color:white;
     transition: 0.7s;
+  }
+
+  .needHelp{
+    background: #16542e;
+    padding: 5px;
+    text-align: center;
+    text-decoration-color: white;
+    margin:  auto;
+    margin-top: 0.5%;
+    font-size: 20px;
+    color: white;
+    font-family: calibri;
+    border-radius: 10px;
   }

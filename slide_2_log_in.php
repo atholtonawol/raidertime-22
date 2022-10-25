@@ -20,10 +20,6 @@
 </style>
   </head> 
     <body>
-         <?php
-     require('nav_bar.html');
-   ?>
-    
     
       <div class=" px-4 pt-3 container-fluid">
       <div class="row">
@@ -37,6 +33,11 @@
       </div>
       </div>
     <br/>
+      
+     <?php
+     require('nav_bar.html');
+   ?>  
+      
       
     <div class="container-fluid">
       <div class="row justify-content-center text-center">
@@ -82,5 +83,9 @@
       </div>
       </div>
     </div>
+  
+    <?php
+     require('footer.html');
+   ?>
   </body>
 </html>

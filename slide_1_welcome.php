@@ -26,9 +26,7 @@
             <h2 class="display-4"><b>Raider Time Signup</b></h2>
         </div>
         <div class="col-2 text-end">
-         <a href="https://ahs.hcpss.org/">
-          <img class = "img-fluid" src="https://github.com/atholtonawol/raidertime-22/blob/main/assets/image/NewAtholtonA.png?raw=true">
-         </a>
+         <a href="https://ahs.hcpss.org/"><img class = "img-fluid" src="https://github.com/atholtonawol/raidertime-22/blob/main/assets/image/NewAtholtonA.png?raw=true"></a>
         </div>
       </div>
       </div>

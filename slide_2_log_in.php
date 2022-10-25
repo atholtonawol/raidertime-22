@@ -74,10 +74,11 @@
       </div>
     </div>
 
- <?php
-            require('footer.php');
-          $user_email = _COOKIE['user_email'];
-print_r($user_email);
-          ?>
+  <?php
+    require('footer.php');
+    $user_email = _COOKIE['user_email'];
+    echo "asdfasdfadf";
+    print_r($user_email);
+  ?>
   </body>
 </html>

@@ -19,10 +19,7 @@
 </style>
   </head> 
     <body>
-         <?php
-     require('nav_bar.html');
-   ?>
-    
+        
     
       <div class=" px-4 pt-3 container-fluid">
       <div class="row">
@@ -37,6 +34,10 @@
       </div>
     <br/>
       
+     <?php
+     require('nav_bar.html');
+   ?>
+    
     <div class="container-fluid">
       <div class="row justify-content-center text-center">
       <div class="welcomebox col-md-4 col-9 mt-5 justify-content-center text-center">    
@@ -72,5 +73,9 @@
       </div>
       </div>
     </div>
+
+ <?php
+            require('footer.php');
+          ?>
   </body>
 </html>

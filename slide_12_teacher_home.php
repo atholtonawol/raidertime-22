@@ -25,7 +25,7 @@ body {
     </header>
     
     <?php
-      require('nav_bar.html');
+      require('header.html');
       require('slide_12_backend_get.php');
     ?>
     

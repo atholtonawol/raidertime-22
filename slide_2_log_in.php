@@ -40,12 +40,10 @@
     <div class="container-fluid">
       <div class="row justify-content-center text-center">
       <div class="welcomebox col-md-4 col-9 mt-5 justify-content-center text-center">    
-        <p>Welcome Raiders
-          <br>I am a:</p>
+        <p>Welcome Raiders</p>
           <?php
-        
-      require('googleSignIn.php');
-        ?>
+            require('googleSignIn.php');
+          ?>
          
                 </div>  
          <?php       

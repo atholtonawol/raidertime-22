@@ -53,7 +53,7 @@
 
 .nav-link{
     background: #16542e;
-    padding: 5px;
+    display: inline;
     text-align: center;
     text-decoration-color: white;
     margin:  auto;

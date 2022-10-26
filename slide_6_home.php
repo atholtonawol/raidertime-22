@@ -24,8 +24,7 @@
      require('slide_6_backend_get.php');
    ?>
     
-     Note: "Choose a teacher" and "Room" are the default values in the database for those fields. When a user is logged in, they will be replaced with the actual data.  
-    <a href="slide_12_teacher_home.php">Teacher view</a>
+   
     
     <h3>Welcome, [User Name]</h3>
   
@@ -143,7 +142,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js">
     
   </script>
-
+ <a href="slide_12_teacher_home.php">Teacher view</a>
      <?php
      require('footer.html');
    ?> 

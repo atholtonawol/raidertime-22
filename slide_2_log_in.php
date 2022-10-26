@@ -26,7 +26,7 @@
     
       <div class=" px-4 pt-3 container-fluid">
       <div class="row">
-        <div class="col-10">
+        <div class="col-9">
           <h1 class="display-2"><b>Atholton High School</b></h1>
             <h2 class="display-4"><b>Raider Time Signup</b></h2>
         </div>

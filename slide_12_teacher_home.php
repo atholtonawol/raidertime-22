@@ -58,7 +58,7 @@ body {
                     </tr>
                   </thead>
                   <tbody style="font-size: 20px">
-                  <?php
+                  <!--<?php
                     for($i = 0; $i < count($student_list); $i++) {
                       echo '
                         <tr>
@@ -67,7 +67,7 @@ body {
                         </tr>
                       ';
                     }
-                  ?>
+                  ?>-->
                   <tr>
                     <th scope="row" style="color: whitesmoke">1</th>
                     <td style="color: whitesmoke">Billy Bob Joe</td>

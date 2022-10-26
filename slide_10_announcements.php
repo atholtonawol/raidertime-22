@@ -69,7 +69,7 @@
                     <td class="period">Period 6</td>
                     <td class="time">1:25pm - 2:10pm</td>
                   </tr>
-                </tbody>
+                </body>
               </table>
             </div>
             </div>

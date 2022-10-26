@@ -99,7 +99,7 @@ body {
   <div class = "row">
     <div class = "col-5 mx-auto">
       <div class = "faqBottom">
-        <a href>
+        <a class = "nav-link" href ="slide_1_welcome.php">Home</a>
       </div>
 
     </div>

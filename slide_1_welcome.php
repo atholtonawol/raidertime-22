@@ -9,7 +9,7 @@
 <style>
   body {
     font-family: 'Graduate';font-size: 22px;
-    background-image: radial-gradient(rgba(220, 220, 220, 0.2), rgba(220, 220, 220, 0.7)), url('https://github.com/atholtonawol/raidertime-22/blob/main/assets/image/atholton_building_updated_color_crop2.jpg?raw=true');
+    background-image: url('https://github.com/atholtonawol/raidertime-22/blob/main/assets/image/atholton_building_updated_color_crop2.jpg?raw=true');
     background-size: cover;
     background-repeat: no-repeat;
     background-color: gainsboro;
@@ -46,7 +46,7 @@
       </div>
       </div>
       <div class="needHelp col-2">Need Help?
-      <a class = "nav-link" href ="slide_9_faq.php">FAQs</a>
+      <a class = "nav-link" href ="faqs_notLoggedIn.php">FAQs</a>
       </div> 
     </div>
        

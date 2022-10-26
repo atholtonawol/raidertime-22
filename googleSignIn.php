@@ -14,7 +14,6 @@
 
 
 <body>
-  <h3>Please Sign In With Google!</h3>
 <!--getting google client info -->
   <button class = "signIn">
     <div class="g-signin2" data-onsuccess="onSignIn"></div>

@@ -47,8 +47,7 @@ body {
      
         <div class="col-md-6">
           <div class = "pass">
-            <div class=" px-7 pt-3 container-fluid">
-              <div class="row">
+            
                 <div class = col-7>
                   <table class="table">
                     <thead style="font-size: 25px">
@@ -92,8 +91,7 @@ body {
                 </table>
               </div>
               <img src = "https://ahs.hcpss.org/sites/default/files/atholtonhs.png"/>
-            </div>
-          </div>
+            
         </div> <!-- End green box class called pass -->
      </div> <!-- Col-md-6 -->    
  </div> <!-- End justify content -->

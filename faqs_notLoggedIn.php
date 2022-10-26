@@ -96,6 +96,15 @@ body {
   </div>
 </div>
 
+  <div class = "row">
+    <div class = "col-5 mx-auto">
+      <div class = "faqBottom">
+        <a href>
+      </div>
+
+    </div>
+  </div>
+
 <?php
      require('footer.html');
    ?>

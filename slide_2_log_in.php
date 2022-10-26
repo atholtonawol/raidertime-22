@@ -37,7 +37,8 @@
     <div class="container-fluid">
       <div class="row justify-content-center text-center">
       <div class="welcomebox col-md-4 col-9 mt-5 justify-content-center text-center">    
-        <h2>Welcome Raiders</h2>
+        <h2>Welcome Raiders</h2>\
+          <h3>Please Sign In With Your HCPSS Google Account!</h3>
           <?php
             require('googleSignIn.php');
           ?>

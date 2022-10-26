@@ -68,7 +68,6 @@ body {
                       ';
                     }
                   ?>
-                  <!--
                   <tr>
                     <th scope="row" style="color: whitesmoke">1</th>
                     <td style="color: whitesmoke">Billy Bob Joe</td>
@@ -89,7 +88,6 @@ body {
                     <th scope="row" style="color: whitesmoke">5</th>
                     <td style="color: whitesmoke">Liam Tronki</td>
                   </tr>
-                  -->
                 </tbody>
                 </table>
               </div>

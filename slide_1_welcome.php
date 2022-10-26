@@ -48,9 +48,8 @@
       
       </div>
       </div>
-      <div class="needHelp col-2">Need Help?
+      <div class="needHelp col-2">Need Help?</div> 
       <a class = "nav-link" href ="slide_9_faq.php">FAQs</a>
-      </div> 
     </div>
        
   </body>

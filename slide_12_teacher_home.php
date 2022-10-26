@@ -1,12 +1,12 @@
 <html>
   <head>
     <!--link rel="stylesheet" href="frontEnd/test.css"-->
-    <link rel="stylesheet" href="slide_6.css">
+    <link rel="stylesheet" href="slide_12_teacher_home.css">
     <title>Raider Time Home</title>
     <link href='https://fonts.googleapis.com/css?family=Graduate' rel='stylesheet'>
 
     <!-- Links for github and repl.it to link to style sheet and bootstrap-->
-    <link href='slide_6.css' rel='stylesheet'>
+    <link href='slide_12_teacher_home.css' rel='stylesheet'>
     <link href='style.css' rel='stylesheet'>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <link rel="stylesheet" href="stlye.css"/>

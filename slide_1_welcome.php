@@ -7,6 +7,9 @@
     <link href='https://fonts.googleapis.com/css?family=Graduate' rel='stylesheet'>
     
 <style>
+  html{
+    height: 100%;
+  }
   body {
     font-family: 'Graduate';font-size: 22px;
     background-image: radial-gradient(rgba(220, 220, 220, 0.2), rgba(220, 220, 220, 0.7)), url('https://github.com/atholtonawol/raidertime-22/blob/main/assets/image/atholton_building_updated_color_crop2.jpg?raw=true');

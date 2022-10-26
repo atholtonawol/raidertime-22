@@ -7,9 +7,12 @@
     <link href='https://fonts.googleapis.com/css?family=Graduate' rel='stylesheet'>
     
 <style>
+  html{
+    height: 100%;
+  }
   body {
     font-family: 'Graduate';font-size: 22px;
-    background-image: url('https://github.com/atholtonawol/raidertime-22/blob/main/assets/image/color%20atholton%20building.jpg?raw=true');
+    background-image: radial-gradient(rgba(220, 220, 220, 0.2), rgba(220, 220, 220, 0.7)), url('https://github.com/atholtonawol/raidertime-22/blob/main/assets/image/color%20atholton%20building.jpg?raw=true');
     background-size: cover;
     background-repeat: no-repeat;
     background-color: gainsboro;
@@ -27,8 +30,10 @@
           <h1 class="display-2"><b>Atholton High School</b></h1>
             <h2 class="display-4"><b>Raider Time Signup</b></h2>
         </div>
-        <div class="col-2 text-end">
-          <img class = "img-fluid" src="https://github.com/atholtonawol/raidertime-22/blob/main/assets/image/NewAtholtonA.png?raw=true">
+       <div class="col-3 text-end">
+          <a href="https://ahs.hcpss.org/">
+            <img class = "img-fluid" src="https://github.com/atholtonawol/raidertime-22/blob/main/assets/image/new_Atholton_raider1-removebg-preview.png?raw=true">
+         </a>
         </div>
       </div>
       </div>

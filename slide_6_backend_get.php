@@ -65,21 +65,21 @@ if(true) {
         
         
         //$hr_name = SER_get_teacher($hr_id, 'name');
-        // $new_name = SER_get_teacher($new_id, 'name');
-        // $new_room = SER_get_teacher($new_id, 'room');
+        //$new_name = SER_get_teacher($new_id, 'name');
+        //$new_room = SER_get_teacher($new_id, 'room');
         
         //==== Connect to teacher_info to grab list of teachers ====//
         $list_sql = 'SELECT name, room FROM teacher_info';
         $list_result = mysqli_query($conn, $list_sql);
-        //$list_var = mysqli_fetch_all($list_result, MYSQLI_ASSOC);
+        $list_var = mysqli_fetch_all($list_result, MYSQLI_ASSOC);
         
         $list_teacher = array(); //2D array: [name, room]
         
         if (count($list_teacher) > 0) { //Ensure that results were found
             echo 'Invalid SQL result for teacher_info (list_teacher): Number of results is '.count($new_var).' instead of 1!';
         } else {
-            echo $result;
-            while($row = mysqli_fetch_array($result)){ //Iterates through table
+            echo $list_result;
+            while($row = mysqli_fetch_array($list_result)){ //Iterates through table
                 //FRONT END FIGURE OUT FORMATTING. ALIGN THE ROOM NUMBER TO THE RIGHT
                 //echo "<option>". $row['teachers'].$row['room']."</option>";
                 $list_teacher[] = array($row['name'], $row['room']); //Appends student name to the array, PHP syntax is weird

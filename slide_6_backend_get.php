@@ -69,7 +69,7 @@ if(true) {
         //$new_room = SER_get_teacher($new_id, 'room');
         
         //==== Connect to teacher_info to grab list of teachers ====//
-        $list_sql = 'SELECT name, room FROM teacher_info';
+        /*$list_sql = 'SELECT name, room FROM teacher_info';
         $list_result = mysqli_query($conn, $list_sql);
         $list_var = mysqli_fetch_all($list_result, MYSQLI_ASSOC);
         
@@ -79,14 +79,14 @@ if(true) {
             echo 'Invalid SQL result for teacher_info (list_teacher): Number of results is '.count($list_result).' instead of 1!';
         } else {
             echo $list_result;
-            /*
+            
             while($row = mysqli_fetch_array($list_result)){ //Iterates through table
                 //FRONT END FIGURE OUT FORMATTING. ALIGN THE ROOM NUMBER TO THE RIGHT
                 //echo "<option>". $row['teachers'].$row['room']."</option>";
                 $list_teacher[] = array($row['name'], $row['room']); //Appends student name to the array, PHP syntax is weird
             }
-            */
-        }
+            
+        }*/
 
         
     } //if one result was found

@@ -86,7 +86,7 @@ if(true) {
                 $list_teacher[] = array($row['name'], $row['room']); //Appends student name to the array, PHP syntax is weird
             }*/
             foreach($list_var as $i) {
-                $list_teacher[] = array($i['name']);
+                $list_teacher[] = array($i['name'], $i['room']);
             }
         }
 

@@ -1,5 +1,6 @@
 <?php
-require_once 'vendor/autoload.php';
+//require_once 'vendor/autoload.php';
+require_once 'connect.php';
   
 // init configuration
 $clientID = '<YOUR_CLIENT_ID>';

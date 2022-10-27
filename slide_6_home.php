@@ -70,6 +70,7 @@
         <option value="Peddicord, Scott">Peddicord, Scott</option>
          <?php 
               echo '<option>twatafsdaedf</option>';
+              echo "<option>". $list_teacher[0].$list_teacher[0]."</option>"
              //for($i = 0; $i <= count($list_teacher); $i++) {
              //    echo '<option>'.$list_teacher[$i][0].', '.$list_teacher[$i][1].'</option>';
              //}

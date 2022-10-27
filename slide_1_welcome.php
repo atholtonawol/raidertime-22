@@ -48,8 +48,8 @@
       
       </div>
       </div>
-      <a class = "needHelp col-2" href ="faqs_notLoggedIn.php">Need Help?</a>
     </div>
+      <a class = "needHelp col-2" href ="faqs_notLoggedIn.php">Need Help?</a>
        
   </body>
 </html>

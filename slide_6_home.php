@@ -70,7 +70,7 @@
         <option value="Peddicord, Scott">Peddicord, Scott</option>
          <?php 
              for($i = 0; $i <= count($list_teacher); $i++) {
-                 echo '<option>'.$list_teacher[$i][0].', '.$list_teacher[$i][1].'</option>;
+                 echo '<option>'.$list_teacher[$i][0].', '.$list_teacher[$i][1].'</option>';
              }
             /*
             require '/home4/ahsraid1/public_html/database/connect.php';

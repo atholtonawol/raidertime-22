@@ -71,12 +71,13 @@
                   1px -1px 0 white,
                   -1px -1px 0 white; 
   }
-  h2{
-    text-shadow: -1px 1px 0 white,
-                  1px 1px 0 white,
-                  1px -1px 0 white,
-                  -1px -1px 0 white; 
+ .h2{
+   color: white;
   }
+
+.h3{
+   color: white;
+}
   
   .btn{
     background-color:  #8ea484ff;

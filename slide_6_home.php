@@ -72,7 +72,7 @@
         -->
          <?php 
              for($i = 1; $i <= count($list_teacher); $i++) {
-                 echo '<option>'.$list_teacher[$i][0].', '.$list_teacher[$i][1].'</option>';
+                 echo '<option>'.$list_teacher[$i][0].', \t\t'.$list_teacher[$i][1].'</option>';
              }
         
             /*

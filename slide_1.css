@@ -47,19 +47,16 @@
     margin-top: 0.5%;
     font-size: 20px;
     color: white;
-    font-family: calibri;
+    font-family: 'Graduate';
     border-radius: 10px;
   }
-
-.nav-link{
-    background: #16542e;
+  .nav-link{
     display: inline;
     text-align: center;
-    text-decoration-color: white;
     margin:  auto;
     margin-top: 0.5%;
+    font-family: 'Calibri';
     font-size: 20px;
     color: white;
-    font-family: calibri;
     border-radius: 10px;
   }

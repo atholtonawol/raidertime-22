@@ -69,7 +69,7 @@ if(true) {
         // $new_room = SER_get_teacher($new_id, 'room');
         
         //==== Connect to teacher_info to grab list of teachers ====//
-        $list_sql = 'SELECT name, room FROM teacher_info WHERE id='.$new_id;
+        $list_sql = 'SELECT name, room FROM teacher_info;
         $list_result = mysqli_query($conn, $list_sql);
         $list_var = mysqli_fetch_all($list_result, MYSQLI_ASSOC);
         

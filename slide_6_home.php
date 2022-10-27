@@ -69,18 +69,22 @@
         <option value="Chaudhry, Mabrooka">Chaudhry, Mabrooka</option>
         <option value="Peddicord, Scott">Peddicord, Scott</option>
          <?php 
-             
-        require '/home4/ahsraid1/public_html/database/connect.php';
-        if (!$conn) {
-           die("Connection failed: " . mysqli_connect_error());
-         } 
+             for($i = 0; $i <= count($list_teacher); $i++) {
+                 echo '<option>'.$list_teacher[$i][0].', '.$list_teacher[$i][1].'</option>;
+             }
+            /*
+            require '/home4/ahsraid1/public_html/database/connect.php';
+            if (!$conn) {
+              die("Connection failed: " . mysqli_connect_error());
+             } 
    
-              $sql = 'SELECT teachers, room FROM old_teacherInfo';
-              $result = mysqli_query($conn, $sql);
-          while($row = mysqli_fetch_array($result)){
-             //FRONT END FIGURE OUT FORMATTING. ALIGN THE ROOM NUMBER TO THE RIGHT
-             echo "<option>". $row['teachers'].$row['room']."</option>";
-          }
+                 $sql = 'SELECT teachers, room FROM old_teacherInfo';
+                 $result = mysqli_query($conn, $sql);
+             while($row = mysqli_fetch_array($result)){
+                //FRONT END FIGURE OUT FORMATTING. ALIGN THE ROOM NUMBER TO THE RIGHT
+                 echo "<option>". $row['teachers'].$row['room']."</option>";
+              }
+             */
           ?>
       </select>
     </td>
@@ -122,7 +126,7 @@
   </div>  
 
   
-    <?php
+    <!--<?php
     if(isset($_POST["teacher-dropdown"]))
     {
     $var = $_POST["teacher-dropdown"];
@@ -134,7 +138,7 @@
       }
 //     $result = mysqli_query($conn, $sql);
     }
-    ?>
+    ?>-->
 
 
   

@@ -78,6 +78,7 @@ if(true) {
         if (count($list_teacher) > 0) { //Ensure that results were found
             echo 'Invalid SQL result for teacher_info (list_teacher): Number of results is '.count($new_var).' instead of 1!';
         } else {
+            echo 'AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA';
             while($row = mysqli_fetch_array($result)){ //Iterates through table
                 //FRONT END FIGURE OUT FORMATTING. ALIGN THE ROOM NUMBER TO THE RIGHT
                 //echo "<option>". $row['teachers'].$row['room']."</option>";

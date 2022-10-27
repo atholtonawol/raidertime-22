@@ -48,8 +48,7 @@
       
       </div>
       </div>
-      <div class="needHelp col-2">Need Help?</div> 
-      <a class = "nav-link" href ="faqs_notLoggedIn.php">FAQs</a>
+      <a class = "needHelp col-2" href ="faqs_notLoggedIn.php">Need Help?</a>
     </div>
        
   </body>

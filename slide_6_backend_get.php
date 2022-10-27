@@ -71,12 +71,12 @@ if(true) {
         //==== Connect to teacher_info to grab list of teachers ====//
         $list_sql = 'SELECT name, room FROM teacher_info';
         $list_result = mysqli_query($conn, $list_sql);
-        $list_var = mysqli_fetch_all($list_result, MYSQLI_ASSOC);
+        //$list_var = mysqli_fetch_all($list_result, MYSQLI_ASSOC);
         
         $list_teacher = array(); //2D array: [name, room]
         
-        if (count($list_teacher) > 0) { //Ensure that results were found
-            echo 'Invalid SQL result for teacher_info (list_teacher): Number of results is '.count($new_var).' instead of 1!';
+        if (count($list_result) <= 0) { //Ensure that results were found
+            echo 'Invalid SQL result for teacher_info (list_teacher): Number of results is '.count($list_result).' instead of 1!';
         } else {
             echo $list_result;
             while($row = mysqli_fetch_array($list_result)){ //Iterates through table

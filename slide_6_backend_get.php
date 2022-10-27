@@ -42,7 +42,7 @@ if(true) {
         $hr_var = mysqli_fetch_all($hr_result, MYSQLI_ASSOC);
 
         if (count($hr_var) != 1) { //Ensure that exactly one result was found
-            echo 'Invalid SQL result for teacher_info: Number of results is '.count($hr_var).' instead of 1!';
+            echo 'Invalid SQL result for teacher_info (homeroom): Number of results is '.count($hr_var).' instead of 1!';
         } else {
             //These variables will be referenced by slide_6_home.php
             $hr_name = $hr_var[0]['name'];
@@ -56,7 +56,7 @@ if(true) {
         $new_var = mysqli_fetch_all($new_result, MYSQLI_ASSOC);
 
         if (count($new_var) != 1) { //Ensure that exactly one result was found
-            echo 'Invalid SQL result for teacher_info: Number of results is '.count($new_var).' instead of 1!';
+            echo 'Invalid SQL result for teacher_info (new): Number of results is '.count($new_var).' instead of 1!';
         } else {
             //These variables will be referenced by slide_6_home.php
             $new_name = $new_var[0]['name'];
@@ -69,14 +69,14 @@ if(true) {
         // $new_room = SER_get_teacher($new_id, 'room');
         
         //==== Connect to teacher_info to grab list of teachers ====//
-        $list_sql = 'SELECT name, room FROM teacher_info;
+        $list_sql = 'SELECT name, room FROM teacher_info';
         $list_result = mysqli_query($conn, $list_sql);
         $list_var = mysqli_fetch_all($list_result, MYSQLI_ASSOC);
         
         $list_teacher = array(); //2D array: [name, room]
         
-        if (count($new_var) != 1) { //Ensure that exactly one result was found
-            echo 'Invalid SQL result for teacher_info: Number of results is '.count($new_var).' instead of 1!';
+        if (count($list_teacher) > 0) { //Ensure that results were found
+            echo 'Invalid SQL result for teacher_info (list_teacher): Number of results is '.count($new_var).' instead of 1!';
         } else {
             while($row = mysqli_fetch_array($result)){ //Iterates through table
                 //FRONT END FIGURE OUT FORMATTING. ALIGN THE ROOM NUMBER TO THE RIGHT

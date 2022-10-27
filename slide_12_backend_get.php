@@ -33,12 +33,12 @@ if(true) {
     $result = mysqli_query($conn, $sql);
     $var = mysqli_fetch_all($result, MYSQLI_ASSOC); 
     
+    $student_list = array();
  
     if (count($var) <= 0) {
         $student_list[] = "No students found!";
     } else {
         //These variables will be referenced by slide_12_teacher_home.php
-        $student_list = array();
         foreach($var as $i) {
           $student_list[] = $i['fullName']; //Appends student name to the array, PHP syntax is weird
         }

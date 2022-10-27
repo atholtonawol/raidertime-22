@@ -35,7 +35,7 @@ if(true) {
     
  
     if (count($var) <= 0) {
-        $student_list[] = "No students found!"
+        $student_list[] = "No students found!";
     } else {
         //These variables will be referenced by slide_12_teacher_home.php
         $student_list = array();

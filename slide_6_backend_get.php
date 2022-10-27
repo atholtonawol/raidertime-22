@@ -75,8 +75,8 @@ if(true) {
         
         $list_teacher = array(); //2D array: [name, room]
         
-        if (count($list_result) <= 0) { //Ensure that results were found
-            echo 'Invalid SQL result for teacher_info (list_teacher): Number of results is '.count($list_result).' instead of 1!';
+        if (count($list_var) <= 0) { //Ensure that results were found
+            echo 'Invalid SQL result for teacher_info (list_teacher): Number of results is '.count($list_var).' instead of 1!';
         } else {
             /*
             echo $list_result;
@@ -85,7 +85,9 @@ if(true) {
                 //echo "<option>". $row['teachers'].$row['room']."</option>";
                 $list_teacher[] = array($row['name'], $row['room']); //Appends student name to the array, PHP syntax is weird
             }*/
-            
+            foreach($list_var as $i) {
+                $list_teacher[] = $i['name'];
+            }
         }
 
         

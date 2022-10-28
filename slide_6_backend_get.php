@@ -74,7 +74,7 @@ if(true) {
         $list_var = mysqli_fetch_all($list_result, MYSQLI_ASSOC);
         
         $list_teacher = array(); //2D array: [name, room]
-        
+        print_r($list_var);
         if (count($list_var) <= 0) { //Ensure that results were found
             echo 'Invalid SQL result for teacher_info (list_teacher): Number of results is '.count($list_var).' instead of 1!';
         } else {

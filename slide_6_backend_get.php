@@ -88,7 +88,6 @@ if(true) {
             foreach($list_var as $i) {
                 $list_teacher[] = array($i['name'], $i['room']);
             }
-            print_r($list_teacher);
         }
 
         

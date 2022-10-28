@@ -87,7 +87,7 @@
     </form>
 
     <!--When new teacher is selected from dropdown, pass preview should show.-->
-
+    <!--
     <div class="pass-preview" style="background: white">
       <h4 class="display-6" style="margin-top: 3%; padding-top: 20px">Pass Preview</h4>
       <ul>
@@ -109,28 +109,30 @@
         </li>
       </ul>
     </div>
-
+    -->
+              
     <!--When student is satisfied with pass preview and new teacher selected, they press button to enact changes.-->
 
             </div>
         </div>
       </div>
-  </div>  
+   </div>  
 
   
-    <!--<?php
-    if(isset($_POST["teacher-dropdown"]))
-    {
-    $var = $_POST["teacher-dropdown"];
-    $sql = "UPDATE student_info SET newTeacher = '{$var}' WHERE lastName = 'Aballo'";
-    echo $var; 
-      if(!mysqli_query($conn, $sql))
-      {
-      echo mysqli_error($conn);
-      }
-//     $result = mysqli_query($conn, $sql);
-    }
-    ?>-->
+   <!--UPDATE DATABASE WITH STUDENT'S SELECTION-->
+   <?php
+       if(isset($_POST["teacher-dropdown"])) {
+           $var = $_POST["teacher-dropdown"];
+           print_r($var);
+           /*$sql = "UPDATE student_info SET newTeacher = '{$var}' WHERE lastName = 'Aballo'";
+           echo $var; 
+           if(!mysqli_query($conn, $sql))
+           {
+               echo mysqli_error($conn);
+           }
+           //$result = mysqli_query($conn, $sql);*/
+       }
+   ?>
 
 
   

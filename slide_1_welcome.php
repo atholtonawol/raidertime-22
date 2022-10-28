@@ -49,7 +49,7 @@
       </div>
       </div>
     </div>
-      <a class = "needHelp col-2" href ="faqs_notLoggedIn.php">Need Help?</a>
+      <a class = "needHelp col-2 justify-content-center" href ="faqs_notLoggedIn.php">Need Help?</a>
        
   </body>
 </html>

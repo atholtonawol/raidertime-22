@@ -129,7 +129,6 @@
            if(!mysqli_query($conn, $sql)) {
                echo mysqli_error($conn);
            }
-           //$result = mysqli_query($conn, $sql);
        }
    ?>
 

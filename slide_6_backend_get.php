@@ -85,11 +85,10 @@ if(true) {
                 //echo "<option>". $row['teachers'].$row['room']."</option>";
                 $list_teacher[] = array($row['name'], $row['room']); //Appends student name to the array, PHP syntax is weird
             }*/
-            echo "asdftest";
             foreach($list_var as $i) {
-                print_r($i['name']);
                 $list_teacher[] = array($i['name'], $i['room']);
             }
+            print_r($list_teacher[]);
         }
 
         

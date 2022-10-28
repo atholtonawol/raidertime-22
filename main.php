@@ -22,7 +22,7 @@
     
       <a href="VOGUE2.php"><h2>VOGUE2</h2></a>
       <br>
-      <a href="googleSignIn.php"><h2>signin</h2></a>
+      <a href="google_sign_in_VOGUE.php"><h2>signin</h2></a>
       <br>
       <a href="slide_6_home.php"><h2>Home</h2></a>
     </span>

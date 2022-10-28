@@ -72,10 +72,10 @@
         -->
          <?php 
              for($i = 1; $i <= count($list_teacher); $i++) {
-                 echo '<option>'.$list_teacher[$i][0].', '.$list_teacher[$i][1].'</option>';
+                 echo '<option value='.$list_teacher[$i][0].'>'.$list_teacher[$i][1].', '.$list_teacher[$i][2].'</option>';
                  $optionFormatted = sprintf("<option value='%i'>%-4s,%-8s", $list_teacher[$i][0], $i, $list_teacher[$i][0]);
                  $optionHTML = str_replace(' ', '&nbsp;', $optionFormatted);
-                 echo $optionHTML;
+                 //echo $optionHTML;
              }
           ?>
       </select>

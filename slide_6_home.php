@@ -32,7 +32,6 @@
       <p class = "title">Raider Time Pass</p>
       <p class = "name">Name: <?php echo $first_name." ".$last_name ?></p>
       <p class = "teacher">Period 2 Teacher: <?php echo $hr_name ?></p>
-      <!-- <p class = "destination">Destination: <?php echo $new_name ?></p><-->
       <p class = "location">Location: <?php echo $new_name ?>, <?php echo $new_room ?></p>
       <p class = "date">Date: <?php echo date("F jS, Y") ?></p>
       <img style="padding-bottom: 5%" src = "https://ahs.hcpss.org/sites/default/files/atholtonhs.png"/>
@@ -126,11 +125,18 @@
            print_r($selection);
            $sql = "UPDATE student_info SET newTeacher = '{$selection}' WHERE user = '{$userName}'";
            
-           if(!mysqli_query($conn, $sql)) {
+           if(!mysqli_query($conn, $sql)) { //DOES THIS IF STATEMENT EVEN WORK???
                echo mysqli_error($conn);
+           } else {
+               header("refresh: 0");
            }
        }
    ?>
+  
+  <!--REFRESH PASS TO UPDATE INFO-->
+  <script>
+      //document.getElementById("location").textContent = "Location: <?php echo $new_name ?>, <?php echo $new_room ?>":
+  </script>
 
 
   

@@ -4,7 +4,7 @@ require_once 'vendor/autoload.php';
 // init configuration
 $clientID = '751418040846-b0h7hb2us3svgl4037fjqbtmtkl9djrs.apps.googleusercontent.com';
 $clientSecret = '4aZpmW5rLXbtl5EZxZhe6Bcy';
-$redirectUri = 'https://ahsraidertime.org';
+$redirectUri = 'https://ahsraidertime.org/repositories/raidertime-22/main.php';
    
 // create Client Request to access Google API
 $client = new Google_Client();

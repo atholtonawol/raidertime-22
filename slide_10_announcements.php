@@ -24,7 +24,7 @@
           <div class="row justify-content-center">
             <div class = "schedule col-5 justify-content-center">
             <table class="table">
-                <tbody>
+                <body>
                   <tr>
                     <td class="period">Period 1</td>
                     <td class="time"> 7:25am - 8:10am </td>

@@ -38,8 +38,16 @@ body {
     <div class="row">
       <div class="d-flex align-items-center">
         <div class="col-md-7">
+          
           <p class = "name">Name: <?php echo $teacher_name ?></p>
-          <p class = "location">Classroom: <?php echo $teacher_room ?></p>
+          
+          <form>
+            <p class = "location"><label for="room">Classroom: </label> <input type="text" id="room" name="room" value="test"><br></p>
+          </form>
+          
+          <!--<p class = "location">Classroom: <?php echo $teacher_room ?></p>-->
+          
+          
           <p class = "date">Date: <?php echo date("F jS, Y") ?></p>
         </div>
         <!-- start code inside of green box -->

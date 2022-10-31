@@ -80,7 +80,7 @@
       </select>
     </td>
       <div class="col text-center">
-      <button type="submit" class="btn mt-3" style="margin-bottom: 1%" onclick='window.location.reload(true);'>Submit Teacher</button>
+      <button type="submit" class="btn mt-3" style="margin-bottom: 1%" onclick='window.opener.location.reload(true);'>Submit Teacher</button>
       </div>
     </form>
 

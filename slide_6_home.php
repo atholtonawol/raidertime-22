@@ -9,6 +9,7 @@
     <!-- style sheets, bootstrap, javascript -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
   <style>
     body {
       font-family: 'Graduate';font-size: 22px;
@@ -59,7 +60,7 @@
     <h3>[Teacher Name] - [Room Number]</h3>
     <h2 class="display-6">New Signup Selection</h2>
 
-    <form method = "POST">
+    <form id = "teacher-selection" method = "POST">
     <td>
       <select name="teacher-dropdown" id="teacher-dropdown">
         <option autoComplete="on" list="suggestions" selected>Choose a teacher</option>
@@ -134,8 +135,22 @@
   
   <!--REFRESH PASS TO UPDATE INFO-->
   <script>
-      //document.getElementById("location").textContent = "Location: <?php echo $new_name ?>, <?php echo $new_room ?>":
-  </script>
+    $form = $("#teacher-selection"); 
+    $form.on("submit",function()
+    {
+      alert("submitting..");
+      //do ajax
+       $.ajax({
+          url:<submit url>,
+          type:post,
+          success:function() {
+            location.reload();
+          }
+      });
+    });
+    $form.submit();
+    </script>
+
 
 
   

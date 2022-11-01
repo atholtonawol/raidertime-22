@@ -79,7 +79,7 @@ body {
                         <tr>
                         <th scope="row" style="color: whitesmoke">'.($i+1).'</th>
                         <td style="color: whitesmoke">'.$student_list[$i].'</td>
-                        <td><input type="submit" name="remove-'.$i.'" class="button" value="X" /></td>
+                        <td><input type="submit" name="remove-'.$i.'" class="button" value="X" onclick="slide_12_backend_edit.php"/></td>
                         </tr>
                       ';
                     }

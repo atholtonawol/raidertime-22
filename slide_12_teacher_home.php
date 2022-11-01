@@ -66,6 +66,14 @@ body {
                   </thead>
                   <tbody style="font-size: 20px">
                   <?php
+                    
+                        echo "backend edit";
+                        if(array_key_exists('remove-0', $_POST)) {
+                            echo "remove";
+                        }
+
+                    
+
                     for($i = 0; $i < count($student_list); $i++) {
                       echo '
                         <tr>

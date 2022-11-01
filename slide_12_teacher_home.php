@@ -71,7 +71,7 @@ body {
                         <tr>
                         <th scope="row" style="color: whitesmoke">'.($i+1).'</th>
                         <td style="color: whitesmoke">'.$student_list[$i].'</td>
-                        <td><input type="submit" name="button1" class="button" value="X" /></td>
+                        <td><input type="submit" name="remove-'.$i.'" class="button" value="X" /></td>
                         </tr>
                       ';
                     }

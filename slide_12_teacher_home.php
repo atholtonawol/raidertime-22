@@ -53,7 +53,7 @@ body {
         <!-- start code inside of green box -->
     <!-- For the code inside of the green box, everything that had style="whitesmoke" was css code to alter color of output text since I was struggling to do so via a class -->
      
-        <div class="col-md-8">
+        <div class="col-md-6">
           <div class = "pass">
             
                 <div class = col-7>
@@ -71,6 +71,7 @@ body {
                         <tr>
                         <th scope="row" style="color: whitesmoke">'.($i+1).'</th>
                         <td style="color: whitesmoke">'.$student_list[$i].'</td>
+                        <td><input type="button" value="X" onclick="alert("hello");"/></td>
                         </tr>
                       ';
                     }

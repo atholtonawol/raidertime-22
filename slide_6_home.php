@@ -130,6 +130,7 @@
            } else {
              echo "UISDFHNJKSDHFSDF";
              header("refresh: 0");
+             header("refresh: 0");
            }
        }
    ?>

@@ -71,7 +71,7 @@ body {
                         <tr>
                         <th scope="row" style="color: whitesmoke">'.($i+1).'</th>
                         <td style="color: whitesmoke">'.$student_list[$i].'</td>
-                        <td><input type="button" value="X" onclick="location='slide_12_backend_edit.php'"/></td>
+                        <td><input type="button" value="X" onclick="location=\'slide_12_backend_edit.php\'"/></td>
                         </tr>
                       ';
                     }

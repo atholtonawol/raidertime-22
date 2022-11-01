@@ -128,13 +128,14 @@
            if(!mysqli_query($conn, $sql)) { //DOES THIS IF STATEMENT EVEN WORK???
                echo mysqli_error($conn);
            } else {
-               header("refresh: 0");
+             echo "UISDFHNJKSDHFSDF";
+               //header("refresh: 0");
            }
        }
    ?>
   
   <!--REFRESH PASS TO UPDATE INFO-->
-  <script>
+  <!--<script>
     $form = $("#teacher-selection"); 
     $form.on("submit",function()
     {
@@ -149,7 +150,7 @@
       });
     });
     $form.submit();
-    </script>
+    </script>-->
 
 
 

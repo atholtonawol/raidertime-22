@@ -27,7 +27,7 @@ body {
     <?php
       require('header.html');
       require('slide_12_backend_get.php');
-      require('slide_12_backend_edit.php');
+      //require('slide_12_backend_edit.php');
     ?>
     
     
@@ -66,6 +66,12 @@ body {
                     </tr>
                   </thead>
                   <tbody style="font-size: 20px">
+                    
+                    <form action="slide_12_backend_edit.php" method="post">
+                    <input type="submit" name="1_y" id="1_y" class="btn btn-success">1.success />
+                    <input type="submit" name="1_k" id="1_k" class="btn btn-danger">1.danger /></form>
+                    
+                    
                     <form action="slide_12_backend_edit.php" method="post">
                     <?php
                       /*

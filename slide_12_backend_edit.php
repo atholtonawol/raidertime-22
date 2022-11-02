@@ -1,7 +1,7 @@
 <?php
-    echo "backend edit";
+    echo "<script>alert(\"backend edit\")</script>";
     if(isset($_POST['remove-0])) {
-        echo "remove";
+        echo "<script>alert(\"remove 0\")</script>";
     }
 
 ?>

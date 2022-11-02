@@ -179,7 +179,7 @@
 //       echo mysqli_error($conn);
 //       }
 //     $result = mysqli_query($conn, $sql);
-    }
+//       }
     ?>
 
   <!-- JavaScript -->

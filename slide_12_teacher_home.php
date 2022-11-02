@@ -27,6 +27,7 @@ body {
     <?php
       require('header.html');
       require('slide_12_backend_get.php');
+      require('slide_12_backend_edit.php');
     ?>
     
     

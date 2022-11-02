@@ -72,12 +72,12 @@
               <option value="Peddicord, Scott">Peddicord, Scott</option>
                  
 <?php
-//               $sql = 'SELECT teachers, room FROM teacherInfo';
-//               $result = mysqli_query($conn, $sql);
-//               while($row = mysqli_fetch_array($result)){
-//                 //FRONT END FIGURE OUT FORMATTING. ALIGN THE ROOM NUMBER TO THE RIGHT
-//               echo "<option>". $row['teachers'].$row['room']."</option>";
-//              }
+              $sql = 'SELECT teachers, room FROM old_teacherInfo';
+              $result = mysqli_query($conn, $sql);
+              while($row = mysqli_fetch_array($result)){
+                //FRONT END FIGURE OUT FORMATTING. ALIGN THE ROOM NUMBER TO THE RIGHT
+              echo "<option>". $row['teachers'].$row['room']."</option>";
+             }
 ?>             
             </select>
           </td>
@@ -121,12 +121,12 @@
         
  
           <?php
-               $sql = 'SELECT name, room FROM teacher_info';
-               $result = mysqli_query($conn, $sql);
-           while($row = mysqli_fetch_array($result)){
-              //FRONT END FIGURE OUT FORMATTING. ALIGN THE ROOM NUMBER TO THE RIGHT
-              echo "<option>". $row['name'].$row['room']."</option>";
-                }
+//                $sql = 'SELECT name, room FROM teacher_info';
+//                $result = mysqli_query($conn, $sql);
+//            while($row = mysqli_fetch_array($result)){
+//               //FRONT END FIGURE OUT FORMATTING. ALIGN THE ROOM NUMBER TO THE RIGHT
+//               echo "<option>". $row['name'].$row['room']."</option>";
+//                 }
           ?>
       </select>
     </td>

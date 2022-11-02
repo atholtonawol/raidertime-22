@@ -117,16 +117,16 @@
          
              
         
-         if (!$conn) {
-            die("Connection failed: " . mysqli_connect_error());
-          } 
-   
-               $sql = 'SELECT teachers, room FROM old_teacherInfo';
-               $result = mysqli_query($conn, $sql);
-           while($row = mysqli_fetch_array($result)){
-              //FRONT END FIGURE OUT FORMATTING. ALIGN THE ROOM NUMBER TO THE RIGHT
-              echo "<option>". $row['teachers'].$row['room']."</option>";
-           }
+//         if (!$conn) {
+//            die("Connection failed: " . mysqli_connect_error());
+//          } 
+//   
+//               $sql = 'SELECT teachers, room FROM old_teacherInfo';
+//               $result = mysqli_query($conn, $sql);
+//           while($row = mysqli_fetch_array($result)){
+//              //FRONT END FIGURE OUT FORMATTING. ALIGN THE ROOM NUMBER TO THE RIGHT
+//              echo "<option>". $row['teachers'].$row['room']."</option>";
+//           }
           
       </select>
     </td>
@@ -169,17 +169,17 @@
 
   
     
-//     if(isset($_POST["teacher-dropdown"]))
-//     {
-//     $var = $_POST["teacher-dropdown"];
-//     $sql = "UPDATE student_info SET newTeacher = '{$var}' WHERE lastName = 'Aballo'";
-//     echo $var; 
-//       if(!mysqli_query($conn, $sql))
-//       {
-//       echo mysqli_error($conn);
-//       }
-//     $result = mysqli_query($conn, $sql);
-//       }
+<!--     if(isset($_POST["teacher-dropdown"]))
+     {
+     $var = $_POST["teacher-dropdown"];
+     $sql = "UPDATE student_info SET newTeacher = '{$var}' WHERE lastName = 'Aballo'";
+     echo $var; 
+       if(!mysqli_query($conn, $sql))
+       {
+       echo mysqli_error($conn);
+       }
+     $result = mysqli_query($conn, $sql);
+       } -->
     
 
   <!-- JavaScript -->

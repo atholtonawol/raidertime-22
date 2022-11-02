@@ -1,0 +1,136 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+ 
+
+
+  :root {
+    --atholton-green: #16542eff;
+  }
+  
+  body {
+    font-family: 'Graduate';
+    font-size: 22px;
+  }
+
+  .btn{
+    background-color:  #8ea484ff;
+    border: 1px solid white;
+    padding:  10px;
+  }
+
+  .btn:hover{
+    background-color: white;
+    transition: 0.7s;
+  }
+
+  div {}
+
+  .spacing {}
+
+  #pass-preview {
+    background: white;
+  }
+
+  .modal-content {
+      background: var(--atholton-green);
+  }
+  
+  .form-popup {
+    background-color: var(--atholton-green);
+    display: none;
+    height: 80%;
+    margin: auto;
+    outline: 5px dotted white;
+    position: auto;
+    width: 70%;
+    border-style: solid;
+    border-width: 20px;
+    border-color: var(--atholton-green);
+  }
+
+  h1 {
+    background: transparent;
+    color: white;
+    margin-top: 7%;
+    text-align: center;
+  }
+
+  h2 {
+    background: transparent;
+    color: white;
+    margin: 2%;
+    text-align: center;
+  }
+
+  h3 {
+    background: transparent;
+    color: white;
+    font-family: Calibri;
+    margin: 5%;
+    text-align: center;
+  }
+
+  h4 {
+    background: white;
+    color: #16542E;
+    font-weight: bold;
+    margin-top: 10%;
+    text-align: center;
+  }
+
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    max-width: 100%;
+    height: auto;
+  }
+
+  option {
+    background: white;
+    font-family: Calibri;
+    font-size: 15px;
+  }
+
+  p {
+    background: white;
+    color: #16542E;
+    font-family: Calibri;
+  }
+
+  select {
+    background: white;
+    font-family: Calibri;
+    font-size: 18px;
+    margin-bottom: 2%;
+    margin-left: 25%;
+    padding: 3px;
+    width: 50%;
+  }
+
+  ul {
+    list-style-type: none;
+    background: white;
+  }
+
+  li {
+    background: white;
+
+  }
+
+  li span {
+    display: inline-block;
+    background: white;
+  }
+
+  #title {
+    margin-top: 8%;
+  }
+
+  #student {
+    font-family: Calibri;
+  }
+

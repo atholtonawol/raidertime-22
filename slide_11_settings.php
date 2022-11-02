@@ -70,12 +70,12 @@
               <option value="Chaudhry, Mabrooka">Chaudhry, Mabrooka</option>
               <option value="Peddicord, Scott">Peddicord, Scott</option>
              <?php 
-              $sql = 'SELECT teachers, room FROM teacherInfo';
-              $result = mysqli_query($conn, $sql);
-              while($row = mysqli_fetch_array($result)){
-                //FRONT END FIGURE OUT FORMATTING. ALIGN THE ROOM NUMBER TO THE RIGHT
-              echo "<option>". $row['teachers'].$row['room']."</option>";
-             }
+//               $sql = 'SELECT teachers, room FROM teacherInfo';
+//               $result = mysqli_query($conn, $sql);
+//               while($row = mysqli_fetch_array($result)){
+//                 //FRONT END FIGURE OUT FORMATTING. ALIGN THE ROOM NUMBER TO THE RIGHT
+//               echo "<option>". $row['teachers'].$row['room']."</option>";
+//              }
               ?>
             </select>
           </td>
@@ -116,17 +116,17 @@
         <option value="Peddicord, Scott">Peddicord, Scott</option>
          <?php 
              
-        require '/home4/ahsraid1/public_html/database/connect.php';
-        if (!$conn) {
-           die("Connection failed: " . mysqli_connect_error());
-         } 
+        
+//         if (!$conn) {
+//            die("Connection failed: " . mysqli_connect_error());
+//          } 
    
-              $sql = 'SELECT teachers, room FROM old_teacherInfo';
-              $result = mysqli_query($conn, $sql);
-          while($row = mysqli_fetch_array($result)){
-             //FRONT END FIGURE OUT FORMATTING. ALIGN THE ROOM NUMBER TO THE RIGHT
-             echo "<option>". $row['teachers'].$row['room']."</option>";
-          }
+//               $sql = 'SELECT teachers, room FROM old_teacherInfo';
+//               $result = mysqli_query($conn, $sql);
+//           while($row = mysqli_fetch_array($result)){
+//              //FRONT END FIGURE OUT FORMATTING. ALIGN THE ROOM NUMBER TO THE RIGHT
+//              echo "<option>". $row['teachers'].$row['room']."</option>";
+//           }
           ?>
       </select>
     </td>
@@ -169,15 +169,15 @@
 
   
     <?php
-    if(isset($_POST["teacher-dropdown"]))
-    {
-    $var = $_POST["teacher-dropdown"];
-    $sql = "UPDATE student_info SET newTeacher = '{$var}' WHERE lastName = 'Aballo'";
-    echo $var; 
-      if(!mysqli_query($conn, $sql))
-      {
-      echo mysqli_error($conn);
-      }
+//     if(isset($_POST["teacher-dropdown"]))
+//     {
+//     $var = $_POST["teacher-dropdown"];
+//     $sql = "UPDATE student_info SET newTeacher = '{$var}' WHERE lastName = 'Aballo'";
+//     echo $var; 
+//       if(!mysqli_query($conn, $sql))
+//       {
+//       echo mysqli_error($conn);
+//       }
 //     $result = mysqli_query($conn, $sql);
     }
     ?>
@@ -207,7 +207,7 @@
     </div>
       
    <?php
-     require('footer.html');
+     include('footer.html');
    ?>
   </body>
   </html>

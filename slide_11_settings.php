@@ -207,7 +207,9 @@
     </div>
       
    
-      include('footer.html');
+      <?php
+     require('footer.html');
+   ?>
    
   </body>
   </html>

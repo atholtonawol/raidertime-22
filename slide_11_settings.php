@@ -1,4 +1,4 @@
-<?php echo "hi"; ?>
+<?php echo "test"; ?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -72,12 +72,12 @@
               <option value="Peddicord, Scott">Peddicord, Scott</option>
                  
 <?php
-              $sql = 'SELECT teachers, room FROM old_teacherInfo';
-              $result = mysqli_query($conn, $sql);
-              while($row = mysqli_fetch_array($result)){
-                //FRONT END FIGURE OUT FORMATTING. ALIGN THE ROOM NUMBER TO THE RIGHT
-              echo "<option>". $row['teachers'].$row['room']."</option>";
-             }
+//               $sql = 'SELECT teachers, room FROM old_teacherInfo';
+//               $result = mysqli_query($conn, $sql);
+//               while($row = mysqli_fetch_array($result)){
+//                 //FRONT END FIGURE OUT FORMATTING. ALIGN THE ROOM NUMBER TO THE RIGHT
+//               echo "<option>". $row['teachers'].$row['room']."</option>";
+//              }
 ?>             
             </select>
           </td>

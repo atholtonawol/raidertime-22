@@ -71,14 +71,14 @@
               <option value="Chaudhry, Mabrooka">Chaudhry, Mabrooka</option>
               <option value="Peddicord, Scott">Peddicord, Scott</option>
                  
-<?php
+
 //               $sql = 'SELECT teachers, room FROM old_teacherInfo';
 //               $result = mysqli_query($conn, $sql);
 //               while($row = mysqli_fetch_array($result)){
 //                 //FRONT END FIGURE OUT FORMATTING. ALIGN THE ROOM NUMBER TO THE RIGHT
 //               echo "<option>". $row['teachers'].$row['room']."</option>";
 //              }
-?>             
+           
             </select>
           </td>
       
@@ -120,14 +120,14 @@
              
         
  
-          <?php
+          
 //                $sql = 'SELECT name, room FROM teacher_info';
 //                $result = mysqli_query($conn, $sql);
 //            while($row = mysqli_fetch_array($result)){
 //               //FRONT END FIGURE OUT FORMATTING. ALIGN THE ROOM NUMBER TO THE RIGHT
 //               echo "<option>". $row['name'].$row['room']."</option>";
 //                 }
-          ?>
+          
       </select>
     </td>
       <div class="col text-center">
@@ -168,7 +168,7 @@
   </div>  
 
   
-  <?php
+  
 //     if(isset($_POST["teacher-dropdown"]))
 //     {
 //     $var = $_POST["teacher-dropdown"];
@@ -180,7 +180,7 @@
 //       }
 //     $result = mysqli_query($conn, $sql);
 //       }
-    ?>
+    
 
   <!-- JavaScript -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js">

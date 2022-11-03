@@ -39,7 +39,7 @@ h5{
     font-size: 18px;
 }
 
-:hover {
-  background-color: #eeeeee;
+a:hover{
+    background-color: #eeeeee;
     color: #16542e;
 }

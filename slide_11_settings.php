@@ -6,12 +6,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="slide_11.css">
     <link href='https://fonts.googleapis.com/css?family=Graduate' rel='stylesheet'>
-    <?php 
-     require '/home4/ahsraid1/public_html/database/connect.php';
-        if (!$conn) {
-           die("Connection failed: " . mysqli_connect_error());
-         } 
-    ?>
+
     <style>
       body {
         font-family: 'Graduate';font-size: 22px;
@@ -20,9 +15,7 @@
       </style>
   </head>
   <body>
-   <?php
-     require('header.html');
-   ?>
+
     <div class="container">
     <h1>Raider Time Pass History</h1>
     <div class=" px-7 pt-3 container-fluid">
@@ -72,12 +65,7 @@
               <option value="Peddicord, Scott">Peddicord, Scott</option>
                  
 
-//               $sql = 'SELECT teachers, room FROM old_teacherInfo';
-//               $result = mysqli_query($conn, $sql);
-//               while($row = mysqli_fetch_array($result)){
-//                 //FRONT END FIGURE OUT FORMATTING. ALIGN THE ROOM NUMBER TO THE RIGHT
-//               echo "<option>". $row['teachers'].$row['room']."</option>";
-//              }
+
            
             </select>
           </td>
@@ -205,9 +193,6 @@
         </div>
       </div>
     </div>
-      
-   <?php
-      include('footer.html');
-   ?>
+
   </body>
   </html>

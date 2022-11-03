@@ -202,6 +202,6 @@
 
   </body>
     <?php
-     require('header.html');
+     require('footer.html');
    ?>
   </html>

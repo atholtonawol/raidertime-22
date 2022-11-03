@@ -20,7 +20,7 @@
     if(isset($_POST['room'])){
         $address = $_POST['room'];
         echo "test2: ".$address;
-        $sql = 'UPDATE teacher_info SET room = ".$_POST['room']." WHERE id = '.$teacher_id;  //$teacher_id declared in slide_12_backend_get.php
+        $sql = 'UPDATE teacher_info SET room = "'.$_POST['room'].'" WHERE id = '.$teacher_id;  
         $result = mysqli_query($conn, $sql);
     }
 

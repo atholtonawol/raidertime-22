@@ -27,7 +27,7 @@ h5{
     color: #16542e;
 }
 
-about:hover, contact:hover{
+#about:hover, #contact:hover{
     background-color: #eeeeee;
     color: #16542e;
 }

@@ -11,18 +11,18 @@ h5{
   text-align: right;
   padding-top: 6px;
 }
-.container-fluid{
+.footer container-fluid{
      background-color: #16542e;
      height: 2.5rem;
     position: fixed;
      bottom: 0;
 } 
- .container-fluid a{
+ .footer container-fluid a{
     color: #eeeeee;
     font-family: graduate;
     font-size: 18px;
 }
-.container-fluid a:hover{
+.footer container-fluid a:hover{
     background-color: #eeeeee;
     color: #16542e;
 }

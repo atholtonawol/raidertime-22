@@ -15,7 +15,7 @@ if(isset($_POST['1_k'])){
 } */
     
     echo "test: ".$_POST['room'];
-if(isset($_POST['room'])){
+if(!isset($_POST['room'])){
      $address = $_POST['room'];
      echo "test2: ".$address;
 }

@@ -27,6 +27,11 @@ h5{
     color: #16542e;
 }
 
+:hover{
+    background-color: #eeeeee;
+    color: #16542e;
+}
+
 #about {
   color: #eeeeee;
     font-family: graduate;

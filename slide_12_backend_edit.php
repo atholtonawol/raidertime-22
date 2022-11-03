@@ -8,9 +8,12 @@
     }
     */
 
+/*
 if(isset($_POST['1_k'])){
     $sql = 'UPDATE student_info SET newTeacher = 2 WHERE email = "habbah4377@inst.hcpss.org"';
     $result = mysqli_query($conn, $sql);
-} 
+} */
+    
+    echo "test: ".$_POST['room'];
 
 ?>

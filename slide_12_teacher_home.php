@@ -42,8 +42,8 @@ body {
           
           <p class = "name">Name: <?php echo $teacher_name ?></p>
           
-          <form>
-            <p class = "location"><label for="room">Classroom: </label> <input type="text" id="room" name="room" value=<?php echo $teacher_room ?>><br></p>
+          <form action="slide_12_backend_edit.php" method="post">
+            <p class = "location"><label for="room">Classroom: </label> <input type="text" id="room" name="room" value=<?php echo $teacher_room ?>> <input type="submit"><br></p>
           </form>
           
           <!--<p class = "location">Classroom: <?php echo $teacher_room ?></p>-->
@@ -72,7 +72,7 @@ body {
                     <input type="submit" name="1_k" id="1_k" class="btn btn-danger">1.danger /></form>
                     -->
                     
-                    <form action="slide_12_backend_edit.php" method="post">
+                    <!--<form action="slide_12_backend_edit.php" method="post">-->
                     <?php
                       /*
                           echo "backend edit";
@@ -85,12 +85,12 @@ body {
                           <tr>
                           <th scope="row" style="color: whitesmoke">'.($i+1).'</th>
                           <td style="color: whitesmoke">'.$student_list[$i].'</td>
-                          <td><input type="submit" name="remove-'.$i.'" class="button" value="X" onclick="slide_12_backend_edit.php"/></td>
+                          <!--<td><input type="submit" name="remove-'.$i.'" class="button" value="X" onclick="slide_12_backend_edit.php"/></td>-->
                           </tr>
                         ';
                       }
                     ?>
-                    </form>
+                    <!--</form>-->
                   <!--<tr>
                     <th scope="row" style="color: whitesmoke">1</th>
                     <td style="color: whitesmoke">Billy Bob Joe</td>

@@ -43,7 +43,7 @@ body {
           <p class = "name">Name: <?php echo $teacher_name ?></p>
           
           <form>
-            <p class = "location"><label for="room">Classroom: </label> <input type="text" id="room" name="room" value="test"><br></p>
+            <p class = "location"><label for="room">Classroom: </label> <input type="text" id="room" name="room" value=<?php echo $teacher_room ?>><br></p>
           </form>
           
           <!--<p class = "location">Classroom: <?php echo $teacher_room ?></p>-->

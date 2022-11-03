@@ -38,3 +38,8 @@ h5{
     font-family: graduate;
     font-size: 18px;
 }
+
+:hover {
+  background-color: #eeeeee;
+    color: #16542e;
+}

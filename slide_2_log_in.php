@@ -1,25 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Home Page</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="slide_2.css">
+    <!--link rel="stylesheet" href="frontEnd/test.css"-->
+    <link rel="stylesheet" href="slide_6.css">
+    <title>Raider Time Home</title>
     <link href='https://fonts.googleapis.com/css?family=Graduate' rel='stylesheet'>
-    
-<style>
-  html{
-    height: 100%;
-  }
-  body {
-    font-family: 'Graduate';font-size: 22px;
-    background-image: url('https://github.com/atholtonawol/raidertime-22/blob/main/assets/image/atholton_building_new.jpg?raw=true');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-color: gainsboro;
-    
-  }
-
-</style>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- style sheets, bootstrap, javascript -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <style>
+    body {
+      font-family: 'Graduate';font-size: 22px;
+      background-color: #eeeeee;
+    }
+  </style>
   </head> 
     <body>
         

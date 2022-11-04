@@ -7,12 +7,7 @@
     <link rel="stylesheet" href="slide_11.css">
     <link href='https://fonts.googleapis.com/css?family=Graduate' rel='stylesheet'>
 
-    <?php 
-     require '/home4/ahsraid1/public_html/database/connect.php';
-        if (!$conn) {
-           die("Connection failed: " . mysqli_connect_error());
-         } 
-    ?>
+
     
     <style>
       body {
@@ -22,9 +17,7 @@
       </style>
   </head>
   <body>
-   <?php
-     require('header.html');
-   ?>
+
     <div class="container">
     <h1>Raider Time Pass History</h1>
     <div class=" px-7 pt-3 container-fluid">
@@ -182,9 +175,6 @@
     </div>
   </div>
 <div class="container">
-  <?php
-     require('footer.html');
-   ?>
       </div>
   </body>
     

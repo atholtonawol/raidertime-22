@@ -19,7 +19,7 @@ The Shell tab's terminal in repl.it can also be used to SSH into the server, if 
 
 Run: `ssh ahsraid1@ahsraidertime.org`
 
-Password: `AtholtonRT2122!`
+Password: Check the login document
 
 2. Use the sync script to clone the repo to the server
 

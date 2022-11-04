@@ -199,9 +199,9 @@
         </div>
       </div>
     </div>
-
-  </body>
     <?php
      require('footer.html');
    ?>
+  </body>
+    
   </html>

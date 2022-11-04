@@ -1,7 +1,6 @@
 <html>
   <head>
     <!--link rel="stylesheet" href="frontEnd/test.css"-->
-    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="slide_6.css">
     <title>Raider Time Home</title>
     <link href='https://fonts.googleapis.com/css?family=Graduate' rel='stylesheet'>

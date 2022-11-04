@@ -163,10 +163,6 @@
   </script>
  <a href="slide_12_teacher_home.php">Teacher view</a>
     <?php
-      require('header.html');
-    ?>
-    
-    <?php
      require('footer.html');
    ?>
   </body>

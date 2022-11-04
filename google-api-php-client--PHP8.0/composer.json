@@ -5,12 +5,6 @@
     "keywords": ["google"],
     "homepage": "http://developers.google.com/api-client-library/php",
     "license": "Apache-2.0",
-    "config": {
-        "preferred-install": "dist",
-         "platform": {
-               "php": "8.0.2"
-             }
-      }
     "require": {
         "php": "^5.6|^7.0|^8.0",
         "google/auth": "^1.10",

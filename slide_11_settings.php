@@ -155,19 +155,7 @@
   </div>  
 
   
-  <?php
-    if(isset($_POST["teacher-dropdown"]))
-    {
-    $var = $_POST["teacher-dropdown"];
-    $sql = "UPDATE student_info SET newTeacher = '{$var}' WHERE lastName = 'Aballo'";
-    echo $var; 
-      if(!mysqli_query($conn, $sql))
-      {
-      echo mysqli_error($conn);
-      }
-    $result = mysqli_query($conn, $sql);
-      }
-    ?>
+
 
   <!-- JavaScript -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js">

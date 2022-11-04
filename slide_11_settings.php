@@ -192,8 +192,8 @@
         </div>
       </div>
     </div>
-   <div> 
-      <?php
+<div class="container">
+  <?php
      require('footer.html');
    ?>
       </div>

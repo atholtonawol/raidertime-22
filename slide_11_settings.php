@@ -180,6 +180,7 @@
         </div>
       </div>
     </div>
+  </div>
 <div class="container">
   <?php
      require('footer.html');

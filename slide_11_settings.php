@@ -192,9 +192,11 @@
         </div>
       </div>
     </div>
-    <?php
+   <div> 
+      <?php
      require('footer.html');
    ?>
+      </div>
   </body>
     
   </html>

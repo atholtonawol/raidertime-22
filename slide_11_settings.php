@@ -1,4 +1,4 @@
-<?php echo "hi";?> 
+<?php echo "1";?> 
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -23,7 +23,9 @@
       </style>
   </head>
   <body>
-
+   <?php
+     require('header.html');
+   ?>
     <div class="container">
     <h1>Raider Time Pass History</h1>
     <div class=" px-7 pt-3 container-fluid">

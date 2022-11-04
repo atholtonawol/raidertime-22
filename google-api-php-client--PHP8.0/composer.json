@@ -8,7 +8,7 @@
     "config": {
         "preferred-install": "dist",
          "platform": {
-               "php": "8.02"
+               "php": "8.0.2"
              }
       }
     "require": {

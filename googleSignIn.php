@@ -36,6 +36,20 @@
 
 <script>
 function onSignIn(googleUser) {
+  var id_token = googleUser.getAuthResponse().id_token;
+  
+  var xhr = new XMLHttpRequest();
+  xhr.open('POST', 'https://vogue.ahsraidertime.org/tokensignin');
+  xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+  
+  xhr.onload = function() {
+    console.log('Signed in as: ' + xhr.responseText);
+  };
+  
+  xhr.send('idtoken=' + id_token);
+  
+  
+  /*
   var profile = googleUser.getBasicProfile();
   document.getElementById('name').innerHTML = `Your name is: ${profile.getName()}`;
   var name = profile.getName();
@@ -43,6 +57,7 @@ function onSignIn(googleUser) {
   document.getElementById('email').innerHTML =` Your email is ${profile.getEmail()}`;
   
   document.cookie = "user_email=33";
+  */
 }
 
 

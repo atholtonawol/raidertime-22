@@ -154,16 +154,15 @@
     </script>-->
 
 
-
+  <?php
+     require('footer.html');
+   ?>
   
   <!-- JavaScript -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js">
     
   </script>
  <a href="slide_12_teacher_home.php">Teacher view</a>
-    <?php
-     require('footer.html');
-   ?>
   </body>
 
 </html>

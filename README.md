@@ -28,4 +28,5 @@ Run: `./sync_github.sh`
 * If you are copy/pasting the commands, be careful not to copy an extra space before/after the command.
 * To paste in the Windows command prompt, right click on the window.
 * The Shell tab's terminal in repl.it can also be used to SSH into the server, if you are on a Chromebook.
+* ***Do not put passwords in the repository, as this repo is publicly accessible.***
 
